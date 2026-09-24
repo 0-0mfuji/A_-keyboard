@@ -1,0 +1,3957 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-23T03:26:32",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a",
+            "violations": [
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U2 [XIAO_NRF52840_PLUS]",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 0.9652
+                            },
+                            "uuid": "efadc3a7-edb1-5dad-a319-2199b404c1fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル U2 [XIAO_NRF52840_PLUS]",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 0.9652
+                            },
+                            "uuid": "efadc3a7-edb1-5dad-a319-2199b404c1fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル J3 [SEIBOKU_JUMPER_HEADER]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.9144
+                            },
+                            "uuid": "ca481545-6c88-5dad-aebe-d84b81814cb9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル J3 [SEIBOKU_JUMPER_HEADER]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.9144
+                            },
+                            "uuid": "ca481545-6c88-5dad-aebe-d84b81814cb9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル J2 [BatteryHeader]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.9906
+                            },
+                            "uuid": "d86da9e1-939f-5225-a76d-1a839ec72761"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル J2 [BatteryHeader]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.9906
+                            },
+                            "uuid": "d86da9e1-939f-5225-a76d-1a839ec72761"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_IN2 [C]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.8034
+                            },
+                            "uuid": "1aaaf8c0-7da9-5330-a22f-c786af4e0434"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_IN2 [C]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.8034
+                            },
+                            "uuid": "1aaaf8c0-7da9-5330-a22f-c786af4e0434"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル #PWR01 [Rail]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.4826
+                            },
+                            "uuid": "0ec7b06e-4f70-50fa-af56-a244f9a010d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル L_RGB2 [L]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.5494
+                            },
+                            "uuid": "2cd7d40c-57d4-5188-a5ee-3ff6fa3f909c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル L_RGB2 [L]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.5494
+                            },
+                            "uuid": "2cd7d40c-57d4-5188-a5ee-3ff6fa3f909c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U_LS2 [SN74AHCT1G125]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 2.6416
+                            },
+                            "uuid": "246d3b1e-f7bd-5dac-a201-c5886f17d1d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル U_LS2 [SN74AHCT1G125]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 2.6416
+                            },
+                            "uuid": "246d3b1e-f7bd-5dac-a201-c5886f17d1d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SWP2 [SW_SPDT]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.016
+                            },
+                            "uuid": "8f98f027-469e-562b-a0f4-85f17f478c67"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SWP2 [SW_SPDT]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.016
+                            },
+                            "uuid": "8f98f027-469e-562b-a0f4-85f17f478c67"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U_RGB2 [TPS61023]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 1.778
+                            },
+                            "uuid": "a0132271-2df2-5c99-a4a6-3e0f691b1e95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル U_RGB2 [TPS61023]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 1.778
+                            },
+                            "uuid": "a0132271-2df2-5c99-a4a6-3e0f691b1e95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_EN_PD2 [R]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 2.0574
+                            },
+                            "uuid": "935cb1f8-eddf-56f2-a9ce-465e76f80bea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_EN_PD2 [R]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 2.0574
+                            },
+                            "uuid": "935cb1f8-eddf-56f2-a9ce-465e76f80bea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル #PWR02 [Ground]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 0.4826
+                            },
+                            "uuid": "5686ed7c-e8c4-5efe-aade-633a811330ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_DATA2 [R]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 2.6416
+                            },
+                            "uuid": "d4017a68-4180-5c1e-af2a-8a1ef13b606e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_DATA2 [R]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 2.6416
+                            },
+                            "uuid": "d4017a68-4180-5c1e-af2a-8a1ef13b606e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_FB_TOP2 [R]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.8034
+                            },
+                            "uuid": "1cdd02d6-d6c5-50e0-a5d3-0aa034ece2b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_FB_TOP2 [R]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.8034
+                            },
+                            "uuid": "1cdd02d6-d6c5-50e0-a5d3-0aa034ece2b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_FB_BOT2 [R]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.032
+                            },
+                            "uuid": "c5974b3c-3829-5a02-ab1f-e3822df6ceba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル R_RGB_FB_BOT2 [R]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.032
+                            },
+                            "uuid": "c5974b3c-3829-5a02-ab1f-e3822df6ceba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル #PWR03 [BatterySupply]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.4826
+                            },
+                            "uuid": "85b2a9aa-ca95-5fa6-a645-3c100cc039aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_OUT1_2 [C]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 1.8034
+                            },
+                            "uuid": "ae4a575c-9593-5da0-a0fd-2d1a7c669d6c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_OUT1_2 [C]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 1.8034
+                            },
+                            "uuid": "ae4a575c-9593-5da0-a0fd-2d1a7c669d6c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_LS2 [C]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 2.6416
+                            },
+                            "uuid": "2d9e1816-5b56-54da-ad6c-d7709489b6d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_LS2 [C]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 2.6416
+                            },
+                            "uuid": "2d9e1816-5b56-54da-ad6c-d7709489b6d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_OUT2_2 [C]",
+                            "pos": {
+                                "x": 3.048,
+                                "y": 1.8034
+                            },
+                            "uuid": "b14a5c15-9893-525f-affd-2b837f66a237"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_OUT2_2 [C]",
+                            "pos": {
+                                "x": 3.048,
+                                "y": 1.8034
+                            },
+                            "uuid": "b14a5c15-9893-525f-affd-2b837f66a237"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル #PWR04 [Rail]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.4826
+                            },
+                            "uuid": "980efdf3-8285-5099-a1af-cfd940eec061"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_BULK2 [C]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 1.8034
+                            },
+                            "uuid": "fffe0bf6-2b93-53a8-a2b1-97947fa48238"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB_BULK2 [C]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 1.8034
+                            },
+                            "uuid": "fffe0bf6-2b93-53a8-a2b1-97947fa48238"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW56 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.6096
+                            },
+                            "uuid": "81366c03-909d-5243-ae68-4c15622a0ef7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW56 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.6096
+                            },
+                            "uuid": "81366c03-909d-5243-ae68-4c15622a0ef7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW6 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.9144
+                            },
+                            "uuid": "c5a11bfd-7556-5669-aa9e-c5fbf1d2fcc5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW6 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.9144
+                            },
+                            "uuid": "c5a11bfd-7556-5669-aa9e-c5fbf1d2fcc5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW14 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.2192
+                            },
+                            "uuid": "00bb1992-cd28-5a54-a898-7dec35d5d86c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW14 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.2192
+                            },
+                            "uuid": "00bb1992-cd28-5a54-a898-7dec35d5d86c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW22 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.524
+                            },
+                            "uuid": "4f5bb749-7122-5cf1-afe2-1d577e5c45d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW22 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.524
+                            },
+                            "uuid": "4f5bb749-7122-5cf1-afe2-1d577e5c45d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW31 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.8288
+                            },
+                            "uuid": "6ba1cad9-57c6-5587-a268-b69fe6f8be9f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW31 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.8288
+                            },
+                            "uuid": "6ba1cad9-57c6-5587-a268-b69fe6f8be9f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW38 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 2.1336
+                            },
+                            "uuid": "66456123-773e-571f-a61e-101d34d47a23"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW38 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 2.1336
+                            },
+                            "uuid": "66456123-773e-571f-a61e-101d34d47a23"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW46 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 2.4384
+                            },
+                            "uuid": "e0e32fda-b336-575c-a691-e88c222c0b0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW46 [SW]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 2.4384
+                            },
+                            "uuid": "e0e32fda-b336-575c-a691-e88c222c0b0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D56 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.7112
+                            },
+                            "uuid": "a12736ae-f50c-5c1a-a820-5c9c451f2496"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D56 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.7112
+                            },
+                            "uuid": "a12736ae-f50c-5c1a-a820-5c9c451f2496"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D6 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.016
+                            },
+                            "uuid": "48eecab4-4695-52b8-a39a-c39eabad66d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D6 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.016
+                            },
+                            "uuid": "48eecab4-4695-52b8-a39a-c39eabad66d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D14 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.3208
+                            },
+                            "uuid": "2404fbd5-5aa9-50d9-a58f-c7bfe939bda5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D14 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.3208
+                            },
+                            "uuid": "2404fbd5-5aa9-50d9-a58f-c7bfe939bda5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D22 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.6256
+                            },
+                            "uuid": "03c55258-1b33-5660-a8b5-a392c978dec4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D22 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.6256
+                            },
+                            "uuid": "03c55258-1b33-5660-a8b5-a392c978dec4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D31 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.9304
+                            },
+                            "uuid": "75b59be8-4eb3-582e-a3ec-9cca398822de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D31 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.9304
+                            },
+                            "uuid": "75b59be8-4eb3-582e-a3ec-9cca398822de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D38 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 2.2352
+                            },
+                            "uuid": "1d917d4e-1e06-5cc6-a9b3-393406a18f02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D38 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 2.2352
+                            },
+                            "uuid": "1d917d4e-1e06-5cc6-a9b3-393406a18f02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D46 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 2.54
+                            },
+                            "uuid": "fd3347ed-13d4-5ee1-a3b1-645f0aca4a05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D46 [D]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 2.54
+                            },
+                            "uuid": "fd3347ed-13d4-5ee1-a3b1-645f0aca4a05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW57 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.6096
+                            },
+                            "uuid": "eaa4ae92-8bf8-590a-a7ad-62b4202c96d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW57 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.6096
+                            },
+                            "uuid": "eaa4ae92-8bf8-590a-a7ad-62b4202c96d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW9 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9144
+                            },
+                            "uuid": "6ebc07cd-821a-52bb-a5df-8f2379a2c38b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW9 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9144
+                            },
+                            "uuid": "6ebc07cd-821a-52bb-a5df-8f2379a2c38b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW17 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.2192
+                            },
+                            "uuid": "c58e21d5-9b58-5323-a505-3c9bbcb28223"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW17 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.2192
+                            },
+                            "uuid": "c58e21d5-9b58-5323-a505-3c9bbcb28223"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW24 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.524
+                            },
+                            "uuid": "5b9ad8dd-c3bf-592d-a2a0-00b3bd3cc579"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW24 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.524
+                            },
+                            "uuid": "5b9ad8dd-c3bf-592d-a2a0-00b3bd3cc579"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW32 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.8288
+                            },
+                            "uuid": "5746616e-beb7-5480-ae3c-cda88cbcd390"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW32 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.8288
+                            },
+                            "uuid": "5746616e-beb7-5480-ae3c-cda88cbcd390"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW39 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 2.1336
+                            },
+                            "uuid": "513af332-81b0-5dd6-aa73-a0fc61b75ec2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW39 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 2.1336
+                            },
+                            "uuid": "513af332-81b0-5dd6-aa73-a0fc61b75ec2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW49 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 2.4384
+                            },
+                            "uuid": "fe57d495-37bf-5003-a64c-cfc327c81e2b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW49 [SW]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 2.4384
+                            },
+                            "uuid": "fe57d495-37bf-5003-a64c-cfc327c81e2b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D57 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.7112
+                            },
+                            "uuid": "9c0632d5-9ab4-56b7-ab25-b57704933f3f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D57 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.7112
+                            },
+                            "uuid": "9c0632d5-9ab4-56b7-ab25-b57704933f3f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D9 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.016
+                            },
+                            "uuid": "69c21f84-9642-5732-a9c2-1e36507b1a4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D9 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.016
+                            },
+                            "uuid": "69c21f84-9642-5732-a9c2-1e36507b1a4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D17 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.3208
+                            },
+                            "uuid": "723e757c-53d0-5eba-a645-2d3e8244d702"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D17 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.3208
+                            },
+                            "uuid": "723e757c-53d0-5eba-a645-2d3e8244d702"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D24 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.6256
+                            },
+                            "uuid": "b9909514-780d-5eac-a041-f8865e973268"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D24 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.6256
+                            },
+                            "uuid": "b9909514-780d-5eac-a041-f8865e973268"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D32 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.9304
+                            },
+                            "uuid": "0e93bb49-dcd0-5d45-abb5-a6f3f45b58e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D32 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.9304
+                            },
+                            "uuid": "0e93bb49-dcd0-5d45-abb5-a6f3f45b58e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D39 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 2.2352
+                            },
+                            "uuid": "94bc3ff5-8aeb-56a3-af50-830fc06ed9ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D39 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 2.2352
+                            },
+                            "uuid": "94bc3ff5-8aeb-56a3-af50-830fc06ed9ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D49 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 2.54
+                            },
+                            "uuid": "f913253c-91e2-595a-a3e7-c6d60a77a4aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D49 [D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 2.54
+                            },
+                            "uuid": "f913253c-91e2-595a-a3e7-c6d60a77a4aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW2 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 0.6096
+                            },
+                            "uuid": "920b7381-33ed-58cd-a76b-30e7ef802a81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW2 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 0.6096
+                            },
+                            "uuid": "920b7381-33ed-58cd-a76b-30e7ef802a81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW10 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 0.9144
+                            },
+                            "uuid": "e45f960e-e368-5fa0-a9c7-d7e04da4a3a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW10 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 0.9144
+                            },
+                            "uuid": "e45f960e-e368-5fa0-a9c7-d7e04da4a3a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW18 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 1.2192
+                            },
+                            "uuid": "35d21a65-8350-5a35-a124-b56bec52fb11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW18 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 1.2192
+                            },
+                            "uuid": "35d21a65-8350-5a35-a124-b56bec52fb11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW27 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 1.524
+                            },
+                            "uuid": "395ec2b5-3585-5683-a270-69d349aae45b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW27 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 1.524
+                            },
+                            "uuid": "395ec2b5-3585-5683-a270-69d349aae45b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW35 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 1.8288
+                            },
+                            "uuid": "6ce284ae-a4cf-57a2-a07b-11b0f64fb386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW35 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 1.8288
+                            },
+                            "uuid": "6ce284ae-a4cf-57a2-a07b-11b0f64fb386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW42 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 2.1336
+                            },
+                            "uuid": "f69acdd7-f66e-59e3-ac63-5059624c3ccf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW42 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 2.1336
+                            },
+                            "uuid": "f69acdd7-f66e-59e3-ac63-5059624c3ccf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW50 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 2.4384
+                            },
+                            "uuid": "0478e9d6-da23-5c48-a298-0c00876ba1c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW50 [SW]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 2.4384
+                            },
+                            "uuid": "0478e9d6-da23-5c48-a298-0c00876ba1c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D2 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 0.7112
+                            },
+                            "uuid": "f8aa20a0-0820-548c-ad88-e8a2948f33f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D2 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 0.7112
+                            },
+                            "uuid": "f8aa20a0-0820-548c-ad88-e8a2948f33f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D10 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.016
+                            },
+                            "uuid": "8f08fe69-01ce-53a5-a1c8-563b18e95441"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D10 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.016
+                            },
+                            "uuid": "8f08fe69-01ce-53a5-a1c8-563b18e95441"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D18 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.3208
+                            },
+                            "uuid": "5971f3cc-9db2-55b4-aa5e-870ee52eec60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D18 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.3208
+                            },
+                            "uuid": "5971f3cc-9db2-55b4-aa5e-870ee52eec60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D27 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.6256
+                            },
+                            "uuid": "49043fdc-b962-55da-a50a-aba638be0efa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D27 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.6256
+                            },
+                            "uuid": "49043fdc-b962-55da-a50a-aba638be0efa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D35 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.9304
+                            },
+                            "uuid": "587a1289-a535-56af-a078-668b90bf430f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D35 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.9304
+                            },
+                            "uuid": "587a1289-a535-56af-a078-668b90bf430f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D42 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 2.2352
+                            },
+                            "uuid": "0e40557a-91fb-5dfa-a45f-0958709b552e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D42 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 2.2352
+                            },
+                            "uuid": "0e40557a-91fb-5dfa-a45f-0958709b552e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D50 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 2.54
+                            },
+                            "uuid": "8e65c481-1c8a-5a2d-a2de-fd5b0772c521"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D50 [D]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 2.54
+                            },
+                            "uuid": "8e65c481-1c8a-5a2d-a2de-fd5b0772c521"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW5 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 0.6096
+                            },
+                            "uuid": "efb9c63e-c127-59d2-a766-3ed8968125e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW5 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 0.6096
+                            },
+                            "uuid": "efb9c63e-c127-59d2-a766-3ed8968125e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW12 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 0.9144
+                            },
+                            "uuid": "8826dd68-3936-5416-a780-edf6ecd8432e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW12 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 0.9144
+                            },
+                            "uuid": "8826dd68-3936-5416-a780-edf6ecd8432e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW21 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.2192
+                            },
+                            "uuid": "b91e54e6-bc1a-5e8e-aac5-780835511072"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW21 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.2192
+                            },
+                            "uuid": "b91e54e6-bc1a-5e8e-aac5-780835511072"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW28 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.524
+                            },
+                            "uuid": "9e6702fa-b0fd-5ddc-a8f0-601c35c489fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW28 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.524
+                            },
+                            "uuid": "9e6702fa-b0fd-5ddc-a8f0-601c35c489fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW36 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.8288
+                            },
+                            "uuid": "d4aa396d-0fcd-52f9-a79a-97333da80165"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW36 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.8288
+                            },
+                            "uuid": "d4aa396d-0fcd-52f9-a79a-97333da80165"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW45 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.1336
+                            },
+                            "uuid": "30536eb9-5a00-5f07-a644-b6cf4b9cb9ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW45 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.1336
+                            },
+                            "uuid": "30536eb9-5a00-5f07-a644-b6cf4b9cb9ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW52 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.4384
+                            },
+                            "uuid": "08f6bf28-6a18-5bf6-a02e-364ed470ed26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル SW52 [SW]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.4384
+                            },
+                            "uuid": "08f6bf28-6a18-5bf6-a02e-364ed470ed26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D5 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 0.7112
+                            },
+                            "uuid": "fc9d7e19-ebf6-5f3f-a0cb-c02328bc93af"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D5 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 0.7112
+                            },
+                            "uuid": "fc9d7e19-ebf6-5f3f-a0cb-c02328bc93af"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D12 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.016
+                            },
+                            "uuid": "a1259b0f-8b9b-5a63-aca2-e4bd4f40c157"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D12 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.016
+                            },
+                            "uuid": "a1259b0f-8b9b-5a63-aca2-e4bd4f40c157"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D21 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.3208
+                            },
+                            "uuid": "477e6311-275e-5c3b-adc8-db5326abd27b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D21 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.3208
+                            },
+                            "uuid": "477e6311-275e-5c3b-adc8-db5326abd27b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D28 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.6256
+                            },
+                            "uuid": "20e5518d-3b54-5b61-a695-612fc677cfd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D28 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.6256
+                            },
+                            "uuid": "20e5518d-3b54-5b61-a695-612fc677cfd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D36 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.9304
+                            },
+                            "uuid": "da7963a4-2130-5ca8-a6e9-e60613ae7d34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D36 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.9304
+                            },
+                            "uuid": "da7963a4-2130-5ca8-a6e9-e60613ae7d34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D45 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 2.2352
+                            },
+                            "uuid": "f949c248-2732-5bae-ad6c-b83a2e62870e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D45 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 2.2352
+                            },
+                            "uuid": "f949c248-2732-5bae-ad6c-b83a2e62870e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D52 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 2.54
+                            },
+                            "uuid": "6d8610cf-c72c-5c03-a0c2-69a519f98e6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル D52 [D]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 2.54
+                            },
+                            "uuid": "6d8610cf-c72c-5c03-a0c2-69a519f98e6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED2 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.8636
+                            },
+                            "uuid": "0126305a-367e-55ba-a822-9ba8bb5aca4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED2 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.8636
+                            },
+                            "uuid": "0126305a-367e-55ba-a822-9ba8bb5aca4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED12 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.6256
+                            },
+                            "uuid": "87e9e7d1-3dd9-5bb5-a7f9-fd1350b90799"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED12 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.6256
+                            },
+                            "uuid": "87e9e7d1-3dd9-5bb5-a7f9-fd1350b90799"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED22 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 2.3876
+                            },
+                            "uuid": "65591ac2-dce1-5cc6-aef8-869882ad7b5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED22 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 2.3876
+                            },
+                            "uuid": "65591ac2-dce1-5cc6-aef8-869882ad7b5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED32 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 3.1496
+                            },
+                            "uuid": "8933b47f-8093-5b43-a933-c2d548ffc047"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED32 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 3.1496
+                            },
+                            "uuid": "8933b47f-8093-5b43-a933-c2d548ffc047"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED42 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 3.9116
+                            },
+                            "uuid": "af935938-c361-5f4c-a531-752a15c23c10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED42 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 3.9116
+                            },
+                            "uuid": "af935938-c361-5f4c-a531-752a15c23c10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED52 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 4.6736
+                            },
+                            "uuid": "f44dbd91-31db-5b55-afb2-1debe39594c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED52 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 4.6736
+                            },
+                            "uuid": "f44dbd91-31db-5b55-afb2-1debe39594c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB2 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 0.5842
+                            },
+                            "uuid": "96eae10b-6b92-5669-a481-1331d951c4c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB2 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 0.5842
+                            },
+                            "uuid": "96eae10b-6b92-5669-a481-1331d951c4c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB12 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 1.3462
+                            },
+                            "uuid": "f888dce4-0d4a-50d6-a82a-8f362544e48e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB12 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 1.3462
+                            },
+                            "uuid": "f888dce4-0d4a-50d6-a82a-8f362544e48e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB22 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 2.1082
+                            },
+                            "uuid": "6a71fae3-93b3-567d-a8f5-0341617a58bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB22 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 2.1082
+                            },
+                            "uuid": "6a71fae3-93b3-567d-a8f5-0341617a58bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB32 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 2.8702
+                            },
+                            "uuid": "55d069ce-24be-5818-aea4-74cc2a278a80"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB32 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 2.8702
+                            },
+                            "uuid": "55d069ce-24be-5818-aea4-74cc2a278a80"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB42 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 3.6322
+                            },
+                            "uuid": "9c0fe91d-8275-5887-a6f7-702f4e62d287"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB42 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 3.6322
+                            },
+                            "uuid": "9c0fe91d-8275-5887-a6f7-702f4e62d287"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB52 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 4.3942
+                            },
+                            "uuid": "87a8a724-6b45-57f6-aa18-80be9a22b246"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB52 [C]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 4.3942
+                            },
+                            "uuid": "87a8a724-6b45-57f6-aa18-80be9a22b246"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED5 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 0.8636
+                            },
+                            "uuid": "5832500f-abc8-5629-adf7-7e4592fc7b01"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED5 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 0.8636
+                            },
+                            "uuid": "5832500f-abc8-5629-adf7-7e4592fc7b01"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED14 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6256
+                            },
+                            "uuid": "223eb603-c80e-555f-a14c-fe29e51658ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED14 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6256
+                            },
+                            "uuid": "223eb603-c80e-555f-a14c-fe29e51658ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED24 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.3876
+                            },
+                            "uuid": "9c9e0e06-99b6-55da-a847-9b144f272356"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED24 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.3876
+                            },
+                            "uuid": "9c9e0e06-99b6-55da-a847-9b144f272356"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED35 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 3.1496
+                            },
+                            "uuid": "b3819bbf-cc05-5199-a723-e79d9023f161"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED35 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 3.1496
+                            },
+                            "uuid": "b3819bbf-cc05-5199-a723-e79d9023f161"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED45 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 3.9116
+                            },
+                            "uuid": "7fdf3872-48c0-5b58-a9ef-f11076eb5ff0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED45 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 3.9116
+                            },
+                            "uuid": "7fdf3872-48c0-5b58-a9ef-f11076eb5ff0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED56 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 4.6736
+                            },
+                            "uuid": "1c2ffcf4-291a-586c-a791-6f064a7b76a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED56 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 4.6736
+                            },
+                            "uuid": "1c2ffcf4-291a-586c-a791-6f064a7b76a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB5 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.5842
+                            },
+                            "uuid": "a393f07e-9f50-5b02-a47c-fb5cc6ea9106"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB5 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.5842
+                            },
+                            "uuid": "a393f07e-9f50-5b02-a47c-fb5cc6ea9106"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB14 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.3462
+                            },
+                            "uuid": "b9c99e0a-f290-533c-a4ee-d6b8cf2d9e7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB14 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.3462
+                            },
+                            "uuid": "b9c99e0a-f290-533c-a4ee-d6b8cf2d9e7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB24 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 2.1082
+                            },
+                            "uuid": "7e0cb8bf-c46f-5b09-ad07-0a85a15c01c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB24 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 2.1082
+                            },
+                            "uuid": "7e0cb8bf-c46f-5b09-ad07-0a85a15c01c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB35 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 2.8702
+                            },
+                            "uuid": "1b4f748e-0a31-5992-ae74-81047eb7e5e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB35 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 2.8702
+                            },
+                            "uuid": "1b4f748e-0a31-5992-ae74-81047eb7e5e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB45 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 3.6322
+                            },
+                            "uuid": "d8c25433-ff23-5f1b-aa93-70698a96b7e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB45 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 3.6322
+                            },
+                            "uuid": "d8c25433-ff23-5f1b-aa93-70698a96b7e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB56 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 4.3942
+                            },
+                            "uuid": "e2993241-1cad-5da7-ab6c-95d3415e382f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB56 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 4.3942
+                            },
+                            "uuid": "e2993241-1cad-5da7-ab6c-95d3415e382f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED6 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.8636
+                            },
+                            "uuid": "27f432a6-6414-5fae-a856-807c39d96aea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED6 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.8636
+                            },
+                            "uuid": "27f432a6-6414-5fae-a856-807c39d96aea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED17 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 1.6256
+                            },
+                            "uuid": "fdeba0de-016b-580c-ad5d-6d1c21beb11c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED17 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 1.6256
+                            },
+                            "uuid": "fdeba0de-016b-580c-ad5d-6d1c21beb11c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED27 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 2.3876
+                            },
+                            "uuid": "d9dcea3e-64a3-582c-a751-7d34056bfc24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED27 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 2.3876
+                            },
+                            "uuid": "d9dcea3e-64a3-582c-a751-7d34056bfc24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED36 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.1496
+                            },
+                            "uuid": "937d7a56-44f0-599e-a397-b0943700e14a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED36 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.1496
+                            },
+                            "uuid": "937d7a56-44f0-599e-a397-b0943700e14a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED46 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.9116
+                            },
+                            "uuid": "6d590dcb-1c00-5a37-ad8e-dcc941400c0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED46 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.9116
+                            },
+                            "uuid": "6d590dcb-1c00-5a37-ad8e-dcc941400c0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED57 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 4.6736
+                            },
+                            "uuid": "9d295503-efc3-5751-a4a0-3c5141eb7f51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED57 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 4.6736
+                            },
+                            "uuid": "9d295503-efc3-5751-a4a0-3c5141eb7f51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB6 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.5842
+                            },
+                            "uuid": "b7ecf15f-b476-5515-a705-915d4824346d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB6 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.5842
+                            },
+                            "uuid": "b7ecf15f-b476-5515-a705-915d4824346d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB17 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 1.3462
+                            },
+                            "uuid": "de22e567-5f6a-52c7-af7e-0e7d1d1b8a3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB17 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 1.3462
+                            },
+                            "uuid": "de22e567-5f6a-52c7-af7e-0e7d1d1b8a3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB27 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 2.1082
+                            },
+                            "uuid": "ff402747-e983-59e7-a09c-1ca59a5ea873"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB27 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 2.1082
+                            },
+                            "uuid": "ff402747-e983-59e7-a09c-1ca59a5ea873"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB36 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 2.8702
+                            },
+                            "uuid": "9a6fc72f-7bff-5f25-a76c-50050b4e73cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB36 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 2.8702
+                            },
+                            "uuid": "9a6fc72f-7bff-5f25-a76c-50050b4e73cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB46 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 3.6322
+                            },
+                            "uuid": "9189f8e2-b39f-5dc4-aff0-1cd80314f1dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB46 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 3.6322
+                            },
+                            "uuid": "9189f8e2-b39f-5dc4-aff0-1cd80314f1dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB57 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 4.3942
+                            },
+                            "uuid": "f47f2d0a-28af-523a-a4b8-c99033c147f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB57 [C]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 4.3942
+                            },
+                            "uuid": "f47f2d0a-28af-523a-a4b8-c99033c147f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED9 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 0.8636
+                            },
+                            "uuid": "ba2e8b36-344e-5934-a066-4004a79e5d74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED9 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 0.8636
+                            },
+                            "uuid": "ba2e8b36-344e-5934-a066-4004a79e5d74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED18 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 1.6256
+                            },
+                            "uuid": "33ff14ee-4d60-5f72-a529-dbac0cfe543e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED18 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 1.6256
+                            },
+                            "uuid": "33ff14ee-4d60-5f72-a529-dbac0cfe543e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED28 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 2.3876
+                            },
+                            "uuid": "df627d6b-8b37-5ab7-acde-7919dd209bdb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED28 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 2.3876
+                            },
+                            "uuid": "df627d6b-8b37-5ab7-acde-7919dd209bdb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED38 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 3.1496
+                            },
+                            "uuid": "a7862194-99f2-5800-ab62-b0ce27eae91c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED38 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 3.1496
+                            },
+                            "uuid": "a7862194-99f2-5800-ab62-b0ce27eae91c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED49 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 3.9116
+                            },
+                            "uuid": "67d37a9e-f56d-57ac-a7ed-aea4ed42afd4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED49 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 3.9116
+                            },
+                            "uuid": "67d37a9e-f56d-57ac-a7ed-aea4ed42afd4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB9 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 0.5842
+                            },
+                            "uuid": "1513808f-8663-51bf-a8c5-64957c168d63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB9 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 0.5842
+                            },
+                            "uuid": "1513808f-8663-51bf-a8c5-64957c168d63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB18 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 1.3462
+                            },
+                            "uuid": "9908e617-17b0-55b1-aca1-362d514d4819"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB18 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 1.3462
+                            },
+                            "uuid": "9908e617-17b0-55b1-aca1-362d514d4819"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB28 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 2.1082
+                            },
+                            "uuid": "23419582-ae7f-5644-a1a2-e6883cd176cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB28 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 2.1082
+                            },
+                            "uuid": "23419582-ae7f-5644-a1a2-e6883cd176cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB38 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 2.8702
+                            },
+                            "uuid": "35135c61-0698-5913-a2e2-a04b0b60c23b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB38 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 2.8702
+                            },
+                            "uuid": "35135c61-0698-5913-a2e2-a04b0b60c23b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB49 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 3.6322
+                            },
+                            "uuid": "700160a7-eea3-5167-a5b5-1335816b2ec3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB49 [C]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 3.6322
+                            },
+                            "uuid": "700160a7-eea3-5167-a5b5-1335816b2ec3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED10 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.8636
+                            },
+                            "uuid": "c360609f-ec1e-53a3-a406-a94d71f4a28f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED10 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.8636
+                            },
+                            "uuid": "c360609f-ec1e-53a3-a406-a94d71f4a28f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED21 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.6256
+                            },
+                            "uuid": "d3d6ea37-4ae1-5d3d-a6b2-5035729e7cd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED21 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.6256
+                            },
+                            "uuid": "d3d6ea37-4ae1-5d3d-a6b2-5035729e7cd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED31 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 2.3876
+                            },
+                            "uuid": "0b36f012-b7f7-5bd8-a953-bfa083ea9cc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED31 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 2.3876
+                            },
+                            "uuid": "0b36f012-b7f7-5bd8-a953-bfa083ea9cc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED39 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 3.1496
+                            },
+                            "uuid": "fb8da523-0a2c-5af5-a5ae-b2f91a74ca45"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED39 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 3.1496
+                            },
+                            "uuid": "fb8da523-0a2c-5af5-a5ae-b2f91a74ca45"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル LED50 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 3.9116
+                            },
+                            "uuid": "2dbf9be7-2a5e-58bb-af04-116dc2c16b6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル LED50 [SK6812MINI_E_BL]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 3.9116
+                            },
+                            "uuid": "2dbf9be7-2a5e-58bb-af04-116dc2c16b6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB10 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 0.5842
+                            },
+                            "uuid": "5767aa6e-4193-53f8-add1-9794482f4058"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB10 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 0.5842
+                            },
+                            "uuid": "5767aa6e-4193-53f8-add1-9794482f4058"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB21 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 1.3462
+                            },
+                            "uuid": "44ffec16-0c3b-584e-a246-b1ac25411d72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB21 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 1.3462
+                            },
+                            "uuid": "44ffec16-0c3b-584e-a246-b1ac25411d72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB31 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 2.1082
+                            },
+                            "uuid": "d009d853-fa03-579b-a307-9b1911fef897"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB31 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 2.1082
+                            },
+                            "uuid": "d009d853-fa03-579b-a307-9b1911fef897"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB39 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 2.8702
+                            },
+                            "uuid": "0fb9a72a-dcbe-5b96-a350-cee879e7bfc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB39 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 2.8702
+                            },
+                            "uuid": "0fb9a72a-dcbe-5b96-a350-cee879e7bfc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'Keyboard' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB50 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 3.6322
+                            },
+                            "uuid": "ecab0ae6-2cd1-5860-a9e6-86b48b74a1b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "シンボル ライブラリ 'Keyboard' が '/Users/mfujimak/home/A_-keyboard/hardware/keyboard-v2/right/../Keyboard.kicad_sym' 内に見つかりません",
+                    "items": [
+                        {
+                            "description": "シンボル C_RGB50 [C]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 3.6322
+                            },
+                            "uuid": "ecab0ae6-2cd1-5860-a9e6-86b48b74a1b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/controller/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/7336e07c-10dd-58bc-a234-00ce4bc19058",
+            "violations": []
+        },
+        {
+            "path": "/matrix/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7",
+            "violations": []
+        },
+        {
+            "path": "/power/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/188b2ab5-b899-55fb-abc1-feb3f8140873",
+            "violations": []
+        },
+        {
+            "path": "/rgb/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913",
+            "violations": []
+        }
+    ],
+    "source": "keyboard.kicad_sch"
+}

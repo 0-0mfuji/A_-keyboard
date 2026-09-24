@@ -1,0 +1,10203 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/mfujimak/home/A_-keyboard/hardware/keyboard/left/keyboard.kicad_sch")
+		(date "2026-09-22T19:33:25")
+		(tool "Eeschema 10.0.5")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Keyboard Hardware CAD")
+				(company)
+				(rev "2")
+				(date)
+				(source "keyboard.kicad_sch")
+				(comment
+					(number "1")
+					(value "Initial placement - hardware not tested")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/controller/")
+			(tstamps "/7336e07c-10dd-58bc-a234-00ce4bc19058/")
+			(title_block
+				(title "Controller")
+				(company)
+				(rev "2")
+				(date)
+				(source "controller.kicad_sch")
+				(comment
+					(number "1")
+					(value "Initial placement - hardware not tested")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "3")
+			(name "/matrix/")
+			(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			(title_block
+				(title "Key Matrix - COL2ROW")
+				(company)
+				(rev "2")
+				(date)
+				(source "matrix.kicad_sch")
+				(comment
+					(number "1")
+					(value "Initial placement - hardware not tested")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "4")
+			(name "/power/")
+			(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			(title_block
+				(title "Power - USB / selected battery")
+				(company)
+				(rev "2")
+				(date)
+				(source "power.kicad_sch")
+				(comment
+					(number "1")
+					(value "Initial placement - hardware not tested")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "5")
+			(name "/rgb/")
+			(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			(title_block
+				(title "Addressable RGB LED chains")
+				(company)
+				(rev "2")
+				(date)
+				(source "rgb.kicad_sch")
+				(comment
+					(number "1")
+					(value "Initial placement - hardware not tested")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "U1")
+			(value "XIAO nRF52840 Plus (SMD)")
+			(footprint "Keyboard:XIAO_NRF52840_PLUS")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:XIAO_NRF52840_PLUS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "XIAO_NRF52840_PLUS")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "controller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "controller.kicad_sch")
+			)
+			(sheetpath
+				(names "/controller/")
+				(tstamps "/7336e07c-10dd-58bc-a234-00ce4bc19058/")
+			)
+			(tstamps "feab1160-55cc-585a-ab65-3c4e83e0e192")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "8fbce345-0fe8-5c73-a5ce-6aa76538d9cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "530157bf-ae26-52e9-a3f3-ee6545ae7e19")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "6315a0f2-59ec-5842-a674-86286ef0e206")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D7")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "6d58539d-4201-549b-ae2c-ca1fbe6b2f13")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "9241a003-670a-576f-a46a-ec197ef057f3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D11")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "c0d120c2-845b-5468-abc5-de200eab5558")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D13")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "e4279ef0-76d6-5186-aae4-a11aec3e9d2e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D15")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "2925ffae-7ad6-58bc-a830-9324491d31bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D16")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "b77d87db-1b03-5ad7-a7e3-5a613c1221ab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D19")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "ffe2ce6b-aea1-5eb1-adb2-7271bebb8689")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D20")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "15136b6a-d2fe-553e-adb7-1bd850e398d2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D23")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "1d6738fd-e216-5807-a95e-c357137c5d5f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D25")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "38d9593a-1a71-5a10-a0e7-9dd0cb515c48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D26")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "65c1bebb-9de6-5877-a948-8609c174b963")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D29")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "dddd9346-d2e2-54e4-a7d3-fed4cc1b702c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D30")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "47a9d907-4cd0-5e2b-a8b0-5d2d6ea45447")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D33")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "f2c7fe22-b2ec-5d88-a8c0-7f7865e29f40")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D34")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "e3f61862-d46d-5672-a71b-aeb0b62bbfe6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D37")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "6d6068a3-331c-56e5-a203-a7e9b0d5d75d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D40")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "b0118910-b680-5efc-a1be-40aadbca11d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D41")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "96d5c02f-59f9-5d19-a808-868dc4054c79")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D43")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "e2b17061-bfb3-5217-a470-c8d3d39d7957")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D44")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "c9fc7de7-2550-51ab-ad49-fb5d732be3b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D47")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "a5ba6b26-ab62-5864-af74-b14416e2031c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D48")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "2da0299b-7666-5bf7-a7b4-ad39700739d3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D51")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "b9f4a99a-f2f0-5d90-af0f-9f406757d238")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D53")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "99b435b0-f857-5da6-a4db-49e2768062c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D54")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "5c28d5f0-c1a0-5550-ad73-3732d70fe224")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D55")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "1926d20f-1d3c-52ed-a349-4d35b09c7c4d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D58")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "e1c35684-110d-5424-aab4-092eea3f5740")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D59")
+			(value "1N4148W")
+			(footprint "Keyboard:SOD123")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SOD123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "D")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "0a42d703-0cab-5da1-a270-061178b810e9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "4b77ddc2-ab1d-5d06-aecc-f0a43765bca2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "de6c8dd8-2953-5b04-a61a-920e6ffd8820")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW4")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "1cfe4f7f-05e1-55ab-a146-996950bcb147")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW7")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "f0af3e0a-e0ca-59ae-aa36-134ca610444a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW8")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "3db15ca4-5695-5ce2-a2fd-baaa5acef86a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW11")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "c893a44f-68aa-5039-a0e0-c8b106347e49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW13")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "c985b951-2ec4-5d5f-ab2c-51afea2a44cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW15")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "974cd703-b689-549d-a9f9-6a4d2a091a0d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW16")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "4a46e1ac-d283-536a-aaf6-cfc2e99566c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW19")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "5b98ae3c-1781-5c8c-a7d7-c212be4f0bf0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW20")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "a3366407-e75c-51f7-a768-b9d9774e8893")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW23")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1.25u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1.25u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "78b730ea-db72-5f7a-a461-4094d29d51b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW25")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "0610f697-e783-5bc1-a5d4-1fe1685ad199")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW26")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "bfa9a90c-a377-554a-a892-705aea632b7a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW29")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "af9f980b-402a-5545-a326-fcbd1714c3dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW30")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "49dd7730-30ff-549e-a5f6-49e6f5e5b4be")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW33")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "1032872f-e861-5c99-a418-f87957d1b031")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW34")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "1a09136f-a8b0-597b-a757-60c13dc99267")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW37")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1.25u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1.25u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "366e8ec4-a784-5760-ae6a-893ad706ef04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW40")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "6b56eff1-dd1e-565d-a6ba-487f19d365a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW41")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "aeedcf08-ab4e-5b14-a26b-ef46e8ada5c0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW43")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "f0e59536-b0a7-5f2a-afc0-0e8864fa3b2e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW44")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "528be090-3339-5e1e-a57a-5896431d0dce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW47")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "8c0ef06b-4264-5ec5-a055-c86df11004ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW48")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "9c19016c-a5b1-5eca-a711-e7ca54c22b8a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW51")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1.25u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1.25u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "cac29a77-e9bd-5541-abe4-16d17dfb1269")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW53")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1.25u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1.25u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "c2e57711-fc30-52bf-a253-ba278eac7887")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW54")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1.5u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1.5u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "b36f4e51-fdfb-5481-a4f2-92f7be4cf175")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW55")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1.75u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1.75u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "72107268-fbff-5088-a94d-d31e92d67354")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW58")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_1.5u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_1.5u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "58a59ccd-f769-5c05-a227-0f8bcff3a831")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW59")
+			(value "MX")
+			(footprint "Keyboard:MX_Hotswap_2.25u")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:MX_Hotswap_2.25u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "matrix")
+			)
+			(property
+				(name "Sheetfile")
+				(value "matrix.kicad_sch")
+			)
+			(sheetpath
+				(names "/matrix/")
+				(tstamps "/35a73ff5-07fa-5ab7-a4bf-ca07155254b7/")
+			)
+			(tstamps "279af1a4-a718-5c9c-aab3-41b204decb90")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LS1")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "4c900e61-971b-594d-afe1-852fdcf426c9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB_BULK1")
+			(value "100uF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "2a9321eb-78fb-5f73-ad67-4d515fb7294f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB_IN1")
+			(value "10uF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "a1c38377-bc93-5c1f-ace2-a1811989b8cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB_OUT1_1")
+			(value "22uF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "bbcf97b7-5307-5417-a754-84f956d7f973")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB_OUT2_1")
+			(value "22uF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "bccf994a-5007-5f58-a454-803453d7f4a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "JST PH 2.0 2-pin")
+			(footprint "Keyboard:BatteryConnector_JST_PH2")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:BatteryConnector_JST_PH2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "BatteryHeader")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "9cf64de3-21e9-5441-a4d7-dbe1ec8a3e01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L_RGB1")
+			(value "1uH")
+			(footprint "Keyboard:L_1008")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:L_1008")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "L")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "0a5e4c51-fa2e-5f7b-aa7e-f473be71ae3b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_RGB_DATA1")
+			(value "220R")
+			(footprint "Keyboard:R_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "e2382463-de20-5a19-a3e6-63b55007ba01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_RGB_EN_PD1")
+			(value "100k")
+			(footprint "Keyboard:R_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "032756c7-d1e9-5885-a92f-249989cde245")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_RGB_FB_BOT1")
+			(value "100k")
+			(footprint "Keyboard:R_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "dee470c7-86ed-505d-ab1e-09095f1acf55")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_RGB_FB_TOP1")
+			(value "732k")
+			(footprint "Keyboard:R_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "358c57a1-d9bc-51af-a5d1-3027fa00f677")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SWP1")
+			(value "MSK-12C02 slide switch")
+			(footprint "Keyboard:PowerSwitch_MSK12C02")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:PowerSwitch_MSK12C02")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SW_SPDT")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "aaebb900-5ab8-5750-ad2f-dad64a492bb4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_LS1")
+			(value "SN74AHCT1G125")
+			(footprint "Keyboard:SN74AHCT1G125")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:SN74AHCT1G125")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SN74AHCT1G125")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "dad1741d-053b-59b3-a8d1-c253723db73b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_RGB1")
+			(value "TPS61023")
+			(footprint "Keyboard:TPS61023")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:TPS61023")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "TPS61023")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(sheetpath
+				(names "/power/")
+				(tstamps "/188b2ab5-b899-55fb-abc1-feb3f8140873/")
+			)
+			(tstamps "45d04d5e-0b1f-5b66-a211-84989936273a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB1")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "3346c2da-831a-5986-aa21-87204e8928e2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB3")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "062b8a34-e23a-55ec-a46f-ddfe44b88a90")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB4")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "fa1cea75-793b-5eef-aaf8-ff9f023a107f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB7")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "7945fe32-1c38-5dae-a236-1b18612d278a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB8")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "0c6b21a8-b022-50d2-a8c5-fd5215196cea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB11")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "b2761fa5-de89-5b65-a6eb-0217c7175791")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB13")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "d85362fb-5906-5153-a413-92c9601d9a87")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB15")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "a7e3a341-dfb4-53f9-ae6f-61db27f095b5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB16")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "b6bc5820-9018-5c5a-a32a-393a8ba287c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB19")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "5d323690-69ee-5af4-a48a-43aad259d820")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB20")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "a5df88ad-18ce-5e0b-ac92-2aafb50ddeab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB23")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "ea08ca92-013f-576a-a5bc-d7f004d41416")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB25")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "f0bfff5d-bc10-5b4d-a0a1-5a27f65a9221")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB26")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "63d3ba80-491c-597a-af16-5622dee43eba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB29")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "e9d1f8f9-61a3-5301-aaa0-fceb5a015945")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB30")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "93c1b1bc-9f81-559e-a46f-5786c2eb4bde")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB33")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "75ccfa05-b8e6-5e85-a60f-6ecf2ceeb2f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB34")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "e47332c5-b98e-557f-a84c-4d07a056b8df")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB37")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "2ac31548-74be-57b8-a47a-af02ca4fb294")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB40")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "08511b9b-3741-5eb9-a3c0-c6f90d4cfa29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB41")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "6632d304-c205-5dfc-ab6c-c96644f7e1f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB43")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "e7fc48c6-4584-5e1a-acab-f72c138a1c8e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB44")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "9e79881c-a4a1-5d1e-afb2-add6b5634f6e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB47")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "f20f6659-66c3-5a81-aec0-317b81fd0915")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB48")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "daa31260-4e3b-50fa-a850-e5f23298efca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB51")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "b6dfc6bd-c130-52cd-ade9-6f37f82f88f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB53")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "bdaf6e3b-0770-5973-afaa-0cf1d7ffa2bf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB54")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "1308f1fb-9ba2-5f0d-add2-48e19dfe4a9d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB55")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "333e6be4-74e3-58a0-a32b-40ae8d3f89a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB58")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "4fc90f8f-c94e-5bc1-ad5c-bacd1b33eaf9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_RGB59")
+			(value "100nF")
+			(footprint "Keyboard:C_0603")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "4720b0a8-088e-5f04-a085-7fca186cc280")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "7711d3b3-3b80-5445-a8ff-ed8128776365")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "fac6b641-6b1f-592f-a5aa-d3abade4ab77")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED4")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "a0394e20-ec0f-5944-a2f6-997aa07100d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED7")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "7377db3b-b3ed-519d-aecd-2289f1c6229d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED8")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "e938434d-0a0e-5559-aab3-a837db09e07d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED11")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "327213b0-789e-5f5e-a67d-d6c22d0d3e86")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED13")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "5268282a-cb20-54c0-aa34-eaf00f960410")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED15")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "a1455df4-7460-5daa-a375-b03eb4287da2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED16")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "bbd3f455-8c7c-5c71-a629-ea6f14489245")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED19")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "9c0e46a5-2cf1-5b87-acc7-02bf06fbcde7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED20")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "a7ef30e8-78bd-5be8-a9e1-5faa78a1032c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED23")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "016e6b9b-0d06-5821-a547-a231ee8fac71")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED25")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "9e9093f8-77ef-58f6-a0df-733299c7b436")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED26")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "84201e35-20f0-5f11-a787-0367d09814ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED29")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "5a1425dc-d59e-5fa2-af1a-e66e184654d2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED30")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "a617db99-b413-5e2d-a155-c7c3388fbb49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED33")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "2a2c0e10-e630-5d7e-a11d-424a5a2c561e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED34")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "38b46a50-f8c4-5974-a9af-ad12927000b8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED37")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "ef7a99ed-b095-53e3-add0-2c47298c5b73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED40")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "4503cc4a-3658-59ea-ad66-5b80ad58312e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED41")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "780cb5f1-9461-549f-ad9d-9223ab0dbad7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED43")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "ca1885c7-5b4e-5fb1-a202-65b556e53f99")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED44")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "2e66d679-44dd-5dad-a43b-dbb3ace453f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED47")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "e26320bc-6667-5f22-a32f-1f5efc58a802")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED48")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "0ee98215-b1b9-5e91-a5b1-10572e65b35d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED51")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "133a6f58-08b9-5876-a17c-d5e291d39066")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED53")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "beca6aea-fd3a-57e0-a6e5-ece8f10a1a98")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED54")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "cd52c72a-46c3-5136-af93-bb38ded72eba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED55")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "02d486d1-5b8c-557b-abee-99bbd6473763")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED58")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "35192a36-9a16-54e2-afc6-6ecc60588e1e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED59")
+			(value "SK6812MINI-E")
+			(footprint "Keyboard:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "Keyboard:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Keyboard")
+				(part "SK6812MINI_E_BL")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "rgb")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rgb.kicad_sch")
+			)
+			(sheetpath
+				(names "/rgb/")
+				(tstamps "/f2b671bf-2914-509f-a2a4-6951b26a8913/")
+			)
+			(tstamps "6422e24d-4d2e-56f7-ad63-ce5f4f2bf847")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Keyboard")
+			(part "BatteryHeader")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "BatteryHeader")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "BAT+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "C")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "D")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "L")
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "R")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "SK6812MINI_E_BL")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "SK6812MINI_E_BL")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "DIN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "DOUT")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "SN74AHCT1G125")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN74AHCT1G125")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OE")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "Y")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "SW")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "SW_SPDT")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_SPDT")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "COM")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "TPS61023")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS61023")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "SW")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "VOUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Keyboard")
+			(part "XIAO_NRF52840_PLUS")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "XIAO_NRF52840_PLUS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D0_P0.02")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "D1_P0.03")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "D2_P0.28")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "D3_P0.29")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "D4_P0.04")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "D5_P0.05")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "D6_P1.11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "D7_P1.12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "D8_P1.13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "D9_P1.14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "D10_P1.15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "3V3")
+					(type "power_out")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "VBUS")
+					(type "power_out")
+				)
+				(pin
+					(num "15")
+					(name "D11_P0.15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "D12_P0.19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "D13_P1.01")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "D14_NFC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "D15_NFC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "D16_BAT_ADC")
+					(type "input")
+				)
+				(pin
+					(num "21")
+					(name "D17_P1.03")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "D18_P1.05")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "D19_P1.07")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "SWDIO")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "SWCLK")
+					(type "input")
+				)
+				(pin
+					(num "26")
+					(name "RESET")
+					(type "input")
+				)
+				(pin
+					(num "27")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "VBAT")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Keyboard")
+			(uri "${KIPRJMOD}/../Keyboard.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3V3_LEFT")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "3V3_12")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "/COL0")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW16")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW25")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW33")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW41")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW48")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW55")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "D8_P1.13_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "3")
+			(name "/COL1")
+			(class "Default")
+			(node
+				(ref "SW11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW19")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW26")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW34")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW43")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW51")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW58")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "D9_P1.14_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/COL2")
+			(class "Default")
+			(node
+				(ref "SW13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW20")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW29")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW37")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW44")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW53")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW59")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "D10_P1.15_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "/COL3")
+			(class "Default")
+			(node
+				(ref "SW15")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW23")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW30")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW40")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW47")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW54")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "D11_P0.15_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/GND_LEFT")
+			(class "Default")
+			(node
+				(ref "C_LS1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB15")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB16")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB19")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB20")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB23")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB25")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB26")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB29")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB30")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB33")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB34")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB37")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB40")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB41")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB43")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB44")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB47")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB48")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB51")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB53")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB54")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB55")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB58")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB59")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB_BULK1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB_IN1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB_OUT1_1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB_OUT2_1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED11")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED13")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED15")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED16")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED19")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED20")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED23")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED25")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED26")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED29")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED30")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED33")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED34")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED37")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED40")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED41")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED43")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED44")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED47")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED48")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED51")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED53")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED54")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED55")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED58")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED59")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED7")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED8")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R_RGB_EN_PD1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_RGB_FB_BOT1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "GND_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "GND_29")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS1")
+				(pin "1")
+				(pinfunction "OE_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_LS1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_RGB1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "7")
+			(name "/RGB_5V_LEFT")
+			(class "Default")
+			(node
+				(ref "C_LS1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB15")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB16")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB19")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB20")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB23")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB25")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB26")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB29")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB30")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB33")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB34")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB37")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB40")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB41")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB43")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB44")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB47")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB48")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB51")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB53")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB54")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB55")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB58")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB59")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB_BULK1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB_OUT1_1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_RGB_OUT2_1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED11")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED13")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED15")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED16")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED19")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED20")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED23")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED25")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED26")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED29")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED3")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED30")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED33")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED34")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED37")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED4")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED40")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED41")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED43")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED44")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED47")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED48")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED51")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED53")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED54")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED55")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED58")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED59")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED7")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED8")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R_RGB_FB_TOP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS1")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_RGB1")
+				(pin "6")
+				(pinfunction "VOUT_6")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "8")
+			(name "/RGB_DATA_LEFT")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "D12_P0.19_16")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U_LS1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "/RGB_DATA_SHIFTED_LEFT")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "R_RGB_DATA1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/RGB_EN_LEFT")
+			(class "Default")
+			(node
+				(ref "R_RGB_EN_PD1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "D13_P1.01_17")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U_RGB1")
+				(pin "2")
+				(pinfunction "EN_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "/ROW0")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D7")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "D0_P0.02_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/ROW1")
+			(class "Default")
+			(node
+				(ref "D11")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D13")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D15")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "D1_P0.03_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "/ROW2")
+			(class "Default")
+			(node
+				(ref "D16")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D19")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D20")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D23")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "D2_P0.28_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "/ROW3")
+			(class "Default")
+			(node
+				(ref "D25")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D26")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D29")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D30")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "D3_P0.29_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "/ROW4")
+			(class "Default")
+			(node
+				(ref "D33")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D34")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D37")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D40")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "D4_P0.04_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "16")
+			(name "/ROW5")
+			(class "Default")
+			(node
+				(ref "D41")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D43")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D44")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D47")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "D5_P0.05_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "/ROW6")
+			(class "Default")
+			(node
+				(ref "D48")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D51")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D53")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D54")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "D6_P1.11_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
+			(name "/ROW7")
+			(class "Default")
+			(node
+				(ref "D55")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D58")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D59")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "D7_P1.12_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "19")
+			(name "/VBAT_LEFT")
+			(class "Default")
+			(node
+				(ref "C_RGB_IN1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L_RGB1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SWP1")
+				(pin "2")
+				(pinfunction "COM_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "VBAT_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_RGB1")
+				(pin "3")
+				(pinfunction "VIN_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "20")
+			(name "/matrix/SW1_A")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/matrix/SW3_A")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/matrix/SW4_A")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/matrix/SW7_A")
+			(class "Default")
+			(node
+				(ref "D7")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/matrix/SW8_A")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/matrix/SW11_A")
+			(class "Default")
+			(node
+				(ref "D11")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/matrix/SW13_A")
+			(class "Default")
+			(node
+				(ref "D13")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/matrix/SW15_A")
+			(class "Default")
+			(node
+				(ref "D15")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW15")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/matrix/SW16_A")
+			(class "Default")
+			(node
+				(ref "D16")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW16")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/matrix/SW19_A")
+			(class "Default")
+			(node
+				(ref "D19")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW19")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "/matrix/SW20_A")
+			(class "Default")
+			(node
+				(ref "D20")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW20")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "/matrix/SW23_A")
+			(class "Default")
+			(node
+				(ref "D23")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW23")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "/matrix/SW25_A")
+			(class "Default")
+			(node
+				(ref "D25")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW25")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "/matrix/SW26_A")
+			(class "Default")
+			(node
+				(ref "D26")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW26")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "/matrix/SW29_A")
+			(class "Default")
+			(node
+				(ref "D29")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW29")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "/matrix/SW30_A")
+			(class "Default")
+			(node
+				(ref "D30")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW30")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "/matrix/SW33_A")
+			(class "Default")
+			(node
+				(ref "D33")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW33")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "/matrix/SW34_A")
+			(class "Default")
+			(node
+				(ref "D34")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW34")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "/matrix/SW37_A")
+			(class "Default")
+			(node
+				(ref "D37")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW37")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "/matrix/SW40_A")
+			(class "Default")
+			(node
+				(ref "D40")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW40")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "/matrix/SW41_A")
+			(class "Default")
+			(node
+				(ref "D41")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW41")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "/matrix/SW43_A")
+			(class "Default")
+			(node
+				(ref "D43")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW43")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "/matrix/SW44_A")
+			(class "Default")
+			(node
+				(ref "D44")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW44")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "/matrix/SW47_A")
+			(class "Default")
+			(node
+				(ref "D47")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW47")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "/matrix/SW48_A")
+			(class "Default")
+			(node
+				(ref "D48")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW48")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "/matrix/SW51_A")
+			(class "Default")
+			(node
+				(ref "D51")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW51")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "/matrix/SW53_A")
+			(class "Default")
+			(node
+				(ref "D53")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW53")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "/matrix/SW54_A")
+			(class "Default")
+			(node
+				(ref "D54")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW54")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "/matrix/SW55_A")
+			(class "Default")
+			(node
+				(ref "D55")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW55")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "/matrix/SW58_A")
+			(class "Default")
+			(node
+				(ref "D58")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW58")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "/matrix/SW59_A")
+			(class "Default")
+			(node
+				(ref "D59")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW59")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "/power/BAT_RAW_LEFT")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "BAT+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SWP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "/power/RGB_FB_LEFT")
+			(class "Default")
+			(node
+				(ref "R_RGB_FB_BOT1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_RGB_FB_TOP1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_RGB1")
+				(pin "1")
+				(pinfunction "FB_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "53")
+			(name "/power/RGB_SHIFTED_LEFT")
+			(class "Default")
+			(node
+				(ref "R_RGB_DATA1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS1")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "54")
+			(name "/power/RGB_SW_LEFT")
+			(class "Default")
+			(node
+				(ref "L_RGB1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_RGB1")
+				(pin "5")
+				(pinfunction "SW_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "/rgb/RGB_LED_left_0")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED3")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "56")
+			(name "/rgb/RGB_LED_left_1")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED4")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "57")
+			(name "/rgb/RGB_LED_left_2")
+			(class "Default")
+			(node
+				(ref "LED4")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED7")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "58")
+			(name "/rgb/RGB_LED_left_3")
+			(class "Default")
+			(node
+				(ref "LED7")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED8")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "59")
+			(name "/rgb/RGB_LED_left_4")
+			(class "Default")
+			(node
+				(ref "LED11")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "LED8")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "60")
+			(name "/rgb/RGB_LED_left_5")
+			(class "Default")
+			(node
+				(ref "LED11")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED13")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "61")
+			(name "/rgb/RGB_LED_left_6")
+			(class "Default")
+			(node
+				(ref "LED13")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED15")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "62")
+			(name "/rgb/RGB_LED_left_7")
+			(class "Default")
+			(node
+				(ref "LED15")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED16")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "63")
+			(name "/rgb/RGB_LED_left_8")
+			(class "Default")
+			(node
+				(ref "LED16")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED19")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "64")
+			(name "/rgb/RGB_LED_left_9")
+			(class "Default")
+			(node
+				(ref "LED19")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED20")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "65")
+			(name "/rgb/RGB_LED_left_10")
+			(class "Default")
+			(node
+				(ref "LED20")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED23")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "66")
+			(name "/rgb/RGB_LED_left_11")
+			(class "Default")
+			(node
+				(ref "LED23")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED25")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "67")
+			(name "/rgb/RGB_LED_left_12")
+			(class "Default")
+			(node
+				(ref "LED25")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED26")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "68")
+			(name "/rgb/RGB_LED_left_13")
+			(class "Default")
+			(node
+				(ref "LED26")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED29")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "69")
+			(name "/rgb/RGB_LED_left_14")
+			(class "Default")
+			(node
+				(ref "LED29")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED30")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "70")
+			(name "/rgb/RGB_LED_left_15")
+			(class "Default")
+			(node
+				(ref "LED30")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED33")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "71")
+			(name "/rgb/RGB_LED_left_16")
+			(class "Default")
+			(node
+				(ref "LED33")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED34")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "72")
+			(name "/rgb/RGB_LED_left_17")
+			(class "Default")
+			(node
+				(ref "LED34")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED37")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "73")
+			(name "/rgb/RGB_LED_left_18")
+			(class "Default")
+			(node
+				(ref "LED37")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED40")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "74")
+			(name "/rgb/RGB_LED_left_19")
+			(class "Default")
+			(node
+				(ref "LED40")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED41")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "75")
+			(name "/rgb/RGB_LED_left_20")
+			(class "Default")
+			(node
+				(ref "LED41")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED43")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "76")
+			(name "/rgb/RGB_LED_left_21")
+			(class "Default")
+			(node
+				(ref "LED43")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED44")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "77")
+			(name "/rgb/RGB_LED_left_22")
+			(class "Default")
+			(node
+				(ref "LED44")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED47")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "78")
+			(name "/rgb/RGB_LED_left_23")
+			(class "Default")
+			(node
+				(ref "LED47")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED48")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "79")
+			(name "/rgb/RGB_LED_left_24")
+			(class "Default")
+			(node
+				(ref "LED48")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED51")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "80")
+			(name "/rgb/RGB_LED_left_25")
+			(class "Default")
+			(node
+				(ref "LED51")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED53")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "81")
+			(name "/rgb/RGB_LED_left_26")
+			(class "Default")
+			(node
+				(ref "LED53")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED54")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "82")
+			(name "/rgb/RGB_LED_left_27")
+			(class "Default")
+			(node
+				(ref "LED54")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED55")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "83")
+			(name "/rgb/RGB_LED_left_28")
+			(class "Default")
+			(node
+				(ref "LED55")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED58")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "84")
+			(name "/rgb/RGB_LED_left_29")
+			(class "Default")
+			(node
+				(ref "LED58")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
+			)
+			(node
+				(ref "LED59")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "85")
+			(name "VBUS_LEFT")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "VBUS_14")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(LED59-DOUT-Pad4)")
+			(class "Default")
+			(node
+				(ref "LED59")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(SWP1-Pad3)")
+			(class "Default")
+			(node
+				(ref "SWP1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(U1-D14_NFC1-Pad18)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "D14_NFC1_18")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(U1-D15_NFC2-Pad19)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "D15_NFC2_19")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(U1-D16_BAT_ADC-Pad20)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "D16_BAT_ADC_20")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(U1-D17_P1.03-Pad21)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "D17_P1.03_21")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(U1-D18_P1.05-Pad22)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "D18_P1.05_22")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(U1-D19_P1.07-Pad23)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "D19_P1.07_23")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "94")
+			(name "unconnected-(U1-RESET-Pad26)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "RESET_26")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "95")
+			(name "unconnected-(U1-SWCLK-Pad25)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "SWCLK_25")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "96")
+			(name "unconnected-(U1-SWDIO-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "SWDIO_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+	)
+)

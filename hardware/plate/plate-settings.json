@@ -1,0 +1,28 @@
+{
+  "cutout": {
+    "kerf": 0,
+    "merge": false,
+    "stabilizerFilletRadius": 0.5,
+    "stabilizerType": "mx-basic",
+    "switchFilletRadius": 0.5,
+    "switchType": "cherry-mx-basic"
+  },
+  "holes": {
+    "mounting": {
+      "diameter": 3,
+      "edgeDistance": 3
+    }
+  },
+  "outline": {
+    "bridgeWidth": 2,
+    "filletRadius": 1,
+    "mergeWithCutouts": true,
+    "outlineType": "tight",
+    "repairMode": "auto-repair",
+    "tightMargin": 1
+  },
+  "thickness": 1.5,
+  "threed": {
+    "backsideDepth": 0
+  }
+}

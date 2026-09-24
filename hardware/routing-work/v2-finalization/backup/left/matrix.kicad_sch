@@ -1,0 +1,7749 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "35a73ff5-07fa-5ab7-a4bf-ca07155254b7")
+	(paper "User" 297 363.84)
+	(title_block
+		(title "Key Matrix - COL2ROW")
+		(rev "2")
+		(comment 1 "Initial placement - hardware not tested")
+	)
+	(lib_symbols
+		(symbol "Keyboard:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Keyboard:SW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 0.63)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "COL2ROW: diode pin 1 = K (ROW), pin 2 = A (switch). One diode per switch."
+		(exclude_from_sim no)
+		(at 25.4 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "552686e6-cb7f-51d0-a1d3-6018ea10bcc8")
+	)
+	(junction
+		(at 121.92 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab3fb6d-5b6b-5d6f-ac72-5f0f1e9105cf")
+	)
+	(junction
+		(at 96.52 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e214a20-a771-566a-a4ac-90326c9fb7c2")
+	)
+	(junction
+		(at 45.72 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10e1d3ca-9055-5890-aa8b-c590a41cc010")
+	)
+	(junction
+		(at 45.72 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19c87448-d861-55e2-a4ea-7ca28807e0f2")
+	)
+	(junction
+		(at 121.92 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5db5fe-c707-5024-adf8-83fceba2ad9c")
+	)
+	(junction
+		(at 45.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b58b28c-48e1-5f26-af12-1b263cdbd2b6")
+	)
+	(junction
+		(at 198.12 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d180e16-133a-5168-a141-b6ec779e5fa0")
+	)
+	(junction
+		(at 147.32 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f0829bf-20d3-5d35-af6d-673d80455895")
+	)
+	(junction
+		(at 172.72 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f869635-b40b-5ccb-ae31-b2477fe6e0fb")
+	)
+	(junction
+		(at 121.92 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "205e4c8b-c69d-5b6d-a255-33910f4bd0ad")
+	)
+	(junction
+		(at 71.12 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "242e2de7-20ed-56d9-a208-f825117ddd59")
+	)
+	(junction
+		(at 71.12 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26377105-939c-5f57-abfa-007f84f14d7f")
+	)
+	(junction
+		(at 96.52 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26b438c6-5836-5fdc-aa4b-0244417a39a4")
+	)
+	(junction
+		(at 71.12 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c07e74a-1c18-5e60-a686-627009d086e8")
+	)
+	(junction
+		(at 172.72 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f11c55e-0775-5390-a033-3f4c65ed1a68")
+	)
+	(junction
+		(at 45.72 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2cfdae-d7a9-5cb4-aec4-fb34baebcd54")
+	)
+	(junction
+		(at 172.72 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34ee87c8-0f63-5232-a315-3f0240b06c0a")
+	)
+	(junction
+		(at 198.12 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ef444b0-4598-515e-aca0-365a868dbf46")
+	)
+	(junction
+		(at 121.92 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fc6f002-8a5a-5c68-ad72-8aa0318ee618")
+	)
+	(junction
+		(at 147.32 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4254321a-08d8-5f64-ae3c-8ff85ecf39d4")
+	)
+	(junction
+		(at 96.52 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53c8d48b-2ef5-52ad-af02-3949424d8665")
+	)
+	(junction
+		(at 147.32 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f4375c-3ae2-5052-aa65-1fee2beb4d72")
+	)
+	(junction
+		(at 172.72 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d7a459a-9021-5a8c-a0f6-fd8896e197ec")
+	)
+	(junction
+		(at 96.52 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6133c819-97b8-52ff-abe1-1d4bac8d8bc7")
+	)
+	(junction
+		(at 198.12 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cc7e777-ebe5-5efd-a3b2-5e2dd7f8e9a5")
+	)
+	(junction
+		(at 198.12 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d9211c5-2f5a-50cf-a4db-166fc97c5c07")
+	)
+	(junction
+		(at 172.72 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881c3064-5fc3-58ce-a490-15fe3c56600e")
+	)
+	(junction
+		(at 121.92 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe15894-5fde-51aa-ae7a-7d6e485a6fba")
+	)
+	(junction
+		(at 71.12 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93544549-51cc-56bb-a56f-53c3dc03747b")
+	)
+	(junction
+		(at 45.72 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96beceb3-e6b3-5045-a4ba-ad79dc61ec15")
+	)
+	(junction
+		(at 45.72 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f0eca41-6e8d-5397-ac9b-787b1a68af77")
+	)
+	(junction
+		(at 71.12 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d25c03-e960-55f5-a25b-bf81ea6e805d")
+	)
+	(junction
+		(at 71.12 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a85c94fc-4f80-50e2-a16a-197e9cccff8a")
+	)
+	(junction
+		(at 147.32 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa4aa058-3d2f-5096-af23-edaae0bf3f36")
+	)
+	(junction
+		(at 121.92 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae5752f0-3271-5be6-a9c5-c8eaffe0c63e")
+	)
+	(junction
+		(at 45.72 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2b3545d-ba20-5b33-a43f-57f7536926b3")
+	)
+	(junction
+		(at 96.52 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b438bf75-d3a2-567b-a383-cb87f7b99a03")
+	)
+	(junction
+		(at 198.12 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b56feed2-7971-576c-a6c1-7a6860f67ae4")
+	)
+	(junction
+		(at 96.52 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb86b864-6199-520e-a81b-3d363c299606")
+	)
+	(junction
+		(at 198.12 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be13239b-a9cd-5bd9-af79-f231086f0b61")
+	)
+	(junction
+		(at 71.12 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c570b3d8-6f27-5ffe-a4ea-2afa9872f38e")
+	)
+	(junction
+		(at 121.92 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d263816f-489f-5511-ac89-88752c876ca9")
+	)
+	(junction
+		(at 147.32 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da46223e-8da8-5500-a9a3-d73c48002c90")
+	)
+	(junction
+		(at 172.72 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db1a4b91-01d2-5ac7-a42c-590328d4b9ff")
+	)
+	(junction
+		(at 96.52 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de2d9f27-adad-5e49-a758-6b6517868921")
+	)
+	(junction
+		(at 172.72 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa8f8b7-ef39-5a05-a7eb-407d468b13dd")
+	)
+	(junction
+		(at 121.92 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed53f1f1-3140-5633-a1f5-8793b2e39f4b")
+	)
+	(junction
+		(at 147.32 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef8de7ed-3385-5c07-ad71-483fbe4c1bf7")
+	)
+	(junction
+		(at 71.12 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f349b0c6-b8db-559c-a359-3bcc3ac5046c")
+	)
+	(junction
+		(at 147.32 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5a99943-eaab-53b1-afaf-22c1cb7166d1")
+	)
+	(wire
+		(pts
+			(xy 223.52 121.92) (xy 223.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000783d7-f4b2-5e19-a468-18f13ab42079")
+	)
+	(wire
+		(pts
+			(xy 172.72 137.16) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fbaacd-5c75-5e6f-a908-671758a6a9cf")
+	)
+	(wire
+		(pts
+			(xy 121.92 167.64) (xy 121.92 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0528d218-b912-5676-a7e0-ad6a1201e8ee")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 223.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06078d49-eab2-5e47-a668-02af58b45067")
+	)
+	(wire
+		(pts
+			(xy 45.72 274.32) (xy 50.8 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb7b5f1-b78e-5c8b-ab4f-f2cf061e4473")
+	)
+	(wire
+		(pts
+			(xy 45.72 213.36) (xy 50.8 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7a2f11-bedc-5aff-a2ad-0d2720df59a7")
+	)
+	(wire
+		(pts
+			(xy 121.92 228.6) (xy 121.92 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101cc136-5b60-5546-a7ae-7abccc60ceda")
+	)
+	(wire
+		(pts
+			(xy 223.52 243.84) (xy 223.52 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105b1e6c-4047-5f62-a892-0a527ec06d5a")
+	)
+	(wire
+		(pts
+			(xy 45.72 152.4) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107fdd02-f7b6-5232-a07c-b10cdcafbbee")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120a3416-6b3b-5776-af49-88608bee931a")
+	)
+	(wire
+		(pts
+			(xy 60.96 243.84) (xy 71.12 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12211b8b-eb53-5697-a2c3-48b57f152ccb")
+	)
+	(wire
+		(pts
+			(xy 223.52 152.4) (xy 223.52 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f44171-7ddb-5765-a3fc-27efae0e7161")
+	)
+	(wire
+		(pts
+			(xy 45.72 182.88) (xy 45.72 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17285818-9081-5aba-a10d-093e96e6bba2")
+	)
+	(wire
+		(pts
+			(xy 45.72 152.4) (xy 45.72 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182859ab-9181-5c4f-a20d-0ad597e6bd3b")
+	)
+	(wire
+		(pts
+			(xy 45.72 243.84) (xy 45.72 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19285b3e-8e81-5790-af0d-061094e6b870")
+	)
+	(wire
+		(pts
+			(xy 45.72 213.36) (xy 45.72 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a285cd1-8f81-5925-a00d-07a795e6ba09")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b285e64-9481-510e-a50d-0f9a9ae6c206")
+	)
+	(wire
+		(pts
+			(xy 223.52 213.36) (xy 223.52 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8426ba-64a5-508e-ad7b-b95467bc6ed2")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c285ff7-9581-52a3-a60d-11319be6c39f")
+	)
+	(wire
+		(pts
+			(xy 223.52 60.96) (xy 223.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c924df7-45e8-5485-a720-f9a9a133be15")
+	)
+	(wire
+		(pts
+			(xy 213.36 152.4) (xy 223.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf4512f-7bdb-543b-a1fc-3e31bc0e87bf")
+	)
+	(wire
+		(pts
+			(xy 45.72 121.92) (xy 45.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d28618a-9281-5de4-a30d-0c6c98e6bed4")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 45.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e28631d-9381-5f79-a40d-0e0399e6c06d")
+	)
+	(wire
+		(pts
+			(xy 71.12 243.84) (xy 71.12 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20213195-d553-53c9-acc3-3f2b99155655")
+	)
+	(wire
+		(pts
+			(xy 213.36 60.96) (xy 223.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22925769-43e8-515b-a920-c9f78733948b")
+	)
+	(wire
+		(pts
+			(xy 172.72 243.84) (xy 172.72 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f49c2c-75ab-5d84-a893-d922c383fe28")
+	)
+	(wire
+		(pts
+			(xy 213.36 243.84) (xy 223.52 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265b410e-2a47-5c94-aa91-daa088c07d54")
+	)
+	(wire
+		(pts
+			(xy 172.72 289.56) (xy 172.72 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2794ed20-bbbc-5e78-adc4-0052ac019314")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2013f0-5693-5254-a971-3d164a4546f8")
+	)
+	(wire
+		(pts
+			(xy 223.52 167.64) (xy 223.52 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdc019c-66c8-5382-a640-4936f43d258a")
+	)
+	(wire
+		(pts
+			(xy 71.12 152.4) (xy 71.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3a2e7e-2fb5-51a2-ad94-22708eea2466")
+	)
+	(wire
+		(pts
+			(xy 71.12 228.6) (xy 71.12 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327bd5c4-ea56-5a30-a9ee-4796774b2364")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.96) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d2c0ba-0b47-56a8-ae19-ff248699aac0")
+	)
+	(wire
+		(pts
+			(xy 45.72 182.88) (xy 50.8 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e5042a-81ec-534a-ad6b-8534bfb1d496")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f82866-d3ac-5498-a9c7-2b185d312ee8")
+	)
+	(wire
+		(pts
+			(xy 60.96 152.4) (xy 71.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383a3e3c-19b5-5ed4-ab94-1f4280ea0e08")
+	)
+	(wire
+		(pts
+			(xy 147.32 182.88) (xy 152.4 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3972e175-d05a-5033-ad0e-3053ae7bfc23")
+	)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39732db3-295a-599f-ae10-4d95d54339ab")
+	)
+	(wire
+		(pts
+			(xy 162.56 243.84) (xy 172.72 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f4bece-6bab-5db2-aa93-dc50d1841486")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 223.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb2dccc-ac95-5116-a529-97e22d1c18be")
+	)
+	(wire
+		(pts
+			(xy 121.92 137.16) (xy 121.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f170c48-1369-5148-a57c-9a329e9d66b4")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb2de5f-ad95-52ab-a629-99792e1c1a57")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b2dff2-aa94-5dec-a329-94b42b1c158c")
+	)
+	(wire
+		(pts
+			(xy 25.4 81.28) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b2e185-ab94-5f81-a429-964b2c1c1725")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41eab154-5ec4-5280-a40d-b74e3d4dc984")
+	)
+	(wire
+		(pts
+			(xy 96.52 274.32) (xy 101.6 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424f5294-2409-550e-af93-483abe34cc96")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441ab5f5-ea3e-5e5b-a4c1-42e7df845f3b")
+	)
+	(wire
+		(pts
+			(xy 198.12 182.88) (xy 203.2 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449a7e90-8dce-51b6-aff5-c966c862e886")
+	)
+	(wire
+		(pts
+			(xy 162.56 182.88) (xy 172.72 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48249953-1b1d-50cd-af0a-56e509764815")
+	)
+	(wire
+		(pts
+			(xy 60.96 121.92) (xy 71.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0c05cb-aeab-5407-a858-c6fd9ae84973")
+	)
+	(wire
+		(pts
+			(xy 198.12 213.36) (xy 203.2 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baa780e-9316-5f4e-a5ab-8f00ac3b67ba")
+	)
+	(wire
+		(pts
+			(xy 111.76 213.36) (xy 121.92 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc38225-2afb-57c7-ac75-15f33d7ea16f")
+	)
+	(wire
+		(pts
+			(xy 111.76 152.4) (xy 121.92 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8a4b2b-ab0a-5d17-a040-9e059378b8fb")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f85154-c1ac-581e-a7c7-415a6b314546")
+	)
+	(wire
+		(pts
+			(xy 172.72 167.64) (xy 172.72 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51441211-3010-55f5-ab81-8d2b5e743a81")
+	)
+	(wire
+		(pts
+			(xy 147.32 121.92) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d170b2-7953-53fc-a215-ae9490b935d4")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532634c5-8aad-5e61-ae91-25bf3be841f5")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 71.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57735ced-435a-52c1-a810-440bef436335")
+	)
+	(wire
+		(pts
+			(xy 71.12 121.92) (xy 71.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590c1bd5-b8ab-53d9-a258-d6e3a4e8596d")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59109cac-4c0b-580a-a5f0-c5ca98d7ee12")
+	)
+	(wire
+		(pts
+			(xy 96.52 121.92) (xy 101.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a413cbd-9f16-5c47-a0b3-80dba6c0f457")
+	)
+	(wire
+		(pts
+			(xy 121.92 152.4) (xy 121.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8a6135-950a-5a49-aa40-c75b8d78af65")
+	)
+	(wire
+		(pts
+			(xy 172.72 259.08) (xy 172.72 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4867c3-b25f-56e7-afec-f09113721b7b")
+	)
+	(wire
+		(pts
+			(xy 121.92 213.36) (xy 121.92 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc39e7b-34fb-5799-a275-38ed4f7ebe31")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609ddbf7-ea02-5c95-a00b-22997196449d")
+	)
+	(wire
+		(pts
+			(xy 172.72 182.88) (xy 172.72 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6624c88d-091d-5453-a90a-803bef761e8b")
+	)
+	(wire
+		(pts
+			(xy 147.32 121.92) (xy 147.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e399d08-0cdb-5abe-a1eb-bf1683048286")
+	)
+	(wire
+		(pts
+			(xy 121.92 233.68) (xy 172.72 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edc12c0-6cae-5b52-ac41-9feeed8f178a")
+	)
+	(wire
+		(pts
+			(xy 96.52 243.84) (xy 101.6 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee18362-11c9-53b2-aeeb-263c0bdad83e")
+	)
+	(wire
+		(pts
+			(xy 71.12 106.68) (xy 71.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef74620-db17-52ce-ae78-983a09578fbe")
+	)
+	(wire
+		(pts
+			(xy 172.72 121.92) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f10bf4e-660b-512c-a7f0-e268b2d8179c")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 147.32 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f399e9b-0ddb-5c53-a2eb-c0ad8404841f")
+	)
+	(wire
+		(pts
+			(xy 172.72 233.68) (xy 223.52 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdc1453-6dae-5ce7-ad41-a185ee8f1923")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.96) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7039a02e-0adb-5794-afeb-bbe881047f54")
+	)
+	(wire
+		(pts
+			(xy 121.92 259.08) (xy 121.92 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bfe97d-6cfd-5fa9-a60d-e55f3fb5c155")
+	)
+	(wire
+		(pts
+			(xy 25.4 233.68) (xy 71.12 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70dc15e6-6aae-5828-aa41-9cc0eb8f1458")
+	)
+	(wire
+		(pts
+			(xy 121.92 121.92) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71021f85-5bb0-52a7-ab25-829366cb00df")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7139a1c1-0bdb-5929-a0eb-bd7f820480ed")
+	)
+	(wire
+		(pts
+			(xy 71.12 233.68) (xy 121.92 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dc1779-6bae-59bd-ab41-9e57ec8f15f1")
+	)
+	(wire
+		(pts
+			(xy 147.32 243.84) (xy 147.32 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7239a354-08db-546a-a5eb-c5727f047c22")
+	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 96.52 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73002e80-5c5e-5f02-a5e0-71ae8b6f87b2")
+	)
+	(wire
+		(pts
+			(xy 147.32 213.36) (xy 147.32 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7339a4e7-09db-55ff-a6eb-c70980047dbb")
+	)
+	(wire
+		(pts
+			(xy 96.52 182.88) (xy 96.52 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74003013-5d5e-5097-a6e0-73458c6f894b")
+	)
+	(wire
+		(pts
+			(xy 147.32 182.88) (xy 147.32 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7439a67a-06db-5140-a3eb-c2447d0478f0")
+	)
+	(wire
+		(pts
+			(xy 96.52 213.36) (xy 96.52 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750031a6-5a5e-5bd8-a3e0-6e80896f8480")
+	)
+	(wire
+		(pts
+			(xy 147.32 152.4) (xy 147.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7539a80d-07db-52d5-a4eb-c3db7e047a89")
+	)
+	(wire
+		(pts
+			(xy 96.52 243.84) (xy 96.52 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76003339-5b5e-5d6d-a4e0-70178a6f8619")
+	)
+	(wire
+		(pts
+			(xy 96.52 40.64) (xy 96.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770034cc-605e-5556-a9e0-780a8f6f8e16")
+	)
+	(wire
+		(pts
+			(xy 223.52 259.08) (xy 223.52 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77940683-1e88-5ee9-a10a-08e16ae88cd9")
+	)
+	(wire
+		(pts
+			(xy 96.52 60.96) (xy 96.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7800365f-615e-56eb-aae0-79a1906f8faf")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790037f2-5e5e-522c-a7e0-74dc8d6f8ae4")
+	)
+	(wire
+		(pts
+			(xy 223.52 228.6) (xy 223.52 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ca9571-7ed3-5175-adac-959bf35b45f1")
+	)
+	(wire
+		(pts
+			(xy 96.52 121.92) (xy 96.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a003985-5f5e-53c1-a8e0-76738e6f8c7d")
+	)
+	(wire
+		(pts
+			(xy 71.12 289.56) (xy 71.12 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6c70a4-5557-56ec-a9d2-1c5ed3ef0830")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a2e911-4fde-5d73-a597-733fd77917d3")
+	)
+	(wire
+		(pts
+			(xy 45.72 243.84) (xy 50.8 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82425e6d-a4c3-56a9-ae63-41630cb35d5d")
+	)
+	(wire
+		(pts
+			(xy 121.92 60.96) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829b2f59-66ec-5bdf-a566-57b79c206d6f")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83023bdb-65b0-5279-a125-a58d58caea81")
+	)
+	(wire
+		(pts
+			(xy 162.56 274.32) (xy 172.72 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83da62b3-a070-5689-afb1-382d1970f521")
+	)
+	(wire
+		(pts
+			(xy 172.72 198.12) (xy 172.72 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858662c0-843e-5704-abe0-c1ca7011fa00")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa2f8cf-61de-59ed-a397-56a1e17927cd")
+	)
+	(wire
+		(pts
+			(xy 198.12 121.92) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba62a57-b3cf-5459-a2d6-75111bfab031")
+	)
+	(wire
+		(pts
+			(xy 60.96 182.88) (xy 71.12 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcef844-7ae9-526c-a0f2-1eeaeb1ad590")
+	)
+	(wire
+		(pts
+			(xy 71.12 182.88) (xy 71.12 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cf01b6-60e9-594a-a2f2-3b88e91ad25e")
+	)
+	(wire
+		(pts
+			(xy 172.72 203.2) (xy 223.52 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a2d698-20d2-518a-a860-781e78b4371a")
+	)
+	(wire
+		(pts
+			(xy 121.92 203.2) (xy 172.72 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a2d82b-21d2-531f-a960-79b579b438b3")
+	)
+	(wire
+		(pts
+			(xy 71.12 203.2) (xy 121.92 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a2d9be-1ed2-5e60-a660-74f076b433e8")
+	)
+	(wire
+		(pts
+			(xy 25.4 203.2) (xy 71.12 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a2db51-1fd2-5ff5-a760-768777b43581")
+	)
+	(wire
+		(pts
+			(xy 147.32 274.32) (xy 152.4 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97769fd5-896b-5ed7-ad0e-537bc21ec5f7")
+	)
+	(wire
+		(pts
+			(xy 25.4 294.64) (xy 71.12 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcb9d9c-f545-5c42-a055-63f20571570a")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9b5847-80ec-5501-a366-8769ae208a31")
+	)
+	(wire
+		(pts
+			(xy 71.12 294.64) (xy 121.92 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccb9f2f-f645-5dd7-a155-6589067158a3")
+	)
+	(wire
+		(pts
+			(xy 121.92 294.64) (xy 172.72 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcba0c2-f345-5918-ae55-60c4037153d8")
+	)
+	(wire
+		(pts
+			(xy 147.32 152.4) (xy 152.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c9ec2e-7904-5dce-a53b-ae10a84ff1ea")
+	)
+	(wire
+		(pts
+			(xy 172.72 274.32) (xy 172.72 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1da91ed-b670-5957-a9b1-153327710b7f")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8df60e4-acee-5fdc-adf1-f6528b14ba78")
+	)
+	(wire
+		(pts
+			(xy 223.52 198.12) (xy 223.52 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadb2723-e438-5d4d-acbc-6d19480731cd")
+	)
+	(wire
+		(pts
+			(xy 96.52 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac231121-6a66-5fef-a3f3-72ffd021a987")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedf6a56-b2ee-595a-aff1-c6a079149db6")
+	)
+	(wire
+		(pts
+			(xy 71.12 137.16) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b218ddb8-4e49-5a86-a1d2-f822877c40d6")
+	)
+	(wire
+		(pts
+			(xy 111.76 274.32) (xy 121.92 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c59e4a-c7cf-5fa8-aac5-fe54cfdecd90")
+	)
+	(wire
+		(pts
+			(xy 121.92 274.32) (xy 121.92 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c5a170-d5cf-55ce-a0c6-07decddeca5e")
+	)
+	(wire
+		(pts
+			(xy 71.12 167.64) (xy 71.12 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ffa81d-1e3a-5429-a927-de6f5487d765")
+	)
+	(wire
+		(pts
+			(xy 162.56 152.4) (xy 172.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6db5ea0-165c-50e8-a2a7-152ec91c1dcc")
+	)
+	(wire
+		(pts
+			(xy 198.12 152.4) (xy 203.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8df0cc9-f539-5bf5-a2c1-f0c7ad8de5c9")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8ae594-5911-567e-a90a-bfb2a0b040ae")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8ae727-5a11-5813-aa0a-c149a1b04247")
+	)
+	(wire
+		(pts
+			(xy 25.4 111.76) (xy 71.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8ae8ba-5711-5354-a70a-bc849eb03d7c")
+	)
+	(wire
+		(pts
+			(xy 71.12 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8aea4d-5811-54e9-a80a-be1b9fb03f15")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef65f83-976b-56b7-a34e-7f898b432d83")
+	)
+	(wire
+		(pts
+			(xy 71.12 264.16) (xy 121.92 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf552cf4-a8c8-59ba-ad16-00629096769a")
+	)
+	(wire
+		(pts
+			(xy 25.4 264.16) (xy 71.12 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0552e87-a9c8-5b4f-ae16-01f991967833")
+	)
+	(wire
+		(pts
+			(xy 172.72 264.16) (xy 223.52 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c155301a-a6c8-5690-ab15-fd348e967368")
+	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 101.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18f868d-8ab0-5529-a3b2-b773739370cd")
+	)
+	(wire
+		(pts
+			(xy 223.52 76.2) (xy 223.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b8816a-b955-5f62-a864-edf0999b055e")
+	)
+	(wire
+		(pts
+			(xy 121.92 264.16) (xy 172.72 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25531ad-a7c8-5825-ac15-fecb8f967501")
+	)
+	(wire
+		(pts
+			(xy 96.52 213.36) (xy 101.6 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46dfa8b-cde2-55d9-ac19-e21d654c56b9")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f3e96c-5e58-5a54-aa91-7faab7b2fc90")
+	)
+	(wire
+		(pts
+			(xy 25.4 172.72) (xy 71.12 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72a8c30-e0b7-5cce-ad1e-50d6b892802e")
+	)
+	(wire
+		(pts
+			(xy 111.76 182.88) (xy 121.92 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c743cf84-05db-532e-aa03-d722f7ffc166")
+	)
+	(wire
+		(pts
+			(xy 71.12 172.72) (xy 121.92 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82a8dc3-e1b7-5e63-ae1e-526db99281c7")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86625ff-fc91-58ad-ae29-c6e168d8a165")
+	)
+	(wire
+		(pts
+			(xy 121.92 172.72) (xy 172.72 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92a8f56-deb7-59a4-ab1e-4da8b6927cfc")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 198.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca117370-5867-52a6-a52b-22a6f6e9f256")
+	)
+	(wire
+		(pts
+			(xy 172.72 172.72) (xy 223.52 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2a90e9-dfb7-5b39-ac1e-4f3fb7927e95")
+	)
+	(wire
+		(pts
+			(xy 223.52 91.44) (xy 223.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2aca92-a84b-57c6-a9d5-25b46ba529b2")
+	)
+	(wire
+		(pts
+			(xy 198.12 121.92) (xy 198.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb117503-5967-543b-a62b-243df7e9f3ef")
+	)
+	(wire
+		(pts
+			(xy 198.12 243.84) (xy 203.2 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4df8f0-7b5f-5b72-a7ee-50aed1694092")
+	)
+	(wire
+		(pts
+			(xy 198.12 40.64) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc117696-5667-5f7c-a32b-1f78f4e9ef24")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd117829-5767-5111-a42b-210ff5e9f0bd")
+	)
+	(wire
+		(pts
+			(xy 121.92 182.88) (xy 121.92 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd43d8f6-f7db-5d08-ac03-da50e9ffab08")
+	)
+	(wire
+		(pts
+			(xy 198.12 213.36) (xy 198.12 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1179bc-5467-5c52-a92b-2902f2e9ebf2")
+	)
+	(wire
+		(pts
+			(xy 121.92 198.12) (xy 121.92 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce29d965-eb71-59cb-a9ae-cb4fece88b9b")
+	)
+	(wire
+		(pts
+			(xy 198.12 152.4) (xy 198.12 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0117ce2-5267-5928-a72b-25d4f0e9e8c0")
+	)
+	(wire
+		(pts
+			(xy 96.52 182.88) (xy 101.6 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08ad9ea-f2d8-5278-a679-00ece2b75e60")
+	)
+	(wire
+		(pts
+			(xy 198.12 182.88) (xy 198.12 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1117e75-5367-5abd-a82b-276bf1e9ea59")
+	)
+	(wire
+		(pts
+			(xy 172.72 152.4) (xy 172.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4db8dda-245c-570e-aca7-3e84cf1c2762")
+	)
+	(wire
+		(pts
+			(xy 60.96 213.36) (xy 71.12 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6005437-537d-5dd1-ab50-5b11aa40e0d1")
+	)
+	(wire
+		(pts
+			(xy 147.32 243.84) (xy 152.4 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9499530-76f6-54a4-aebc-d29ea72b3180")
+	)
+	(wire
+		(pts
+			(xy 147.32 213.36) (xy 152.4 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3e4229-0f4c-5d75-a4fe-ca37d050fcd9")
+	)
+	(wire
+		(pts
+			(xy 121.92 243.84) (xy 121.92 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db890dde-6ffe-5b22-a6da-07406598c956")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf40c0e-7459-5d22-ac91-9c48b5b2f95e")
+	)
+	(wire
+		(pts
+			(xy 71.12 213.36) (xy 71.12 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc005da9-597d-574f-ad50-44cf9840c40f")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 223.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2ae6e8-aa4b-5af0-afd5-2f3e85a5533c")
+	)
+	(wire
+		(pts
+			(xy 172.72 213.36) (xy 172.72 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4861d1-be24-50e5-a626-553fed95a4d1")
+	)
+	(wire
+		(pts
+			(xy 45.72 121.92) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd14132d-e67e-5799-acb3-710bbac44a85")
+	)
+	(wire
+		(pts
+			(xy 121.92 289.56) (xy 121.92 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1296bcf-b7a3-50b5-ab78-e025d447a6bd")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a258b2-990e-5e8a-a220-ebf8150eae76")
+	)
+	(wire
+		(pts
+			(xy 111.76 243.84) (xy 121.92 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5891d9c-59fe-5854-a4da-36f27798e618")
+	)
+	(wire
+		(pts
+			(xy 162.56 213.36) (xy 172.72 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e648718f-bc24-5dbb-a426-38a1db95880f")
+	)
+	(wire
+		(pts
+			(xy 223.52 182.88) (xy 223.52 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7add20c-d0d3-5186-af15-cf1ad7b5a76e")
+	)
+	(wire
+		(pts
+			(xy 71.12 259.08) (xy 71.12 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89c37f8-07d5-51f6-ae43-8fdae5971f9e")
+	)
+	(wire
+		(pts
+			(xy 71.12 142.24) (xy 121.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab41b88-b52b-5786-a89b-64c644fe583e")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 101.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac6c5ca-2452-5bfa-a521-4d1c1d4af61e")
+	)
+	(wire
+		(pts
+			(xy 25.4 142.24) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb41d1b-b62b-591b-a99b-665d45fe59d7")
+	)
+	(wire
+		(pts
+			(xy 172.72 142.24) (xy 223.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb41eae-b32b-545c-a69b-619842fe550c")
+	)
+	(wire
+		(pts
+			(xy 121.92 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb42041-b42b-55f1-a79b-632f43fe56a5")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee77a599-2aa4-5c8d-a659-a77b0453a891")
+	)
+	(wire
+		(pts
+			(xy 172.72 228.6) (xy 172.72 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a68efc-b58b-5f02-a5ec-4c26b17b7cba")
+	)
+	(wire
+		(pts
+			(xy 223.52 137.16) (xy 223.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66a014a-0c9d-59c6-a46c-b76856032b02")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f748bad5-c4f1-5e31-adb9-7dc3fd6e99bd")
+	)
+	(wire
+		(pts
+			(xy 60.96 274.32) (xy 71.12 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89e0797-4583-5245-afb8-04f96348c665")
+	)
+	(wire
+		(pts
+			(xy 71.12 198.12) (xy 71.12 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0e4aa5-60bb-53d1-aa41-1db717e1eebd")
+	)
+	(wire
+		(pts
+			(xy 213.36 213.36) (xy 223.52 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd83f780-56a5-5a68-a37b-c2de81bc985c")
+	)
+	(wire
+		(pts
+			(xy 213.36 182.88) (xy 223.52 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdadf4ae-d2d3-54b0-a115-b8d8b9b57780")
+	)
+	(wire
+		(pts
+			(xy 71.12 274.32) (xy 71.12 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9e1109-4383-5f1b-a1b8-08276948cffb")
+	)
+	(label "SW7_A"
+		(at 213.36 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2aacb369-53e2-5cc7-a03b-b377d814cc77")
+	)
+	(label "SW44_A"
+		(at 162.56 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3189ab2f-5113-5227-abf5-01d10759ed73")
+	)
+	(label "SW53_A"
+		(at 162.56 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fbd801a-1492-5f9e-a17a-35740c295a2a")
+	)
+	(label "SW20_A"
+		(at 162.56 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fc50388-fc47-5226-ae64-1a9e89c06cfe")
+	)
+	(label "SW41_A"
+		(at 60.96 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51446527-c883-540d-a1e2-76819fc235cd")
+	)
+	(label "SW15_A"
+		(at 213.36 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66b71c5c-011a-505c-a9b1-7bea109c7f70")
+	)
+	(label "SW19_A"
+		(at 111.76 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c259ae3-fda8-5505-adb3-30f5620564bd")
+	)
+	(label "SW48_A"
+		(at 60.96 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f3b1b13-07a9-57db-af5b-bb8d0bd034b7")
+	)
+	(label "SW51_A"
+		(at 111.76 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "739190f8-589a-58f8-ab02-b016f6e1f2d4")
+	)
+	(label "SW8_A"
+		(at 60.96 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ec7404b-dcef-5633-aca1-d96d87383897")
+	)
+	(label "SW13_A"
+		(at 162.56 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8023ca5a-8ff6-54ce-a587-a65c390d0532")
+	)
+	(label "SW1_A"
+		(at 60.96 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82e33661-5d71-5cef-a2b6-b1af4434656f")
+	)
+	(label "SW34_A"
+		(at 111.76 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c92b1d0-54b4-5042-acad-7086e72d980a")
+	)
+	(label "SW30_A"
+		(at 213.36 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e179ccf-e86e-50a7-a01b-32a133c5fe23")
+	)
+	(label "SW47_A"
+		(at 213.36 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9600e2a4-e660-53e4-ae5d-668a804b7b90")
+	)
+	(label "SW40_A"
+		(at 213.36 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b27c9fa-5eb6-591c-a10e-67ec491aee4c")
+	)
+	(label "SW58_A"
+		(at 111.76 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a54473be-50b7-5124-adc7-58e0cf7d031c")
+	)
+	(label "SW43_A"
+		(at 111.76 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a818160d-d603-5d8b-aacf-822b0b956fd3")
+	)
+	(label "SW16_A"
+		(at 60.96 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa6f6953-cb30-5acb-ae1e-b7254fabce0f")
+	)
+	(label "SW4_A"
+		(at 162.56 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcc7d9e0-241b-5772-a239-b56ed32cd3ea")
+	)
+	(label "SW3_A"
+		(at 111.76 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c55ffd77-8bdb-50fd-ab7f-6589c23cde2d")
+	)
+	(label "SW37_A"
+		(at 162.56 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5f25beb-01ca-5361-a3f7-2bbd2b09f389")
+	)
+	(label "SW25_A"
+		(at 60.96 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cabf9698-eff4-5778-a7be-c9a6cb118944")
+	)
+	(label "SW33_A"
+		(at 60.96 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf207a90-401d-53a0-aefa-1abe20980b1c")
+	)
+	(label "SW29_A"
+		(at 162.56 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dabf8dc4-7dbb-5264-ac37-765abd754680")
+	)
+	(label "SW55_A"
+		(at 60.96 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd8fd087-75d6-52a9-ac7e-d099effecf19")
+	)
+	(label "SW23_A"
+		(at 213.36 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3189449-6d5e-5c0b-aa79-dc9fc0e6563b")
+	)
+	(label "SW59_A"
+		(at 162.56 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1acc54b-2fc0-54d5-aa4e-9495352b805d")
+	)
+	(label "SW54_A"
+		(at 213.36 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3094f5a-e5dd-5c38-aacd-a8046881e758")
+	)
+	(label "SW11_A"
+		(at 111.76 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7555630-0874-5250-a7a0-7176829dc034")
+	)
+	(label "SW26_A"
+		(at 111.76 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff15a1b3-9f04-565b-a44c-49dd7e28d8e7")
+	)
+	(hierarchical_label "COL0"
+		(shape bidirectional)
+		(at 45.72 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04bfe00e-0a50-573a-ae9e-05ac91a8d416")
+	)
+	(hierarchical_label "COL3"
+		(shape bidirectional)
+		(at 198.12 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7abcc64d-a96f-5919-a68c-f9c726e0b145")
+	)
+	(hierarchical_label "COL1"
+		(shape bidirectional)
+		(at 96.52 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8446ef1f-1d7f-54eb-a100-21c59f81c4c7")
+	)
+	(hierarchical_label "ROW5"
+		(shape bidirectional)
+		(at 25.4 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a1d807d-8039-5a95-aa23-464f587f6be9")
+	)
+	(hierarchical_label "ROW6"
+		(shape bidirectional)
+		(at 25.4 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bd68e7e-84d3-5ba6-a4e1-2594b808845a")
+	)
+	(hierarchical_label "COL2"
+		(shape bidirectional)
+		(at 147.32 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8eff9eb4-f237-5fa8-a259-20566b7cc0d4")
+	)
+	(hierarchical_label "ROW0"
+		(shape bidirectional)
+		(at 25.4 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9012e250-7ecd-54f0-ab81-a9daf8a2a45c")
+	)
+	(hierarchical_label "ROW4"
+		(shape bidirectional)
+		(at 25.4 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a36c64-aed9-5c74-a6c3-543e91dad818")
+	)
+	(hierarchical_label "ROW7"
+		(shape bidirectional)
+		(at 25.4 294.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7dd9c0f-09be-54a7-a115-252d386730eb")
+	)
+	(hierarchical_label "ROW3"
+		(shape bidirectional)
+		(at 25.4 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e88b3f1b-1762-54f3-ac9c-33e9f561c0af")
+	)
+	(hierarchical_label "ROW2"
+		(shape bidirectional)
+		(at 25.4 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edb8dcba-15bc-51a2-ad51-5f6032c9d99e")
+	)
+	(hierarchical_label "ROW1"
+		(shape bidirectional)
+		(at 25.4 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba3bdc9-9fdf-5301-a39d-5deb1579fbad")
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0610f697-e783-5bc1-a5d4-1fe1685ad199")
+		(property "Reference" "SW25"
+			(at 55.88 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 55.88 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36ef94cb-3697-5b43-a5bb-e2cde8fe4567")
+		)
+		(pin "2"
+			(uuid "37ef965e-3397-5684-a2bb-de08e5fe409c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 284.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a42d703-0cab-5da1-a270-061178b810e9")
+		(property "Reference" "D59"
+			(at 177.8 283.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "794cec9f-355d-5223-a81e-71fdd58b34b7")
+		)
+		(pin "2"
+			(uuid "7a4cee32-325d-5d64-a51e-6d38d28b2fec")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1032872f-e861-5c99-a418-f87957d1b031")
+		(property "Reference" "SW33"
+			(at 55.88 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 55.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e43448c3-e6d5-5d9b-a1b7-95c5bc8bf5df")
+		)
+		(pin "2"
+			(uuid "e5344a56-e3d5-58dc-aeb7-9100b98bf114")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15136b6a-d2fe-553e-adb7-1bd850e398d2")
+		(property "Reference" "D20"
+			(at 177.8 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77b5d83e-85b6-5a8c-a5f3-abd416152d0c")
+		)
+		(pin "2"
+			(uuid "76b5d6ab-88b6-5f4b-a8f3-b099191531d7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 284.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1926d20f-1d3c-52ed-a349-4d35b09c7c4d")
+		(property "Reference" "D55"
+			(at 76.2 283.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4695ca23-3be9-57e7-a152-0659e39ef2d3")
+		)
+		(pin "2"
+			(uuid "4795cbb6-38e9-5328-ae52-0194e09eee08")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a09136f-a8b0-597b-a757-60c13dc99267")
+		(property "Reference" "SW34"
+			(at 106.68 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57967483-4f25-5fc9-a556-692d3dd68ec9")
+		)
+		(pin "2"
+			(uuid "58967616-5026-515e-a256-64683ed69062")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cfe4f7f-05e1-55ab-a146-996950bcb147")
+		(property "Reference" "SW4"
+			(at 157.48 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 157.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20b46d13-d405-51b9-a973-2bf53cb43ea9")
+		)
+		(pin "2"
+			(uuid "21b46ea6-d505-534e-a673-27303db44042")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 223.52 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d6738fd-e216-5807-a95e-c357137c5d5f")
+		(property "Reference" "D23"
+			(at 228.6 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 228.6 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 223.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa072545-4b99-526d-a93d-57173311afa1")
+		)
+		(pin "2"
+			(uuid "f707208c-4c99-5402-aa3d-58ae3411b13a")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "279af1a4-a718-5c9c-aab3-41b204decb90")
+		(property "Reference" "SW59"
+			(at 157.48 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_2.25u"
+			(at 157.48 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af7ccda4-9fcb-593e-a86f-af6ab109f3ce")
+		)
+		(pin "2"
+			(uuid "b27cd25d-9ecb-57a9-a76f-add3b009f235")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 223.52 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2925ffae-7ad6-58bc-a830-9324491d31bc")
+		(property "Reference" "D15"
+			(at 228.6 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 228.6 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 223.52 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6e4273a-b31c-5bde-a006-8838f327acb2")
+		)
+		(pin "2"
+			(uuid "b5e425a7-b21c-5a49-a306-8cfdf227ab19")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 254 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2da0299b-7666-5bf7-a7b4-ad39700739d3")
+		(property "Reference" "D48"
+			(at 76.2 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26082a37-b9a6-5d5d-a9ee-df058cb26bfd")
+		)
+		(pin "2"
+			(uuid "27082bca-baa6-5ef2-a6ee-da408db26d96")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "366e8ec4-a784-5760-ae6a-893ad706ef04")
+		(property "Reference" "SW37"
+			(at 157.48 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1.25u"
+			(at 157.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cce1ec4-7e27-5d0a-a429-a1724a56903a")
+		)
+		(pin "2"
+			(uuid "6fce237d-7d27-5b75-a329-9fdb49568ea1")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38d9593a-1a71-5a10-a0e7-9dd0cb515c48")
+		(property "Reference" "D25"
+			(at 76.2 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56db0bce-3380-537a-a359-5ccc37efcd46")
+		)
+		(pin "2"
+			(uuid "55db0a3b-3280-51e5-a659-619136efcbad")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3db15ca4-5695-5ce2-a2fd-baaa5acef86a")
+		(property "Reference" "SW8"
+			(at 55.88 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5387e0a4-974c-5f98-ac6d-51e21ad15ba4")
+		)
+		(pin "2"
+			(uuid "5687e55d-9a4c-5457-ab6d-504b1dd1606f")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 223.52 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47a9d907-4cd0-5e2b-a8b0-5d2d6ea45447")
+		(property "Reference" "D30"
+			(at 228.6 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 228.6 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 223.52 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a6796bb-a462-5e39-a843-97f1b43fd1a9")
+		)
+		(pin "2"
+			(uuid "7b67984e-a562-5fce-a543-932cb53fd342")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 208.28 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49dd7730-30ff-549e-a5f6-49e6f5e5b4be")
+		(property "Reference" "SW30"
+			(at 208.28 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 208.28 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 208.28 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ba2f678-997f-5eec-a076-129617f384b0")
+		)
+		(pin "2"
+			(uuid "4ea2fb31-9c7f-53ab-af76-10ff1af3897b")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a46e1ac-d283-536a-aaf6-cfc2e99566c2")
+		(property "Reference" "SW16"
+			(at 55.88 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "034515ec-5611-5120-a83b-647aae9b2bfc")
+		)
+		(pin "2"
+			(uuid "06451aa5-5911-55df-a73b-62e3b19b30c7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b77ddc2-ab1d-5d06-aecc-f0a43765bca2")
+		(property "Reference" "SW1"
+			(at 55.88 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c3af1b6-a2cb-5fd4-a140-6db880ef255c")
+		)
+		(pin "2"
+			(uuid "2b3af023-a5cb-5493-a440-727d83ef2a27")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "528be090-3339-5e1e-a57a-5896431d0dce")
+		(property "Reference" "SW44"
+			(at 157.48 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 157.48 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19018ad8-04b6-546c-a17d-ed46bce200c0")
+		)
+		(pin "2"
+			(uuid "1c018f91-07b6-592b-a07d-ebafbfe2058b")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "530157bf-ae26-52e9-a3f3-ee6545ae7e19")
+		(property "Reference" "D3"
+			(at 127 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04bb31d3-316f-5d2b-a4a8-6a897ec159e7")
+		)
+		(pin "2"
+			(uuid "05bb3366-2e6f-586c-a1a8-65c47bc1551c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58a59ccd-f769-5c05-a227-0f8bcff3a831")
+		(property "Reference" "SW58"
+			(at 106.68 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1.5u"
+			(at 106.68 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "337df155-573b-5b5f-ae8e-879326f36ddf")
+		)
+		(pin "2"
+			(uuid "307dec9c-543b-56a0-af8e-892a23f36914")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b98ae3c-1781-5c8c-a7d7-c212be4f0bf0")
+		(property "Reference" "SW19"
+			(at 106.68 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 106.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e058a6bc-3cb1-556e-abd4-3c4a3269d32e")
+		)
+		(pin "2"
+			(uuid "e358ab75-3bb1-53d9-aad4-3ab33169d195")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 223.52 254 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c28d5f0-c1a0-5550-ad73-3732d70fe224")
+		(property "Reference" "D54"
+			(at 228.6 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 228.6 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 223.52 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f4812b8-3287-5d3a-af39-acea6180925a")
+		)
+		(pin "2"
+			(uuid "12481771-3187-5ba5-ae39-ab53608090c1")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6315a0f2-59ec-5842-a674-86286ef0e206")
+		(property "Reference" "D4"
+			(at 177.8 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93d773a6-95c9-5078-a162-82e4ef8eecf8")
+		)
+		(pin "2"
+			(uuid "92d77213-98c9-5537-a462-87a9f28ef1c3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65c1bebb-9de6-5877-a948-8609c174b963")
+		(property "Reference" "D26"
+			(at 127 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65c68f57-fa2c-5ddd-a718-fc9581f0d38d")
+		)
+		(pin "2"
+			(uuid "66c690ea-fb2c-5f72-a418-f7d082f0d526")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 208.28 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b56eff1-dd1e-565d-a6ba-487f19d365a1")
+		(property "Reference" "SW40"
+			(at 208.28 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 208.28 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e32ba8c1-be42-5157-a88a-a25f1835ee0f")
+		)
+		(pin "2"
+			(uuid "e02ba408-bb42-5c98-a98a-a3f61535e944")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 223.52 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d58539d-4201-549b-ae2c-ca1fbe6b2f13")
+		(property "Reference" "D7"
+			(at 228.6 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 228.6 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 223.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19ababe5-29b5-5369-aea4-2c7f32665cbd")
+		)
+		(pin "2"
+			(uuid "16aba72c-2ab5-54fe-afa4-2e1633665e56")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d6068a3-331c-56e5-a203-a7e9b0d5d75d")
+		(property "Reference" "D37"
+			(at 177.8 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64b980bf-d794-51bf-aeb6-f2755c3f8c63")
+		)
+		(pin "2"
+			(uuid "65b98252-d494-5d00-abb6-edb0593f8798")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72107268-fbff-5088-a94d-d31e92d67354")
+		(property "Reference" "SW55"
+			(at 55.88 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1.75u"
+			(at 55.88 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f11a9df0-5874-55d2-ac5a-692ecb2a05ca")
+		)
+		(pin "2"
+			(uuid "f41aa2a9-5774-543d-ab5a-6797ca2a0431")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 208.28 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78b730ea-db72-5f7a-a461-4094d29d51b6")
+		(property "Reference" "SW23"
+			(at 208.28 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 208.28 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1.25u"
+			(at 208.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f90f71be-26b1-55b0-aaf7-fb28da214628")
+		)
+		(pin "2"
+			(uuid "f80f702b-29b1-5a6f-adf7-ffeddd214af3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 208.28 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c0ef06b-4264-5ec5-a055-c86df11004ad")
+		(property "Reference" "SW47"
+			(at 208.28 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 208.28 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 208.28 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "691c9ec7-36e2-5c9f-a255-f7b116bc3e33")
+		)
+		(pin "2"
+			(uuid "6a1ca05a-33e2-57e0-af55-f2ec13bc3968")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fbce345-0fe8-5c73-a5ce-6aa76538d9cb")
+		(property "Reference" "D1"
+			(at 76.2 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4f1a5cd-0b7d-5261-a17a-c1a77b42d215")
+		)
+		(pin "2"
+			(uuid "b1f1a114-0c7d-53f6-a27a-c33e7c42d3ae")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9241a003-670a-576f-a46a-ec197ef057f3")
+		(property "Reference" "D8"
+			(at 76.2 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "510d6d9f-0404-5dd5-a7ea-45e53788d19d")
+		)
+		(pin "2"
+			(uuid "520d6f32-0504-5f6a-a4ea-41203888d336")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 223.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96d5c02f-59f9-5d19-a808-868dc4054c79")
+		(property "Reference" "D41"
+			(at 76.2 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41f5b9c3-80b0-521b-acec-8d518dae2747")
+		)
+		(pin "2"
+			(uuid "42f5bb56-7db0-5d5c-a9ec-888c8aae227c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 208.28 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "974cd703-b689-549d-a9f9-6a4d2a091a0d")
+		(property "Reference" "SW15"
+			(at 208.28 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 208.28 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 208.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e06ec9f-6306-5e17-a254-fd91e1342b13")
+		)
+		(pin "2"
+			(uuid "4f06ee32-6006-5958-af54-f8ccde342648")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 254 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99b435b0-f857-5da6-a4db-49e2768062c6")
+		(property "Reference" "D53"
+			(at 177.8 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65cfc0f8-9294-5e74-a3e6-321a37288138")
+		)
+		(pin "2"
+			(uuid "68cfc5b1-9594-5333-a2e6-30833a288603")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c19016c-a5b1-5eca-a711-e7ca54c22b8a")
+		(property "Reference" "SW48"
+			(at 55.88 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 55.88 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f2a392c-f2e7-5b80-af9e-2d820ebf4644")
+		)
+		(pin "2"
+			(uuid "322a3de5-f5e7-503f-ae9e-2beb11bf4b0f")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3366407-e75c-51f7-a768-b9d9774e8893")
+		(property "Reference" "SW20"
+			(at 157.48 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 157.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4737c9bb-cccd-535d-a80c-f0252bce2e3d")
+		)
+		(pin "2"
+			(uuid "4837cb4e-cdcd-54f2-a50c-eb602cce2fd6")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 223.52 223.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5ba6b26-ab62-5864-af74-b14416e2031c")
+		(property "Reference" "D47"
+			(at 228.6 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 228.6 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 223.52 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d1b1c32-e0cf-53a6-ad2d-50585c2ae212")
+		)
+		(pin "2"
+			(uuid "7c1b1a9f-dfcf-5211-a02d-551d5b2ae079")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 55.88 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aeedcf08-ab4e-5b14-a26b-ef46e8ada5c0")
+		(property "Reference" "SW41"
+			(at 55.88 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 55.88 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 55.88 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "732bb290-6acb-5456-a0fe-99f64cc1e4be")
+		)
+		(pin "2"
+			(uuid "762bb749-69cb-52c1-affe-985f4bc1e325")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af9f980b-402a-5545-a326-fcbd1714c3dd")
+		(property "Reference" "SW29"
+			(at 157.48 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 157.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88ec0067-cbab-571f-a21c-5a411031e0e3")
+		)
+		(pin "2"
+			(uuid "89ec01fa-c8ab-5260-af1c-557c0d31dc18")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 223.52 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0118910-b680-5efc-a1be-40aadbca11d0")
+		(property "Reference" "D40"
+			(at 228.6 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 228.6 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 223.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f815ef58-f909-5b9e-a0f6-f7e28d7bdd8e")
+		)
+		(pin "2"
+			(uuid "fb15f411-f809-5a09-aff6-f64b8c7bdbf5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 208.28 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b36f4e51-fdfb-5481-a4f2-92f7be4cf175")
+		(property "Reference" "SW54"
+			(at 208.28 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 208.28 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1.5u"
+			(at 208.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f3c64a1-2e07-5d83-abc7-0ab72488195b")
+		)
+		(pin "2"
+			(uuid "9c3c5fe8-2b07-58c4-acc7-0c4e21881490")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b77d87db-1b03-5ad7-a7e3-5a613c1221ab")
+		(property "Reference" "D16"
+			(at 76.2 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fca5a5f7-d666-5dbd-a01a-154deaec34f5")
+		)
+		(pin "2"
+			(uuid "fda5a78a-d766-5f52-ad1a-1088ebec368e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 254 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9f4a99a-f2f0-5d90-af0f-9f406757d238")
+		(property "Reference" "D51"
+			(at 127 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90fe9d2e-f2fa-52fa-aa69-db7c091b2876")
+		)
+		(pin "2"
+			(uuid "8ffe9b9b-f1fa-5165-ad69-e041081b26dd")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfa9a90c-a377-554a-a892-705aea632b7a")
+		(property "Reference" "SW26"
+			(at 106.68 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 106.68 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f504294c-87b0-5600-acb5-db926a90ccb4")
+		)
+		(pin "2"
+			(uuid "f8042e05-8ab0-5abf-abb5-d9fb6d90d17f")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0d120c2-845b-5468-abc5-de200eab5558")
+		(property "Reference" "D11"
+			(at 127 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aeb21cb6-ffaf-55b2-adfc-d5dc1beb1f96")
+		)
+		(pin "2"
+			(uuid "adb21b23-feaf-541d-a0fc-daa11aeb1dfd")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2e57711-fc30-52bf-a253-ba278eac7887")
+		(property "Reference" "SW53"
+			(at 157.48 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1.25u"
+			(at 157.48 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e31945e1-81d9-5265-ac5a-f9276b321869")
+		)
+		(pin "2"
+			(uuid "e0194128-82d9-53fa-ad5a-fabe6c321a02")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c893a44f-68aa-5039-a0e0-c8b106347e49")
+		(property "Reference" "SW11"
+			(at 106.68 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fb4bde3-47de-50bb-a14a-a89ddc5ac617")
+		)
+		(pin "2"
+			(uuid "80b4bf76-44de-5bfc-ae4a-a3d8d95ac14c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 157.48 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c985b951-2ec4-5d5f-ab2c-51afea2a44cf")
+		(property "Reference" "SW13"
+			(at 157.48 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 157.48 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 157.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "434777a1-2c4f-5f85-aa4b-230f76de4651")
+		)
+		(pin "2"
+			(uuid "404772e8-2d50-511a-ab4b-24a677de47ea")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 223.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9fc7de7-2550-51ab-ad49-fb5d732be3b7")
+		(property "Reference" "D44"
+			(at 177.8 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5adc29b-63dc-5db9-a614-81e1bd442699")
+		)
+		(pin "2"
+			(uuid "a6adc42e-64dc-5f4e-a314-7d1cbe442832")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cac29a77-e9bd-5541-abe4-16d17dfb1269")
+		(property "Reference" "SW51"
+			(at 106.68 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1.25u"
+			(at 106.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43a4c7ab-a1ce-50c3-a78e-783dfb6f2e37")
+		)
+		(pin "2"
+			(uuid "44a4c93e-9ece-5c04-a48e-7378f86f296c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dddd9346-d2e2-54e4-a7d3-fed4cc1b702c")
+		(property "Reference" "D29"
+			(at 177.8 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23e5c3d2-2156-5426-ae20-ade8c891f2e2")
+		)
+		(pin "2"
+			(uuid "22e5c23f-2056-5291-a120-b2adc791f149")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de6c8dd8-2953-5b04-a61a-920e6ffd8820")
+		(property "Reference" "SW3"
+			(at 106.68 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87708460-d265-5846-aa6e-2f1e095a061e")
+		)
+		(pin "2"
+			(uuid "8a708919-d165-56b1-a96e-2d87085a0485")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 284.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1c35684-110d-5424-aab4-092eea3f5740")
+		(property "Reference" "D58"
+			(at 127 283.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbe95c04-b522-53e6-a012-703e5d1b8e3e")
+		)
+		(pin "2"
+			(uuid "fee960bd-b422-5251-af12-6ea75c1b8ca5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 223.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2b17061-bfb3-5217-a470-c8d3d39d7957")
+		(property "Reference" "D43"
+			(at 127 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4f9fcf1-a6a1-5b7d-a87a-963b8b769cb9")
+		)
+		(pin "2"
+			(uuid "c1f9f838-a7a1-5d12-a97a-97d28c769e52")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3f61862-d46d-5672-a71b-aeb0b62bbfe6")
+		(property "Reference" "D34"
+			(at 127 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd4406d6-ae8e-5428-af12-54acd8bcc9d8")
+		)
+		(pin "2"
+			(uuid "fc440543-b18e-58e7-a212-5971dbbccea3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 172.72 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4279ef0-76d6-5186-aae4-a11aec3e9d2e")
+		(property "Reference" "D13"
+			(at 177.8 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 177.8 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 172.72 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e70893b8-2123-5854-ac66-08d242e2dd20")
+		)
+		(pin "2"
+			(uuid "ea089871-2423-5d13-ab66-073b45e2e1eb")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 208.28 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0af3e0a-e0ca-59ae-aa36-134ca610444a")
+		(property "Reference" "SW7"
+			(at 208.28 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 208.28 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 208.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fef56de-9cb4-5f3c-a09b-da60e62ef284")
+		)
+		(pin "2"
+			(uuid "3eef554b-9fb4-53fb-a39b-df25e92ef74f")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SW")
+		(at 106.68 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0e59536-b0a7-5f2a-afc0-0e8864fa3b2e")
+		(property "Reference" "SW43"
+			(at 106.68 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 106.68 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:MX_Hotswap_1u"
+			(at 106.68 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90f6fa82-94d7-5f60-ae58-a744ba89db20")
+		)
+		(pin "2"
+			(uuid "8ff6f8ef-97d7-541f-a158-ac09bd89dfeb")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 71.12 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2c7fe22-b2ec-5d88-a8c0-7f7865e29f40")
+		(property "Reference" "D33"
+			(at 76.2 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 76.2 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 71.12 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6aae0b16-7df3-5ad2-a79e-b374bddd563e")
+		)
+		(pin "2"
+			(uuid "69ae0983-7cf3-593d-aa9e-b839bcdd54a5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:D")
+		(at 121.92 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffe2ce6b-aea1-5eb1-adb2-7271bebb8689")
+		(property "Reference" "D19"
+			(at 127 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 127 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:SOD123"
+			(at 121.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33618cc7-e4ed-52b3-aaac-f7ddfdd332d7")
+		)
+		(pin "2"
+			(uuid "34618e5a-e1ed-5df4-a7ac-f318fad32e0c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

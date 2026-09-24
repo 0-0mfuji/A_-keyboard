@@ -1,0 +1,32 @@
+tilt 4.0 deg, bottom plane: 7.80 below PCB at the front, 17.38 at the back
+ball centre z=17.05 (PCB frame), top z=34.05
+left case:
+  keyboard_left                            OK (no interference)
+  xiao_left                                OK (no interference)
+  power_switch_left                        OK (no interference)
+  battery_401230_left                      OK (no interference)
+  keycaps_left                             OK (no interference)
+right case:
+  keyboard_right                           OK (no interference)
+  xiao_right                               OK (no interference)
+  power_switch_right                       OK (no interference)
+  battery_401230_right                     OK (no interference)
+  keycaps_right                            OK (no interference)
+  case_right vs seiboku_board              OK (no interference)
+  case_right vs pmw3610                    OK (no interference)
+  case_right vs lm18_lens_envelope         OK (no interference)
+  case_right vs trackball_34mm             OK (no interference)
+  case_right vs trackball_collar           OK (no interference)
+  cover vs keyboard_right                  OK (no interference)
+  cover vs keycaps_right                   OK (no interference)
+  cover vs trackball_34mm                  OK (no interference)
+  cover vs magnets_6x3                     OK (no interference)
+  case_right vs magnets_6x3                OK (no interference)
+  ball vs lens                             OK (no interference)
+  lens vs SEIBOKU parts (expected: board cut-out only) OK (no interference)
+  ball-to-lens gap 1.80 mm, ball-to-ceramic contact gap 0.000 mm
+  ball retained: cover lip opening dia 33.50 mm (< 34) at 3.9 mm above the equator; ball shows 12.6 mm above the cover
+  collar gap to ball 0.20 mm
+left: 156.9 x 147.4 mm, case height front 16.2 / back 25.8 mm, keycap envelope top 41.7 mm
+right: 155.1 x 144.3 mm, case height front 16.4 / back 25.7 mm, keycap envelope top 41.7 mm
+right: ball top 43.6 mm above desk, collar top 32.2 mm

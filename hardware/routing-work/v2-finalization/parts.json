@@ -1,0 +1,13 @@
+{
+ "100nF": {"mpn":"CC0603KRX7R9BB104","lcsc":"C14663","spec":"100nF 50V X7R 0603"},
+ "10uF": {"mpn":"CL10A106KP8NNNC","lcsc":"C19702","spec":"10uF 10V X5R 0603"},
+ "22uF": {"mpn":"LDK107BBJ226MA-T","lcsc":"C337440","spec":"22uF 10V X5R 0603"},
+ "100uF": {"mpn":"CL31A107MQHNNNE","lcsc":"C15008","spec":"100uF 6.3V X5R 1206"},
+ "100k": {"mpn":"0603WAF1003T5E","lcsc":"C25803","spec":"100k 1% 0603"},
+ "220R": {"mpn":"0603WAF2200T5E","lcsc":"C22962","spec":"220 ohm 1% 0603"},
+ "732k": {"mpn":"0603WAF7323T5E","lcsc":"C23239","spec":"732k 1% 0603"},
+ "1N4148W": {"mpn":"1N4148W","lcsc":"C81598","spec":"SOD-123 ST(Semtech)"},
+ "SN74AHCT1G125": {"mpn":"SN74AHCT1G125DBVR","lcsc":"C7484","spec":"SOT-23-5 Texas Instruments"},
+ "TPS61023": {"mpn":"TPS61023DRLR","lcsc":"C919459","spec":"SOT-563 Texas Instruments"},
+ "1uH": {"mpn":"WIP252010S-1R0ML","lcsc":"C964117","spec":"1uH 3.1A Isat4A 1008 INPAQ"}
+}

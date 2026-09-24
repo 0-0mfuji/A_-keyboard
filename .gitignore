@@ -1,0 +1,66 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# FreeCAD backup files
+*.FCStd1
+*.FCStd2
+*.bak
+*.bck
+
+# Firmware build artifacts (ZMK / Zephyr)
+build/
+*.hex
+*.uf2
+*.bin
+*.out
+*.map
+
+# General temporary files
+*.log
+*.tmp
+*.swp
+*~
+.vscode/
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# KiCad
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.sch-bak
+*.lck
+*.kicad_prl
+*-backups/
+fp-info-cache
+
+# FreeCAD autosave/backup (timestamped .FCBak, distinct from *.bak/*.bck above)
+*.FCBak
+
+# VS Code local history
+.history/
+
+# Local toolchains downloaded/built during routing work (JDK, venv, freerouting.jar)
+hardware/routing-work/tools/
+
+# MCP Server
+freecad-mcp/
+
+# Local MCP Config
+.mcp.json
+
+# Agent
+.agents
+
+# Nested vendor checkout metadata and vendor-local build output
+hardware/vendor/siderakb-pmw3610-pcb/.git/
+hardware/vendor/siderakb-pmw3610-pcb/firmware/build/
+senser/BOB-PMW3610-SEIBOKU/.git/

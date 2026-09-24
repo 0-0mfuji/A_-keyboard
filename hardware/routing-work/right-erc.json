@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T19:44:26",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a",
+            "violations": [
+                {
+                    "description": "未接続の配線終端",
+                    "items": [
+                        {
+                            "description": "水平ワイヤー, 長さ 0.1016 mm",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.5494
+                            },
+                            "uuid": "dba11978-c87d-5730-a9f8-5afe6af708ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        },
+        {
+            "path": "/controller/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/7336e07c-10dd-58bc-a234-00ce4bc19058",
+            "violations": []
+        },
+        {
+            "path": "/matrix/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/35a73ff5-07fa-5ab7-a4bf-ca07155254b7",
+            "violations": []
+        },
+        {
+            "path": "/power/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/188b2ab5-b899-55fb-abc1-feb3f8140873",
+            "violations": []
+        },
+        {
+            "path": "/rgb/",
+            "uuid_path": "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913",
+            "violations": []
+        }
+    ],
+    "source": "keyboard.kicad_sch"
+}

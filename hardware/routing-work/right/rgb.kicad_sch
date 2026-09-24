@@ -1,0 +1,7952 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f2b671bf-2914-509f-a2a4-6951b26a8913")
+	(paper "User" 420 623.4)
+	(title_block
+		(title "Addressable RGB LED chains")
+		(rev "2")
+		(comment 1 "Initial placement - hardware not tested")
+	)
+	(lib_symbols
+		(symbol "Keyboard:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Keyboard:SK6812MINI_E_BL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINI_E_BL"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SK6812MINI_E_BL_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI_E_BL_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "ADDRESSABLE RGB / data flows left to right. Each LED has its own 100nF bypass capacitor."
+		(exclude_from_sim no)
+		(at 25.4 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b4c4a78-51f2-5ec8-afd1-7af2df92a44c")
+	)
+	(text "RIGHT / 28 LEDs"
+		(exclude_from_sim no)
+		(at 25.4 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebc2e15f-1b7c-5cc7-a1a5-8791236a7a9b")
+	)
+	(no_connect
+		(at 213.36 467.36)
+		(uuid "13f7a82e-1a23-5678-a080-2978e7d0cc48")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034c6549-1842-5675-aede-8aef76f00c61")
+	)
+	(wire
+		(pts
+			(xy 137.16 401.32) (xy 137.16 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0397d955-a7f0-5cd3-a184-0e4b8c7548cb")
+	)
+	(wire
+		(pts
+			(xy 335.28 96.52) (xy 335.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b7fc5e-2508-5ea4-a1d8-1df8837638ac")
+	)
+	(wire
+		(pts
+			(xy 137.16 457.2) (xy 137.16 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a80ce90-80b8-55c4-a9ca-fd567705a730")
+	)
+	(wire
+		(pts
+			(xy 60.96 467.36) (xy 53.34 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd64ac1-c5f5-5a23-a9fd-15a7c0a136e3")
+	)
+	(wire
+		(pts
+			(xy 335.28 152.4) (xy 335.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce06451-5a45-5f29-a02d-291fe85f7c75")
+	)
+	(wire
+		(pts
+			(xy 137.16 477.52) (xy 137.16 482.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f8024f-ddeb-5517-a776-5811823d98f3")
+	)
+	(wire
+		(pts
+			(xy 93.98 292.1) (xy 93.98 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143e7679-b41d-5a73-a33b-81efd02c65db")
+	)
+	(wire
+		(pts
+			(xy 160.02 292.1) (xy 160.02 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156d4eb9-d45d-5521-a987-bb47ade3204d")
+	)
+	(wire
+		(pts
+			(xy 226.06 129.54) (xy 226.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15913701-ef1e-581b-ac23-bb07fd3aa47b")
+	)
+	(wire
+		(pts
+			(xy 213.36 391.16) (xy 259.08 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a37e54-2f8a-5668-acde-7fde66a7362c")
+	)
+	(wire
+		(pts
+			(xy 226.06 281.94) (xy 226.06 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19066b69-3ac8-52d1-ae33-890fbd7a32dd")
+	)
+	(wire
+		(pts
+			(xy 147.32 314.96) (xy 193.04 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6dc421-17c0-5df7-ab45-3d5bd4dacdef")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2a3f89-c31a-56e9-aba4-0a27b92cdf35")
+	)
+	(wire
+		(pts
+			(xy 279.4 391.16) (xy 325.12 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2cdcdf-e4ae-5e35-a90a-4d85f4130fd5")
+	)
+	(wire
+		(pts
+			(xy 292.1 358.14) (xy 292.1 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc886c1-524e-5c4b-aefb-c7bf7362feb3")
+	)
+	(wire
+		(pts
+			(xy 213.36 238.76) (xy 259.08 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef722ac-b856-5650-a439-f7e6addec5f4")
+	)
+	(wire
+		(pts
+			(xy 269.24 381) (xy 269.24 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1e054e-da25-5104-a68f-1e0806231acc")
+	)
+	(wire
+		(pts
+			(xy 335.28 401.32) (xy 335.28 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bdef06-3cc3-5c2c-a6d0-ec18d75dc9cc")
+	)
+	(wire
+		(pts
+			(xy 269.24 248.92) (xy 269.24 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bf6542-daff-54f8-a038-369c1af7af78")
+	)
+	(wire
+		(pts
+			(xy 345.44 162.56) (xy 353.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220b0b94-6bfa-55c4-a715-f5425554f430")
+	)
+	(wire
+		(pts
+			(xy 60.96 314.96) (xy 53.34 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225c6a1f-f9ba-5705-a81b-38797c775575")
+	)
+	(wire
+		(pts
+			(xy 269.24 325.12) (xy 269.24 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22dd8def-75d3-56cb-a3fc-d9b920767367")
+	)
+	(wire
+		(pts
+			(xy 292.1 215.9) (xy 292.1 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284fce65-548e-518f-ad3c-d9030f1cb257")
+	)
+	(wire
+		(pts
+			(xy 203.2 381) (xy 203.2 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2961823d-7582-570b-aa39-6d4b46e6cd4b")
+	)
+	(wire
+		(pts
+			(xy 269.24 304.8) (xy 269.24 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29de4d30-4b01-5938-a183-f93e409312a4")
+	)
+	(wire
+		(pts
+			(xy 345.44 86.36) (xy 353.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3151367c-d4dd-5e7a-acce-7f9a4f9d916a")
+	)
+	(wire
+		(pts
+			(xy 137.16 325.12) (xy 137.16 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a419fe-e9bc-5736-aa36-9e0894cf0202")
+	)
+	(wire
+		(pts
+			(xy 203.2 401.32) (xy 203.2 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a2c622-f512-5678-ae93-f70c694a4808")
+	)
+	(wire
+		(pts
+			(xy 358.14 281.94) (xy 358.14 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391483b2-a3ec-5186-a35b-49e489d7388a")
+	)
+	(wire
+		(pts
+			(xy 137.16 152.4) (xy 137.16 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db726b5-5d13-51c3-abb0-6aab61ea0c2b")
+	)
+	(wire
+		(pts
+			(xy 292.1 281.94) (xy 292.1 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea7ff57-a2d4-5ed7-af54-80e1e1fe9c7b")
+	)
+	(wire
+		(pts
+			(xy 160.02 358.14) (xy 160.02 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f60c925-ece6-59af-aba5-794b338bab37")
+	)
+	(wire
+		(pts
+			(xy 292.1 368.3) (xy 292.1 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417eb246-277c-5eb8-a672-2c406a873bf0")
+	)
+	(wire
+		(pts
+			(xy 335.28 325.12) (xy 335.28 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43149c3a-433d-5b62-aff3-f6fcc961f3c6")
+	)
+	(wire
+		(pts
+			(xy 81.28 238.76) (xy 127 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441be701-ba4f-5181-a3a6-353f00b5b6dd")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453721e9-d597-5db1-a4c9-8e7fce4dbead")
+	)
+	(wire
+		(pts
+			(xy 71.12 401.32) (xy 71.12 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455f25fb-2e10-5407-ad16-58dddbc0e52b")
+	)
+	(wire
+		(pts
+			(xy 147.32 391.16) (xy 193.04 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461c6495-02e2-5ca3-afbf-a61721b9a4cb")
+	)
+	(wire
+		(pts
+			(xy 137.16 172.72) (xy 137.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a9029a-7e83-5c30-a696-596cda7eb168")
+	)
+	(wire
+		(pts
+			(xy 93.98 129.54) (xy 93.98 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d23b00-7d5f-5fc6-aa7f-dee67d27df46")
+	)
+	(wire
+		(pts
+			(xy 213.36 314.96) (xy 259.08 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a561140-c3c8-597c-a8b4-9382fabd9cd0")
+	)
+	(wire
+		(pts
+			(xy 137.16 96.52) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a61410e-e4b6-52e6-a035-8970a1650362")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 203.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1e5cb1-8e09-59ad-acbe-8fffe8191421")
+	)
+	(wire
+		(pts
+			(xy 292.1 139.7) (xy 292.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1f56f6-191a-54ce-a73f-67f82de1faea")
+	)
+	(wire
+		(pts
+			(xy 226.06 139.7) (xy 226.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53941786-8422-50c8-a24b-6d48dbe5a8f8")
+	)
+	(wire
+		(pts
+			(xy 60.96 86.36) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54062474-5cf3-57d8-a663-597264840ee4")
+	)
+	(wire
+		(pts
+			(xy 93.98 434.34) (xy 93.98 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f068c0-78a0-5ab6-a3e6-cfce3ec0682e")
+	)
+	(wire
+		(pts
+			(xy 71.12 304.8) (xy 71.12 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a47339-ceec-5007-a5e9-623fc9ad89f7")
+	)
+	(wire
+		(pts
+			(xy 358.14 358.14) (xy 358.14 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e84a36-dac3-5d28-a9a4-4ef830144600")
+	)
+	(wire
+		(pts
+			(xy 345.44 314.96) (xy 353.06 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595041b0-50a3-590c-ace2-2c0652285bc0")
+	)
+	(wire
+		(pts
+			(xy 160.02 129.54) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adad892-7e08-5444-ac4f-5df432e58864")
+	)
+	(wire
+		(pts
+			(xy 71.12 152.4) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cde0387-df57-57b1-a44c-96c90a554689")
+	)
+	(wire
+		(pts
+			(xy 226.06 292.1) (xy 226.06 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da0de2e-032d-5c42-a75e-e1102980ed5e")
+	)
+	(wire
+		(pts
+			(xy 226.06 205.74) (xy 226.06 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fce861-1205-52cb-ac01-092ff3e73b03")
+	)
+	(wire
+		(pts
+			(xy 269.24 96.52) (xy 269.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6663e701-4ed4-520f-a6f4-39a7d4673a6f")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 127 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6776e31d-d6b7-5bbd-a728-d5eb060bb611")
+	)
+	(wire
+		(pts
+			(xy 292.1 53.34) (xy 292.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67980ac9-72c4-5253-a461-291f7be62593")
+	)
+	(wire
+		(pts
+			(xy 160.02 444.5) (xy 160.02 449.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b835f8-0dd0-5ef8-adb9-4deea284c6ac")
+	)
+	(wire
+		(pts
+			(xy 93.98 358.14) (xy 93.98 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7e447b-813a-5fdb-a2b3-c4ed58fbb717")
+	)
+	(wire
+		(pts
+			(xy 203.2 172.72) (xy 203.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6cd649-b1ff-55c7-a252-f91f21f37b67")
+	)
+	(wire
+		(pts
+			(xy 147.32 467.36) (xy 193.04 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcfda14-b7f1-5996-a9bf-aafe988bbc4e")
+	)
+	(wire
+		(pts
+			(xy 213.36 162.56) (xy 259.08 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712903f3-619e-51b7-adde-2e7d9f4a9c83")
+	)
+	(wire
+		(pts
+			(xy 81.28 467.36) (xy 127 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7259389f-ed14-56e3-a72f-0125a4b010f7")
+	)
+	(wire
+		(pts
+			(xy 137.16 304.8) (xy 137.16 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735ee0f9-0151-5305-a697-93c7963f2681")
+	)
+	(wire
+		(pts
+			(xy 81.28 314.96) (xy 127 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754598f6-41fc-5fca-aec8-27d4c7c108a6")
+	)
+	(wire
+		(pts
+			(xy 60.96 391.16) (xy 53.34 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b863ea-4149-5f36-aaa9-c2f4f552d32a")
+	)
+	(wire
+		(pts
+			(xy 292.1 292.1) (xy 292.1 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb6a518-4322-5b84-a104-2966c0a9a0f8")
+	)
+	(wire
+		(pts
+			(xy 160.02 368.3) (xy 160.02 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c179ca-698b-55dc-a000-030c2853b974")
+	)
+	(wire
+		(pts
+			(xy 203.2 248.92) (xy 203.2 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81eeac29-1fc5-52d7-a810-2d17ef7dc77f")
+	)
+	(wire
+		(pts
+			(xy 335.28 248.92) (xy 335.28 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83116475-8ddd-5b53-a247-ae1b8639dbbb")
+	)
+	(wire
+		(pts
+			(xy 71.12 457.2) (xy 71.12 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848e59c7-305e-5f41-a441-59212e2c0421")
+	)
+	(wire
+		(pts
+			(xy 226.06 63.5) (xy 226.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a53d9e-91aa-5c92-a982-d2a870dd793e")
+	)
+	(wire
+		(pts
+			(xy 226.06 215.9) (xy 226.06 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8738aae6-e733-5538-a215-a5b01403da40")
+	)
+	(wire
+		(pts
+			(xy 71.12 477.52) (xy 71.12 482.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b22ec8-ff48-5fb2-a36b-87a66c9a8422")
+	)
+	(wire
+		(pts
+			(xy 160.02 53.34) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d194ae-a857-5a22-aec5-6d00f4102aee")
+	)
+	(wire
+		(pts
+			(xy 358.14 139.7) (xy 358.14 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b211561-588e-5ffd-ab9d-0bcfd947ff19")
+	)
+	(wire
+		(pts
+			(xy 93.98 215.9) (xy 93.98 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c16797a-1fe5-5bea-ae4f-1324235c8fee")
+	)
+	(wire
+		(pts
+			(xy 71.12 172.72) (xy 71.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c427c88-b218-5422-a389-754e19c393ca")
+	)
+	(wire
+		(pts
+			(xy 335.28 304.8) (xy 335.28 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc834d5-dfd3-59f1-ae1f-4cfb8898ddc5")
+	)
+	(wire
+		(pts
+			(xy 160.02 281.94) (xy 160.02 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eac58be-98eb-5292-ad26-c588bd516d8e")
+	)
+	(wire
+		(pts
+			(xy 160.02 215.9) (xy 160.02 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9608a0fe-b7b4-5c46-af81-aa905f213342")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96efc95e-0da6-5d3c-ae85-30602d07be0c")
+	)
+	(wire
+		(pts
+			(xy 71.12 248.92) (xy 71.12 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d78d425-ee58-5e35-a958-34f389828df1")
+	)
+	(wire
+		(pts
+			(xy 147.32 238.76) (xy 193.04 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef3bbd6-65cc-5554-a5e5-9738743f4dd4")
+	)
+	(wire
+		(pts
+			(xy 226.06 53.34) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f759d19-cd1c-5f21-aef4-a7671b2944bd")
+	)
+	(wire
+		(pts
+			(xy 71.12 381) (xy 71.12 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00edf1c-58ee-5c74-a653-25e254558a68")
+	)
+	(wire
+		(pts
+			(xy 269.24 76.2) (xy 269.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a466c786-683a-59bc-ad1a-54e8f6c91c2c")
+	)
+	(wire
+		(pts
+			(xy 226.06 434.34) (xy 226.06 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5420d92-f62c-5c6a-aa1d-c3ec88b121be")
+	)
+	(wire
+		(pts
+			(xy 335.28 228.6) (xy 335.28 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54ff55a-f50c-5780-a41c-581c628a4a38")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 203.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9904676-e936-53de-a6ba-6e8026879422")
+	)
+	(wire
+		(pts
+			(xy 358.14 129.54) (xy 358.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5cd7e6-5296-5e2e-a00c-5cd03156c99a")
+	)
+	(wire
+		(pts
+			(xy 93.98 53.34) (xy 93.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcf52fd-67bb-5725-a7d6-22d344aa5c39")
+	)
+	(wire
+		(pts
+			(xy 292.1 63.5) (xy 292.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeace68e-d9f3-5e80-a76f-7da089915cd0")
+	)
+	(wire
+		(pts
+			(xy 292.1 205.74) (xy 292.1 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3c450a-6df4-593c-ab1f-f1841cc65094")
+	)
+	(wire
+		(pts
+			(xy 160.02 139.7) (xy 160.02 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b192d0ed-db3c-5397-ac37-9473294fe327")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 203.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b481b20e-d001-5234-a561-4da042101aa4")
+	)
+	(wire
+		(pts
+			(xy 60.96 238.76) (xy 53.34 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b704f47c-2be8-5be4-a519-6162357bdb30")
+	)
+	(wire
+		(pts
+			(xy 203.2 325.12) (xy 203.2 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7443921-4aae-507d-a4c7-2e77ae342741")
+	)
+	(wire
+		(pts
+			(xy 358.14 368.3) (xy 358.14 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7669671-7b04-5efb-a391-eef70d9d10c3")
+	)
+	(wire
+		(pts
+			(xy 137.16 381) (xy 137.16 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e440ba-0f1f-5900-a5de-980caed8c388")
+	)
+	(wire
+		(pts
+			(xy 269.24 152.4) (xy 269.24 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6efa1e-5b29-5102-acf6-b970115196b6")
+	)
+	(wire
+		(pts
+			(xy 279.4 86.36) (xy 325.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0526ab4-179e-5316-a498-f792c646a47e")
+	)
+	(wire
+		(pts
+			(xy 81.28 391.16) (xy 127 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c055080a-cdbf-5f56-a1ff-d390149fdf82")
+	)
+	(wire
+		(pts
+			(xy 147.32 162.56) (xy 193.04 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24eb7f2-0234-5a10-aa0a-c7a4789fdc68")
+	)
+	(wire
+		(pts
+			(xy 279.4 238.76) (xy 325.12 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41f4dd7-8cd9-57fd-a158-d1ad3b9be77d")
+	)
+	(wire
+		(pts
+			(xy 93.98 444.5) (xy 93.98 449.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5138c7f-9034-5685-a4a9-f1492cc4a9ed")
+	)
+	(wire
+		(pts
+			(xy 137.16 228.6) (xy 137.16 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c557a556-68b3-5d8a-ad0a-a7f806ee6efe")
+	)
+	(wire
+		(pts
+			(xy 213.36 86.36) (xy 259.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c618fdbf-4cc1-5063-a115-419953b27e27")
+	)
+	(wire
+		(pts
+			(xy 93.98 368.3) (xy 93.98 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62dfd9c-6e5e-5988-a5d2-5d3239cbd554")
+	)
+	(wire
+		(pts
+			(xy 203.2 228.6) (xy 203.2 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c901f4ee-c013-5f84-a055-a7180e07707c")
+	)
+	(wire
+		(pts
+			(xy 358.14 292.1) (xy 358.14 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca23a88d-e1d1-5315-a343-80636414cc49")
+	)
+	(wire
+		(pts
+			(xy 60.96 162.56) (xy 53.34 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad93f81-20d0-5713-a15e-c0cf16842bcb")
+	)
+	(wire
+		(pts
+			(xy 71.12 325.12) (xy 71.12 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee37d3e-f9cb-5874-ad5f-c6c0d4cb5034")
+	)
+	(wire
+		(pts
+			(xy 71.12 96.52) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc7337d-5473-5009-a192-e503c87936e5")
+	)
+	(wire
+		(pts
+			(xy 160.02 205.74) (xy 160.02 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c367f9-8644-57d5-a656-528f8d6e09c1")
+	)
+	(wire
+		(pts
+			(xy 93.98 281.94) (xy 93.98 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d583af7e-1e91-5520-a492-8070027cbcd8")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 93.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65edee2-5026-5b56-aca9-f35497d11fba")
+	)
+	(wire
+		(pts
+			(xy 93.98 205.74) (xy 93.98 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c87f15-b650-5cf9-a06a-63a3fd9a23ad")
+	)
+	(wire
+		(pts
+			(xy 269.24 172.72) (xy 269.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73f5999-eae1-5e91-ab9f-baefbe1718b5")
+	)
+	(wire
+		(pts
+			(xy 226.06 358.14) (xy 226.06 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7418b6a-ae3d-52bc-a9c2-12945dbde784")
+	)
+	(wire
+		(pts
+			(xy 335.28 172.72) (xy 335.28 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d842e496-1173-529a-a33b-7da027d4e576")
+	)
+	(wire
+		(pts
+			(xy 358.14 215.9) (xy 358.14 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d921a7ea-2942-5c5c-a36a-993c4132a644")
+	)
+	(wire
+		(pts
+			(xy 358.14 53.34) (xy 358.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c6a69e-a09d-50b0-a10f-5a58955d28e0")
+	)
+	(wire
+		(pts
+			(xy 203.2 304.8) (xy 203.2 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf8d1a6-44b6-5eae-aad9-8e787fe750c2")
+	)
+	(wire
+		(pts
+			(xy 203.2 457.2) (xy 203.2 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde50bb5-4d9f-530d-a384-2e1308ab8451")
+	)
+	(wire
+		(pts
+			(xy 71.12 228.6) (xy 71.12 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded984ca-1fc7-52a6-a96f-fe74dcbea4f2")
+	)
+	(wire
+		(pts
+			(xy 345.44 238.76) (xy 353.06 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c8598f-a2ba-58dd-a8cf-7fa18a552ebd")
+	)
+	(wire
+		(pts
+			(xy 335.28 381) (xy 335.28 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bb0e81-65a8-5f7f-ae8b-72175ec9248f")
+	)
+	(wire
+		(pts
+			(xy 203.2 477.52) (xy 203.2 482.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d6e79a-ab4c-563e-a3ee-57945be60252")
+	)
+	(wire
+		(pts
+			(xy 226.06 368.3) (xy 226.06 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70a5345-94d7-5b0f-a957-e913fb680dc7")
+	)
+	(wire
+		(pts
+			(xy 93.98 139.7) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7aed8bf-4bef-5b55-a8d0-36613c5ec945")
+	)
+	(wire
+		(pts
+			(xy 358.14 205.74) (xy 358.14 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ea6fc5-ac9d-502f-a5ff-963bc8871487")
+	)
+	(wire
+		(pts
+			(xy 137.16 248.92) (xy 137.16 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97ec511-6f39-5f19-a6f8-47f7c7c1347d")
+	)
+	(wire
+		(pts
+			(xy 279.4 162.56) (xy 325.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec010b28-8bdb-538a-a01e-5bf613257b5a")
+	)
+	(wire
+		(pts
+			(xy 269.24 401.32) (xy 269.24 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed778189-39d7-5457-a2f0-13c78d8e758f")
+	)
+	(wire
+		(pts
+			(xy 279.4 314.96) (xy 325.12 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7e3c6b-793b-5329-a5d3-6d49873405d9")
+	)
+	(wire
+		(pts
+			(xy 345.44 391.16) (xy 353.06 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f055b8c4-39b8-5182-ac7d-783aa383898a")
+	)
+	(wire
+		(pts
+			(xy 292.1 129.54) (xy 292.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ad6d31-afbe-509d-a12d-07f71be4a3a9")
+	)
+	(wire
+		(pts
+			(xy 358.14 63.5) (xy 358.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3970619-7f2d-5643-aafc-fa573305b623")
+	)
+	(wire
+		(pts
+			(xy 335.28 76.2) (xy 335.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6494ad9-7ef6-5f77-abc5-bdf7611456ef")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f856bf62-15fd-567a-af75-fd84b0b4f366")
+	)
+	(wire
+		(pts
+			(xy 269.24 228.6) (xy 269.24 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faaa425d-5b70-558b-ae63-8c9b3c4caafb")
+	)
+	(wire
+		(pts
+			(xy 226.06 444.5) (xy 226.06 449.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfa05ed-8c98-5d79-af37-d52b32fced3d")
+	)
+	(wire
+		(pts
+			(xy 160.02 434.34) (xy 160.02 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe4e837-8e41-5f8b-acd8-bae98022e4ef")
+	)
+	(label "RGB_LED_right_6"
+		(at 149.86 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02b6f759-ec1e-5e67-ac88-2d6f3ac94ec7")
+	)
+	(label "RGB_LED_right_19"
+		(at 353.06 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a6af880-1abc-580e-a582-cfd299bb1a4e")
+	)
+	(label "RGB_LED_right_18"
+		(at 281.94 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b9b004c-b418-5766-ae80-7be64d22c2f6")
+	)
+	(label "RGB_LED_right_4"
+		(at 353.06 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11b7340c-88ba-5108-ad49-956686f2ee64")
+	)
+	(label "RGB_LED_right_20"
+		(at 83.82 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15627021-e1fb-5aa1-acd2-8f635a845fcd")
+	)
+	(label "RGB_LED_right_24"
+		(at 353.06 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "276e8f24-b0b6-5670-a794-bc061b602444")
+	)
+	(label "RGB_LED_right_15"
+		(at 83.82 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f08c05-d3da-5b3d-abcc-945fe42d0fe9")
+	)
+	(label "RGB_LED_right_13"
+		(at 281.94 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33a86a50-23f7-5152-a84f-4042c913f292")
+	)
+	(label "RGB_LED_right_19"
+		(at 53.34 391.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a68539a-2918-514c-adac-2598fd306fa4")
+	)
+	(label "RGB_LED_right_3"
+		(at 281.94 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bdab657-06b9-5fe1-acd9-0ce16b02bc51")
+	)
+	(label "RGB_LED_right_2"
+		(at 215.9 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e82bae8-b384-5d7c-acf3-63b64d4cff88")
+	)
+	(label "RGB_LED_right_4"
+		(at 53.34 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ec40c77-96ba-5a45-ac89-bc15dc84576d")
+	)
+	(label "RGB_LED_right_14"
+		(at 353.06 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5142d2d5-cccc-5f53-a78d-ca4f2589f16b")
+	)
+	(label "RGB_LED_right_1"
+		(at 149.86 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "520bf4dd-c021-56eb-a192-f673a2c0f563")
+	)
+	(label "RGB_LED_right_9"
+		(at 353.06 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5420eeb4-7e5d-5b26-ab64-007e9144615e")
+	)
+	(label "RGB_LED_right_23"
+		(at 281.94 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "599f8008-cf0a-5e3a-ade0-556a45c01e3a")
+	)
+	(label "RGB_LED_right_8"
+		(at 281.94 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a7cd473-02f5-587d-a720-3f7de3e77d35")
+	)
+	(label "RGB_LED_right_5"
+		(at 83.82 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aa90d12-4b37-5492-af8c-e69c1d1391fe")
+	)
+	(label "RGB_LED_right_22"
+		(at 215.9 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d1703f7-2d13-58ef-ab90-7cf56375db03")
+	)
+	(label "RGB_LED_right_10"
+		(at 83.82 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7045d10e-04e2-512e-a88a-279816168d72")
+	)
+	(label "RGB_LED_right_0"
+		(at 83.82 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "763cb466-d8d7-5ca6-a4ad-1b509035481a")
+	)
+	(label "RGB_LED_right_26"
+		(at 149.86 467.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b9f6037-1327-5261-ac3e-13954e09f8a1")
+	)
+	(label "RGB_LED_right_7"
+		(at 215.9 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d567b04-f4a8-5de8-aef5-bf92d15bcfec")
+	)
+	(label "RGB_LED_right_25"
+		(at 83.82 467.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83ed6748-bff2-5ffc-a205-7c8a7f36c198")
+	)
+	(label "RGB_LED_right_9"
+		(at 53.34 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c033e0c-bbc3-5586-ab9c-279ebd00e05e")
+	)
+	(label "RGB_LED_right_16"
+		(at 149.86 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1821eae-cd67-5aa8-ada1-f74c7d5a9780")
+	)
+	(label "RGB_LED_right_14"
+		(at 53.34 314.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a21f4825-3668-517b-a9cf-7db7f8af76c3")
+	)
+	(label "RGB_LED_right_17"
+		(at 215.9 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3be1e7b-9106-59ab-a6bf-5411a13108df")
+	)
+	(label "RGB_LED_right_12"
+		(at 215.9 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cba139df-ba84-5d27-a7a8-a5ed2ad9b8fb")
+	)
+	(label "RGB_LED_right_21"
+		(at 149.86 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df84f23a-8ec6-583c-a535-81c00a38e164")
+	)
+	(label "RGB_LED_right_11"
+		(at 149.86 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7b43e65-e17b-5ef3-a33d-1abb6cb2445b")
+	)
+	(label "RGB_LED_right_24"
+		(at 53.34 467.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9f86eb7-de1b-5075-a4ab-a6dd4e473765")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 269.24 406.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00f4678f-fe8b-5121-a8e4-86fd52cd2349")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 71.12 482.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "024675c8-8cee-51c0-a909-96727f74005c")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 203.2 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03b5e95e-2bf5-58f6-ab20-66440818790a")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 203.2 452.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0493de0b-3d66-5123-ac4f-0e6947396347")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 160.02 429.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "068d236d-5bdb-587d-a593-5327171edae9")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 358.14 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "073eec5b-78ab-52d9-a839-d661a975fc61")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 358.14 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c44da93-aad1-59eb-a324-47393fba33bf")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 203.2 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c7db44f-8471-55f1-a733-62259b691681")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 269.24 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1149cc2e-6177-57f0-a510-5894b57dcda8")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 269.24 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13f3ba9e-d0a8-5de6-a151-2e1c456b8672")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 160.02 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15da64ff-0ce3-5cdf-afe8-0b7d42014e5b")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 160.02 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1725558e-74ab-59bc-abb5-59b422c14e3c")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 71.12 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aaf47ce-8ab7-56b6-a0db-ab64daf9b9fa")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 203.2 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b594297-49a7-5b33-ab10-e2edee115057")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 269.24 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c977506-faa1-56de-a4b6-c9fc036d2f12")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 292.1 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc74e7b-1f69-5bf9-a287-efd9d3232dd1")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 335.28 406.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dda5f86-6db9-516e-aee9-ceecdcc70d72")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 335.28 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21225b0a-babb-5d5a-aec3-cfb0194afda6")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 358.14 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22313dae-8480-5a2a-a012-832c30b6352e")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 292.1 353.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2492c2b7-5b33-55bd-aec6-05c562ee8ad5")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 160.02 353.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24aa203b-9639-5659-a6e5-e071ae6b11f1")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 137.16 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "276b988e-5a2e-594c-a8d5-ae1c7bec4a7c")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 93.98 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2790d143-cc15-53db-a293-5229d2e3c54f")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 137.16 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e717eea-097d-58da-a863-b020651d3716")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 160.02 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30463573-e765-52e1-a52b-50c9773ba3c1")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 160.02 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30726e12-b982-5fa6-afe0-c298e678774a")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 71.12 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3424c93b-6773-504b-a72a-c449cf8c8da7")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 226.06 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34ce20fe-0e4a-5bb0-a7a3-a7343c767a90")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 358.14 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36347f9a-dd52-56be-a00d-e4d00fe4ef6a")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 71.12 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b4c8888-267f-5750-a251-250a8c38d904")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 269.24 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b68e75f-6deb-5def-ad6d-96351eeb4c83")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 226.06 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d95ebef-1061-59af-ac89-54552dac794b")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 269.24 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "459c5802-5823-5292-a16d-b530840ac666")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 137.16 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "480d7e5e-722c-5d9c-ab02-08948b5df31c")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 292.1 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "498e223a-52d2-585e-aaf4-b068f855b99a")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 335.28 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b1591c7-91a5-5ce7-aa10-b225197f35c3")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 137.16 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bf6370b-5d74-5155-a333-e6d1192c9d0d")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 358.14 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c5058df-531c-53d5-a792-20cdb64f5225")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 71.12 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ed5c27d-2898-5a4f-a1f0-13072331007f")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 93.98 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f7038eb-3a5e-5317-a09e-65790533d7fb")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 137.16 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50d5494f-7ec7-520b-a35f-4635a0ddd337")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 226.06 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5612aaae-afd9-5a60-a35b-61bcd2fc01b0")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 203.2 299.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "583416a6-db20-5364-a10a-344ccd65c7bc")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 71.12 299.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aef7e7f-e332-5eb1-a5ab-8f45b5c72e31")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 358.14 373.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b24d767-e008-5a0d-abbb-366d3f876585")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 292.1 373.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "616f29c6-ab50-5bd2-a9f6-21e48822af9e")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 71.12 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6351352c-40ff-5ab6-a768-171e54124136")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 226.06 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "663134d7-3da6-523d-a8b0-aa75734da145")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 160.02 373.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c39a4fa-fadf-5a3e-a2d4-fd20e798bfba")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 71.12 406.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d171201-9979-52b1-a85f-18bb6173de0d")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 160.02 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e36453f-76eb-5b2b-a09b-06d5436cd6d7")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 137.16 452.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73362ce0-a12e-5b26-a2a3-72a279908c5e")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 292.1 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73d0b2de-4518-585a-a9e9-b6440b0eb2be")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 292.1 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7713de27-03fa-5293-a83a-056d2287bb5f")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 71.12 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bb44dfa-6533-5edc-a1e0-3618661f0ecc")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 292.1 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c987dcf-fc8a-5805-a5fc-b225e5da8df5")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 358.14 353.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e6f50f6-44d7-5162-a1b4-87cc9acab00e")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 137.16 299.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e7c883f-1dc6-5d7b-a069-06fdae025217")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 226.06 373.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7efbaadb-3cf6-5f79-a74a-8b69d21d0721")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 226.06 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8031c5df-73e7-5edf-a634-4a9db038776b")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 203.2 482.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82b7324a-d939-5754-a4cd-f338ddcbe46c")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 358.14 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "860c73d7-333f-5cb3-afa1-29159eb6336f")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 203.2 406.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88091762-a6e5-5e12-a4b7-29209cf6af96")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 335.28 299.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8988b0ab-6a2c-5e0f-a364-8621f2370173")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 137.16 482.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a769595-cf11-5e61-a020-8e3f40647795")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 93.98 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c652c45-9e48-50ab-a910-c90fefd678f3")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 93.98 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c811d0e-c626-5e3a-a42d-a9948e64f406")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 269.24 299.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d79ef00-effc-5c52-a652-4abac47e310a")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 71.12 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8daed6a2-7730-5908-a6b8-846801df98b8")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 292.1 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9050a40d-5fd4-51a1-a58b-228f9548bd7d")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 269.24 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96354023-0fe1-567d-a4dd-9fc1e04d4ffd")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 292.1 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96b1efd8-31f1-5e66-a481-2432390633e6")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 160.02 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cc6a07e-4bc5-5550-aa0f-7fa464bc0980")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 335.28 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dcab5d6-9a2e-5c68-adfd-b644c40b3fe8")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 203.2 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fa054be-81e5-5266-a7dc-4bec2f01f402")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 335.28 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a08630cb-722d-5d05-a233-ba416423083d")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 226.06 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a09332e6-8dc3-5852-adcc-5bd4dffe9cce")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 93.98 449.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a11d0105-b8ac-52fb-a55b-dc87f44490bb")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 160.02 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a58e6b6f-4ddd-584f-a166-7485123b2afb")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 137.16 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5ab9287-04ad-5d77-a7b0-c56dc567ccab")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 203.2 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5ef49af-afc8-55a1-ad26-f38d6eae5619")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 335.28 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a79cbf6e-6f6a-58c6-ac6b-10cc45cdff92")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 203.2 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab12e0a7-59eb-5003-a98e-af0508937077")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 93.98 429.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abd4df50-f515-5ecc-a5bc-ee8a5d4c6940")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 93.98 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adedc390-9c08-5f3c-a806-cab2c65b76d8")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 226.06 353.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adf13e1a-705f-5bde-afc9-70384c83ea2a")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 292.1 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b62575b6-9fce-5dc4-ae33-56cc8b8f93e4")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 93.98 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b77404aa-61f3-51d8-a909-8f0857b4b680")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 226.06 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbe4e6f7-db86-5d6d-a683-083d95fa057d")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 358.14 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c06e71e6-c4b9-54e4-aabb-7bf4ad8034b4")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 269.24 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08175b5-9fdf-563d-a71e-f7f757cece81")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 137.16 406.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f34a2b-c0f0-5885-ac74-93717daa7c6d")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 137.16 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca198b4a-8ed9-57aa-aa65-65800bcb0036")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 93.98 373.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d242acac-380a-5f82-a479-99ae5ae2e5da")
+	)
+	(hierarchical_label "RGB_DATA_SHIFTED_RIGHT"
+		(shape bidirectional)
+		(at 53.34 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d242eb14-9c83-5832-a074-75ee488c41ca")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 160.02 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d59a2e4e-48d5-5860-a854-b29ca87d4ee0")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 93.98 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6f7e922-087f-54ac-ad48-c3f8f5a74f94")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 203.2 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db1c6883-5ea3-51fd-a8c8-0c71b583f4ed")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 93.98 353.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc088981-0479-5fad-a531-c48b21b53811")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 71.12 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de47bec3-6ea7-5987-ae4b-c3d91ffc1753")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 137.16 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df159496-fb05-54b8-adaa-16cce82b56f0")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 269.24 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e23576f7-c738-5a79-ac4a-22dd1e864c69")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 335.28 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3786177-277f-5909-a434-768dea28aa49")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 93.98 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3920cbf-56b7-5965-ac8a-e735e20adf1d")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 203.2 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea247836-f5bf-5b34-a237-ba24f313905c")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 335.28 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb0a229f-766b-5781-a671-bf6d60e71ce9")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 226.06 449.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2d74c73-a059-5197-a6e8-2051d123b3eb")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 226.06 429.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3038512-c7ee-5058-ae19-9f00f3e73e30")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 160.02 449.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3a1ba38-a41d-5492-a27c-d4aafc05bd92")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 335.28 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f406e56a-5db9-5d10-aff6-3290c8bbff58")
+	)
+	(hierarchical_label "GND_RIGHT"
+		(shape bidirectional)
+		(at 226.06 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f646e506-04bb-5542-aeee-185c39b77be6")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 358.14 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6518ab2-9e34-507c-a04d-0ec8923cab44")
+	)
+	(hierarchical_label "RGB_5V_RIGHT"
+		(shape bidirectional)
+		(at 71.12 452.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc848dbd-50fc-563f-a78a-eccf94f3e077")
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 71.12 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0126305a-367e-55ba-a822-9ba8bb5aca4e")
+		(property "Reference" "LED2"
+			(at 58.42 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 58.42 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 71.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4b57af48-4c79-599a-aec0-a39203642872")
+		)
+		(pin "2"
+			(uuid "4c57b0db-4d79-5b2f-afc0-a52904642a0b")
+		)
+		(pin "1"
+			(uuid "4d57b26e-4a79-5670-acc0-a06401642540")
+		)
+		(pin "4"
+			(uuid "5257ba4d-4f79-5e59-a9c0-9b9f06642d3d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 335.28 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b36f012-b7f7-5bd8-a953-bfa083ea9cc0")
+		(property "Reference" "LED31"
+			(at 322.58 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 322.58 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 335.28 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "10ce4aa0-83d0-5278-aa91-028aa7e9088c")
+		)
+		(pin "2"
+			(uuid "11ce4c33-84d0-540d-ab91-0421a8e90a25")
+		)
+		(pin "1"
+			(uuid "12ce4dc6-85d0-55a2-a890-ff5ca9e90bbe")
+		)
+		(pin "4"
+			(uuid "17ce55a5-8ad0-5d8b-a590-fa97a6e906f3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 358.14 287.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fb9a72a-dcbe-5b96-a350-cee879e7bfc2")
+		(property "Reference" "C_RGB39"
+			(at 363.22 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 363.22 288.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 358.14 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0af267e-8f49-50a4-a785-41240e3c54fc")
+		)
+		(pin "2"
+			(uuid "9faf24eb-9249-5563-aa85-45e9113c59c7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 292.1 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1513808f-8663-51bf-a8c5-64957c168d63")
+		(property "Reference" "C_RGB9"
+			(at 297.18 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 297.18 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 292.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ca904a3-dc9b-5965-a9cc-5539f640e78d")
+		)
+		(pin "2"
+			(uuid "9da90636-dd9b-5afa-a6cc-5074f740e926")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 160.02 287.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b4f748e-0a31-5992-ae74-81047eb7e5e6")
+		(property "Reference" "C_RGB35"
+			(at 165.1 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 288.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 160.02 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44ce379a-9124-5a48-a814-e598f536cfd8")
+		)
+		(pin "2"
+			(uuid "43ce3607-9424-5f07-ab14-ea5df836d4a3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 137.16 467.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c2ffcf4-291a-586c-a791-6f064a7b76a8")
+		(property "Reference" "LED56"
+			(at 124.46 459.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 124.46 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 137.16 467.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 467.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 467.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b0597f5a-80ee-5324-ab86-5a0822425bf4")
+		)
+		(pin "2"
+			(uuid "b15980ed-81ee-54b9-ac86-5b9f23425d8d")
+		)
+		(pin "1"
+			(uuid "ae597c34-82ee-564e-ad86-5d3624425f26")
+		)
+		(pin "4"
+			(uuid "ab59777b-7fee-518f-a286-652921425a5b")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 137.16 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "223eb603-c80e-555f-a14c-fe29e51658ab")
+		(property "Reference" "LED14"
+			(at 124.46 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 124.46 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "de71d6c5-4d5f-5aaf-a7c3-9907e5de9f27")
+		)
+		(pin "2"
+			(uuid "dd71d532-4c5f-591a-a6c3-9770e4de9d8e")
+		)
+		(pin "1"
+			(uuid "dc71d39f-4b5f-5785-a9c3-9c35e3de9bf5")
+		)
+		(pin "4"
+			(uuid "d771cbc0-4e5f-5c44-acc3-a0fadede93f8")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 292.1 210.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23419582-ae7f-5644-a1a2-e6883cd176cc")
+		(property "Reference" "C_RGB28"
+			(at 297.18 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 297.18 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 292.1 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d55bdbf6-8c4e-5206-a783-ff44995a7c82")
+		)
+		(pin "2"
+			(uuid "d45bda63-8b4e-5071-aa84-0409985a7ae9")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 203.2 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27f432a6-6414-5fae-a856-807c39d96aea")
+		(property "Reference" "LED6"
+			(at 190.5 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 203.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "224aa48c-8747-5866-ab5f-817e526b1956")
+		)
+		(pin "2"
+			(uuid "234aa61f-8847-59fb-ac5f-8315536b1aef")
+		)
+		(pin "1"
+			(uuid "244aa7b2-8547-553c-a95f-7e50506b1624")
+		)
+		(pin "4"
+			(uuid "214aa2f9-8247-507d-ae5f-86434d6b1159")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 335.28 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2dbf9be7-2a5e-58bb-af04-116dc2c16b6f")
+		(property "Reference" "LED50"
+			(at 322.58 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 322.58 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 335.28 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e867f3c1-c6de-54b3-a639-ed83189c8c23")
+		)
+		(pin "2"
+			(uuid "e767f22e-c5de-531e-a539-ebec179c8a8a")
+		)
+		(pin "1"
+			(uuid "e667f09b-c4de-5189-a839-f0b1169c88f1")
+		)
+		(pin "4"
+			(uuid "e967f554-bfde-59a0-a339-e8be199c8dbc")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 269.24 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33ff14ee-4d60-5f72-a529-dbac0cfe543e")
+		(property "Reference" "LED18"
+			(at 256.54 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 256.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 269.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "12ec90d4-f763-5852-aae5-b1eec6b87f62")
+		)
+		(pin "2"
+			(uuid "13ec9267-f863-59e7-abe5-b385c7b880fb")
+		)
+		(pin "1"
+			(uuid "14ec93fa-f563-5528-a8e5-aec0c4b87c30")
+		)
+		(pin "4"
+			(uuid "11ec8f41-fa63-5d11-ade5-b6b3c9b8842d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 292.1 287.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35135c61-0698-5913-a2e2-a04b0b60c23b")
+		(property "Reference" "C_RGB38"
+			(at 297.18 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 297.18 288.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 292.1 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcec88f1-2b8b-5c81-a36a-14d37297edc5")
+		)
+		(pin "2"
+			(uuid "b9ec8438-2c8b-5e16-a46a-166a7397ef5e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 358.14 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44ffec16-0c3b-584e-a246-b1ac25411d72")
+		(property "Reference" "C_RGB21"
+			(at 363.22 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 363.22 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 358.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd81d662-f4dc-57dc-a39a-a4c0e8da752c")
+		)
+		(pin "2"
+			(uuid "fc81d4cf-f7dc-5c9b-a69a-a985ebda79f7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 93.98 287.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55d069ce-24be-5818-aea4-74cc2a278a80")
+		(property "Reference" "C_RGB32"
+			(at 99.06 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 288.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 93.98 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7fb815a-b6ab-5f62-a028-83e0921dedfe")
+		)
+		(pin "2"
+			(uuid "b6fb7fc7-b5ab-5dcd-a328-88a5911dec65")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 358.14 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5767aa6e-4193-53f8-add1-9794482f4058")
+		(property "Reference" "C_RGB10"
+			(at 363.22 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 363.22 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 358.14 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11647d7a-267b-57c2-aff0-a22805017a96")
+		)
+		(pin "2"
+			(uuid "10647be7-257b-562d-a2f0-a6ed040178fd")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 137.16 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5832500f-abc8-5629-adf7-7e4592fc7b01")
+		(property "Reference" "LED5"
+			(at 124.46 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 124.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87555b49-073b-5ec1-ad38-4f3b4124903d")
+		)
+		(pin "2"
+			(uuid "865559b6-063b-5d2c-ac38-4da440248ea4")
+		)
+		(pin "1"
+			(uuid "85555823-093b-51eb-af38-52694324936f")
+		)
+		(pin "4"
+			(uuid "88555cdc-043b-5a02-aa38-4a763e248b72")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 71.12 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65591ac2-dce1-5cc6-aef8-869882ad7b5a")
+		(property "Reference" "LED22"
+			(at 58.42 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 58.42 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 71.12 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e92a4390-6ea2-5c3e-ab01-ef42eba08bc6")
+		)
+		(pin "2"
+			(uuid "ea2a4523-6fa2-5dd3-ac01-f0d9eca08d5f")
+		)
+		(pin "1"
+			(uuid "eb2a46b6-6ca2-5914-a901-ec14e9a08894")
+		)
+		(pin "4"
+			(uuid "f02a4e95-69a2-5455-a601-e74fe6a083c9")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 269.24 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67d37a9e-f56d-57ac-a7ed-aea4ed42afd4")
+		(property "Reference" "LED49"
+			(at 256.54 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 256.54 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 269.24 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "969b0444-0f40-57e4-a3f4-cee6fde2a718")
+		)
+		(pin "2"
+			(uuid "979b05d7-1040-5979-a4f4-d07dfee2a8b1")
+		)
+		(pin "1"
+			(uuid "989b076a-1140-5b0e-a1f4-cbb8ffe2aa4a")
+		)
+		(pin "4"
+			(uuid "959b02b1-0e40-564f-a6f4-d3ab04e2b247")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 93.98 210.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a71fae3-93b3-567d-a8f5-0341617a58bd")
+		(property "Reference" "C_RGB22"
+			(at 99.06 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 93.98 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0496457f-0ce0-51f7-a736-83ad00017143")
+		)
+		(pin "2"
+			(uuid "05964712-09e0-5d38-a436-7ee8fd016c78")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 203.2 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d590dcb-1c00-5a37-ad8e-dcc941400c0b")
+		(property "Reference" "LED46"
+			(at 190.5 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 190.5 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 203.2 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6ccdcccd-2fb9-5847-aca5-dca7319d0307")
+		)
+		(pin "2"
+			(uuid "6bcdcb3a-2eb9-56b2-aba5-db10309d016e")
+		)
+		(pin "1"
+			(uuid "6acdc9a7-2db9-551d-aea5-dfd52f9cffd5")
+		)
+		(pin "4"
+			(uuid "65cdc1c8-30b9-59dc-a1a5-e49a2a9cf7d8")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 292.1 363.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "700160a7-eea3-5167-a5b5-1335816b2ec3")
+		(property "Reference" "C_RGB49"
+			(at 297.18 361.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 297.18 364.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 292.1 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe129edb-3a8d-5bcd-a3a2-ec5922961e6d")
+		)
+		(pin "2"
+			(uuid "ff12a06e-3b8d-5d62-a0a2-e79423962006")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 160.02 210.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e0cb8bf-c46f-5b09-ad07-0a85a15c01c1")
+		(property "Reference" "C_RGB24"
+			(at 165.1 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 160.02 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12638ad3-776c-56cb-a8f3-e2294a9867af")
+		)
+		(pin "2"
+			(uuid "13638c66-746c-520c-a5f3-dd64479862e4")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 137.16 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fdf3872-48c0-5b58-a9ef-f11076eb5ff0")
+		(property "Reference" "LED45"
+			(at 124.46 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 124.46 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 137.16 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60984c00-d292-5df8-af1c-76ba247c63fc")
+		)
+		(pin "2"
+			(uuid "61984d93-d392-5f8d-a01c-7851257c6595")
+		)
+		(pin "1"
+			(uuid "62984f26-d492-5122-ad1c-738c267c672e")
+		)
+		(pin "4"
+			(uuid "67985705-d992-590b-aa1c-6ec7237c6263")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 93.98 439.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87a8a724-6b45-57f6-aa18-80be9a22b246")
+		(property "Reference" "C_RGB52"
+			(at 99.06 438.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 440.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 93.98 439.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a70d724-7b69-5a04-af02-11ceba0e28b8")
+		)
+		(pin "2"
+			(uuid "9d70dbdd-7e69-5ec3-ae02-1037bd0e2d83")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 71.12 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87e9e7d1-3dd9-5bb5-a7f9-fd1350b90799")
+		(property "Reference" "LED12"
+			(at 58.42 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 58.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8a162efb-7823-50e5-a203-4a29b79f5835")
+		)
+		(pin "2"
+			(uuid "89162d68-7723-5f50-a103-4892b69f569c")
+		)
+		(pin "1"
+			(uuid "8c163221-7a23-540f-a003-46fbb99f5b67")
+		)
+		(pin "4"
+			(uuid "8f1636da-7d23-58ce-ab03-3f08b49f536a")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 71.12 314.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8933b47f-8093-5b43-a933-c2d548ffc047")
+		(property "Reference" "LED32"
+			(at 58.42 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 58.42 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 71.12 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7016ad39-53ce-521b-a5f1-2dcb77d100db")
+		)
+		(pin "2"
+			(uuid "6f16aba6-52ce-5086-a4f1-2c3476d0ff42")
+		)
+		(pin "1"
+			(uuid "6e16aa13-51ce-5ef1-a7f1-30f975d0fda9")
+		)
+		(pin "4"
+			(uuid "7116aecc-4cce-5708-a2f1-290678d10274")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 226.06 363.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9189f8e2-b39f-5dc4-aff0-1cd80314f1dc")
+		(property "Reference" "C_RGB46"
+			(at 231.14 361.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 364.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 226.06 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a34e356-a9db-5586-ad24-dcd4354ebd52")
+		)
+		(pin "2"
+			(uuid "0934e1c3-a8db-53f1-a024-e199344ebbb9")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 203.2 314.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "937d7a56-44f0-599e-a397-b0943700e14a")
+		(property "Reference" "LED36"
+			(at 190.5 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 190.5 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 203.2 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bcb72afc-6560-5f16-a5e3-6e567dcfa2b6")
+		)
+		(pin "2"
+			(uuid "bdb72c8f-6660-50ab-a6e3-6fed7ecfa44f")
+		)
+		(pin "1"
+			(uuid "beb72e22-6360-5bec-a3e3-6b287bcf9f84")
+		)
+		(pin "4"
+			(uuid "bbb72969-6060-572d-a8e3-731b78cf9ab9")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 93.98 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96eae10b-6b92-5669-a481-1331d951c4c9")
+		(property "Reference" "C_RGB2"
+			(at 99.06 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 93.98 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61950167-2f95-5cab-a4ec-eb1d4e059497")
+		)
+		(pin "2"
+			(uuid "629502fa-2c95-57ec-a1ec-e6584b058fcc")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 292.1 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9908e617-17b0-55b1-aca1-362d514d4819")
+		(property "Reference" "C_RGB18"
+			(at 297.18 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 297.18 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 292.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7ac084b-847e-51b3-a865-20f1802d43e7")
+		)
+		(pin "2"
+			(uuid "e8ac09de-817e-5cf4-a565-1c2c7d2d3f1c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 226.06 287.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a6fc72f-7bff-5f25-a76c-50050b4e73cd")
+		(property "Reference" "C_RGB36"
+			(at 231.14 285.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 288.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 226.06 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b28788c3-d6a2-527f-a4e2-2fa964b0c253")
+		)
+		(pin "2"
+			(uuid "b3878a56-d3a2-5dc0-a1e2-2ae461b0bd88")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 93.98 363.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c0fe91d-8275-5887-a6f7-702f4e62d287")
+		(property "Reference" "C_RGB42"
+			(at 99.06 361.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 364.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 93.98 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4efa9565-2fed-56ed-a1bf-f98fa7429269")
+		)
+		(pin "2"
+			(uuid "4bfa90ac-30ed-5882-a2bf-fb26a8429402")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 137.16 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c9e0e06-99b6-55da-a847-9b144f272356")
+		(property "Reference" "LED24"
+			(at 124.46 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 124.46 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 137.16 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "19b629ec-1cec-5eba-a283-50d66d264f7a")
+		)
+		(pin "2"
+			(uuid "1ab62b7f-1dec-504f-a383-526d6e265113")
+		)
+		(pin "1"
+			(uuid "1bb62d12-1aec-5b90-a083-4da86b264c48")
+		)
+		(pin "4"
+			(uuid "18b62859-1fec-5379-a583-559b70265445")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 203.2 467.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d295503-efc3-5751-a4a0-3c5141eb7f51")
+		(property "Reference" "LED57"
+			(at 190.5 459.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 190.5 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 203.2 467.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 467.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 467.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "970f7dc5-4c81-5129-af1d-a28f2209d6cd")
+		)
+		(pin "2"
+			(uuid "960f7c32-4b81-5f94-ae1d-a0f82109d534")
+		)
+		(pin "1"
+			(uuid "950f7a9f-4e81-5453-a11d-a5bd2409d9ff")
+		)
+		(pin "4"
+			(uuid "900f72c0-4981-5c6a-a41d-aa821f09d202")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 160.02 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a393f07e-9f50-5b02-a47c-fb5cc6ea9106")
+		(property "Reference" "C_RGB5"
+			(at 165.1 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 160.02 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5978d4a-f3d0-54b8-a372-0d30e2544bf8")
+		)
+		(pin "2"
+			(uuid "a4978bb7-f6d0-5977-a672-11f5e55450c3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 269.24 314.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7862194-99f2-5800-ab62-b0ce27eae91c")
+		(property "Reference" "LED38"
+			(at 256.54 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 256.54 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 269.24 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cbda75fa-0b37-5000-af5f-3d30125da4e0")
+		)
+		(pin "2"
+			(uuid "ccda778d-0c37-5195-a05f-3ec7135da679")
+		)
+		(pin "1"
+			(uuid "c9da72d4-0d37-532a-a15f-405e145da812")
+		)
+		(pin "4"
+			(uuid "c6da6e1b-1237-5b13-a65f-4851195db00f")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 71.12 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af935938-c361-5f4c-a531-752a15c23c10")
+		(property "Reference" "LED42"
+			(at 58.42 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 58.42 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 71.12 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 391.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "06f4b6e6-1f2c-5784-afc8-013499b6091c")
+		)
+		(pin "2"
+			(uuid "07f4b879-202c-5919-a0c8-02cb9ab60ab5")
+		)
+		(pin "1"
+			(uuid "04f4b3c0-212c-5aae-a1c8-04629bb60c4e")
+		)
+		(pin "4"
+			(uuid "09f4bb9f-1e2c-55ef-aec7-ff9d98b60783")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 137.16 314.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3819bbf-cc05-5199-a723-e79d9023f161")
+		(property "Reference" "LED35"
+			(at 124.46 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 124.46 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 137.16 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "391958f9-641e-5771-a4d0-6773e0e9cb1d")
+		)
+		(pin "2"
+			(uuid "38195766-631e-55dc-a3d0-65dcdfe9c984")
+		)
+		(pin "1"
+			(uuid "371955d3-661e-5a9b-a6d0-6aa1e2e9ce4f")
+		)
+		(pin "4"
+			(uuid "3a195a8c-611e-52b2-a1d0-62aedde9c652")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 226.06 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7ecf15f-b476-5515-a705-915d4824346d")
+		(property "Reference" "C_RGB6"
+			(at 231.14 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68cb73f3-7397-59ef-a12c-37e1b2c88973")
+		)
+		(pin "2"
+			(uuid "69cb7586-7097-5530-ae2c-331cafc884a8")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 160.02 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9c99e0a-f290-533c-a4ee-d6b8cf2d9e7c")
+		(property "Reference" "C_RGB14"
+			(at 165.1 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 160.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d36b6de-2c95-5a5e-abb7-af347c4a65f2")
+		)
+		(pin "2"
+			(uuid "2c36b54b-2b95-58c9-aeb7-b3f97b4a6459")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 269.24 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba2e8b36-344e-5934-a066-4004a79e5d74")
+		(property "Reference" "LED9"
+			(at 256.54 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 256.54 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 269.24 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6a483d5c-3987-5b4c-a512-77c67202b2b8")
+		)
+		(pin "2"
+			(uuid "6b483eef-3a87-5ce1-a612-795d7302b451")
+		)
+		(pin "1"
+			(uuid "6c484082-3b87-5e76-a312-74987402b5ea")
+		)
+		(pin "4"
+			(uuid "69483bc9-3887-59b7-a812-7c8b7902bde7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 335.28 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c360609f-ec1e-53a3-a406-a94d71f4a28f")
+		(property "Reference" "LED10"
+			(at 322.58 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 322.58 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 335.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d51330d9-891f-527b-a496-096380f143c3")
+		)
+		(pin "2"
+			(uuid "d4132f46-881f-50e6-a396-07cc7ff1422a")
+		)
+		(pin "1"
+			(uuid "d3132db3-871f-5f51-a696-0c917ef14091")
+		)
+		(pin "4"
+			(uuid "d613326c-821f-5768-a196-049e81f1455c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 358.14 210.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d009d853-fa03-579b-a307-9b1911fef897")
+		(property "Reference" "C_RGB31"
+			(at 363.22 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 363.22 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 358.14 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54ba7b6f-02d5-5e69-a31f-c4e556d13779")
+		)
+		(pin "2"
+			(uuid "55ba7d02-03d5-5ffe-a01f-c02057d13912")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 335.28 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3d6ea37-4ae1-5d3d-a6b2-5035729e7cd5")
+		(property "Reference" "LED21"
+			(at 322.58 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 322.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 335.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7d3a9e11-2320-520d-a543-962b6f902589")
+		)
+		(pin "2"
+			(uuid "7c3a9c7e-2220-5078-a443-94946e9023f0")
+		)
+		(pin "1"
+			(uuid "7b3a9aeb-2520-5537-a743-9959719028bb")
+		)
+		(pin "4"
+			(uuid "7e3a9fa4-2820-59f6-a243-916674902d86")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 160.02 363.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8c25433-ff23-5f1b-aa93-70698a96b7e7")
+		(property "Reference" "C_RGB45"
+			(at 165.1 361.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 364.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 160.02 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd4291cf-2062-51e9-aba0-52f5f4fbec49")
+		)
+		(pin "2"
+			(uuid "de429362-2162-537e-a8a0-4e30f5fbede2")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 203.2 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9dcea3e-64a3-582c-a751-7d34056bfc24")
+		(property "Reference" "LED27"
+			(at 190.5 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 190.5 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 203.2 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e92da664-c07d-5c64-a686-2776cd42c928")
+		)
+		(pin "2"
+			(uuid "ea2da7f7-c17d-5df9-a786-290dce42cac1")
+		)
+		(pin "1"
+			(uuid "eb2da98a-c27d-5f8e-a486-2448cf42cc5a")
+		)
+		(pin "4"
+			(uuid "e82da4d1-bf7d-5acf-a986-2c3bd442d457")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 226.06 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de22e567-5f6a-52c7-af7e-0e7d1d1b8a3b")
+		(property "Reference" "C_RGB17"
+			(at 231.14 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa64ee1b-2ae5-5bad-ae03-9881734935c5")
+		)
+		(pin "2"
+			(uuid "ab64efae-2be5-5d42-ab03-93bc7449375e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 269.24 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df627d6b-8b37-5ab7-acde-7919dd209bdb")
+		(property "Reference" "LED28"
+			(at 256.54 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 256.54 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 269.24 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e56bc6ed-e0f6-5cc7-adb0-3fb7c5ba2c97")
+		)
+		(pin "2"
+			(uuid "e46bc55a-dff6-5b32-acb0-3e20c4ba2afe")
+		)
+		(pin "1"
+			(uuid "e36bc3c7-def6-599d-afb0-42e5c3ba2965")
+		)
+		(pin "4"
+			(uuid "de6bbbe8-e1f6-5e5c-a2b0-47aabeba2168")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 160.02 439.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2993241-1cad-5da7-ab6c-95d3415e382f")
+		(property "Reference" "C_RGB56"
+			(at 165.1 438.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 440.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 160.02 439.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec4236d1-2db6-538d-aa54-d33be0501931")
+		)
+		(pin "2"
+			(uuid "e9423218-2eb6-5522-ab54-d4d2e1501aca")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 358.14 363.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecab0ae6-2cd1-5860-a9e6-86b48b74a1b8")
+		(property "Reference" "C_RGB50"
+			(at 363.22 361.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 363.22 364.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 358.14 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7de0a72-4f27-560a-a8b8-f5c856434ff6")
+		)
+		(pin "2"
+			(uuid "e6de08df-4e27-5475-abb8-fa8d55434e5d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 71.12 467.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f44dbd91-31db-5b55-afb2-1debe39594c1")
+		(property "Reference" "LED52"
+			(at 58.42 459.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 58.42 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 71.12 467.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 467.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 467.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f40b553b-7b14-5785-af7c-c5212760e77d")
+		)
+		(pin "2"
+			(uuid "f30b53a8-7a14-55f0-ae7c-c38a2660e5e4")
+		)
+		(pin "1"
+			(uuid "f60b5861-7d14-5aaf-ad7c-c1f32960eaaf")
+		)
+		(pin "4"
+			(uuid "f90b5d1a-8014-5f6e-a87c-ba002460e2b2")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 226.06 439.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f47f2d0a-28af-523a-a4b8-c99033c147f6")
+		(property "Reference" "C_RGB57"
+			(at 231.14 438.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 440.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 226.06 439.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efc7cdde-4e39-56f0-a371-e40c93fb00e8")
+		)
+		(pin "2"
+			(uuid "eec7cc4b-5139-5baf-a671-e8d196fb05b3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 93.98 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f888dce4-0d4a-50d6-a82a-8f362544e48e")
+		(property "Reference" "C_RGB12"
+			(at 99.06 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 93.98 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e3e6e64-9bd0-5364-a719-b466ee272500")
+		)
+		(pin "2"
+			(uuid "713e731d-9ed0-5823-a619-b2cff12729cb")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 335.28 314.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb8da523-0a2c-5af5-a5ae-b2f91a74ca45")
+		(property "Reference" "LED39"
+			(at 322.58 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 322.58 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 335.28 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6c98dc65-c799-5da5-a6d4-4517314cee39")
+		)
+		(pin "2"
+			(uuid "6b98dad2-c699-5c10-a5d4-4380304ceca0")
+		)
+		(pin "1"
+			(uuid "6a98d93f-c999-50cf-a8d4-4845334cf16b")
+		)
+		(pin "4"
+			(uuid "6598d160-cc99-558e-abd4-4d0a364cf636")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:SK6812MINI_E_BL")
+		(at 203.2 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdeba0de-016b-580c-ad5d-6d1c21beb11c")
+		(property "Reference" "LED17"
+			(at 190.5 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 190.5 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Keyboard:LED_SK6812MINI-E_BL"
+			(at 203.2 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9dd63404-0b43-59c4-ac16-1e9e55f7ece0")
+		)
+		(pin "2"
+			(uuid "9ed63597-0c43-5b59-ad16-203556f7ee79")
+		)
+		(pin "1"
+			(uuid "9fd6372a-0d43-5cee-aa16-1b7057f7f012")
+		)
+		(pin "4"
+			(uuid "9cd63271-0a43-582f-af16-23635cf7f80f")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:C")
+		(at 226.06 210.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff402747-e983-59e7-a09c-1ca59a5ea873")
+		(property "Reference" "C_RGB27"
+			(at 231.14 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keyboard:C_0603"
+			(at 226.06 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd37717b-1d00-584d-aa2a-fc4977c5ca1d")
+		)
+		(pin "2"
+			(uuid "be37730e-1e00-59e2-a72a-f78478c5cbb6")
+		)
+		(instances
+			(project "keyboard"
+				(path "/637dc55c-fe0c-5122-a125-31962b37de4a/f2b671bf-2914-509f-a2a4-6951b26a8913"
+					(reference "C_RGB27")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

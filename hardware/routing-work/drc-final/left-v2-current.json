@@ -1,0 +1,2862 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-23T02:50:09",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "keyboard.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 4.0000 mm )",
+                    "pos": {
+                        "x": 146.2875,
+                        "y": 9.5
+                    },
+                    "uuid": "c7bb9599-8d29-4d11-a4f9-53ac93082f9e"
+                },
+                {
+                    "description": "配線 [/GND_LEFT] ( F.Cu 上、長さ: 2.6295 mm )",
+                    "pos": {
+                        "x": 149.6185,
+                        "y": 15.5969
+                    },
+                    "uuid": "d2eb26cc-075c-4038-b657-97485b3321d5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( F.Cu 上、長さ: 6.0325 mm )",
+                    "pos": {
+                        "x": 150.835,
+                        "y": 6.5275
+                    },
+                    "uuid": "1a7f89f3-caa7-4ee2-984e-1fc2571d9dec"
+                },
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 1.5000 mm )",
+                    "pos": {
+                        "x": 154.5,
+                        "y": 7.0
+                    },
+                    "uuid": "e261f25f-eb17-4f60-b4a1-904c404bde2a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/RGB_EN_LEFT] ( B.Cu 上、長さ: 3.2016 mm )",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 9.9
+                    },
+                    "uuid": "95089423-1969-4896-be99-fae45377b957"
+                },
+                {
+                    "description": "配線 [/RGB_EN_LEFT] ( F.Cu 上、長さ: 5.0665 mm )",
+                    "pos": {
+                        "x": 145.0245,
+                        "y": 14.4432
+                    },
+                    "uuid": "73c15e6b-3be3-499b-9b08-9d46bf955355"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/VBAT_LEFT] - C_RGB_IN1 ( B.Cu 上)",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.75
+                    },
+                    "uuid": "b758f807-9353-5231-a199-37019cf35819"
+                },
+                {
+                    "description": "パッド 3 [/VBAT_LEFT] - U_RGB1 ( B.Cu 上)",
+                    "pos": {
+                        "x": 147.7125,
+                        "y": 9.5
+                    },
+                    "uuid": "3c62715c-d51d-5504-a0a3-94ee2759e2c0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/VBAT_LEFT] ( F.Cu 上、長さ: 4.5519 mm )",
+                    "pos": {
+                        "x": 147.6185,
+                        "y": 17.1253
+                    },
+                    "uuid": "e6010997-13ff-4d8a-b6fa-f541aefe1f5f"
+                },
+                {
+                    "description": "パッド 3 [/VBAT_LEFT] - U_RGB1 ( B.Cu 上)",
+                    "pos": {
+                        "x": 147.7125,
+                        "y": 9.5
+                    },
+                    "uuid": "3c62715c-d51d-5504-a0a3-94ee2759e2c0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( B.Cu 上、長さ: 3.0000 mm )",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 12.25
+                    },
+                    "uuid": "355fa37e-1ebe-46b5-82a2-5a0371e82f9d"
+                },
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( B.Cu 上、長さ: 3.4308 mm )",
+                    "pos": {
+                        "x": 146.2875,
+                        "y": 8.5
+                    },
+                    "uuid": "10903815-270c-4e3d-80d7-79bd7a6e1b49"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( B.Cu 上、長さ: 3.0000 mm )",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 12.25
+                    },
+                    "uuid": "355fa37e-1ebe-46b5-82a2-5a0371e82f9d"
+                },
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( B.Cu 上、長さ: 2.2814 mm )",
+                    "pos": {
+                        "x": 136.0355,
+                        "y": 24.6997
+                    },
+                    "uuid": "1d9211ed-f1f6-4081-8820-51508003f6e1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 5 [/power/RGB_SW_LEFT] - U_RGB1 ( B.Cu 上)",
+                    "pos": {
+                        "x": 146.2875,
+                        "y": 9.0
+                    },
+                    "uuid": "42627ace-db1d-5e82-aaa3-a4d43559f91e"
+                },
+                {
+                    "description": "パッド 2 [/power/RGB_SW_LEFT] - L_RGB1 ( B.Cu 上)",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 4.0
+                    },
+                    "uuid": "0453a884-cc51-5ef2-a22b-d1aec1346822"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0225 mm)",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( F.Cu 上、長さ: 6.0325 mm )",
+                    "pos": {
+                        "x": 150.835,
+                        "y": 6.5275
+                    },
+                    "uuid": "1a7f89f3-caa7-4ee2-984e-1fc2571d9dec"
+                },
+                {
+                    "description": "配線 [/VBAT_LEFT] ( F.Cu 上、長さ: 0.2236 mm )",
+                    "pos": {
+                        "x": 151.3,
+                        "y": 6.8
+                    },
+                    "uuid": "3b3c435d-ecb9-4f17-88f2-9e58d77195e2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /GND_LEFT と /VBAT_LEFT)",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( F.Cu 上、長さ: 7.8529 mm )",
+                    "pos": {
+                        "x": 149.6185,
+                        "y": 15.5969
+                    },
+                    "uuid": "8432655a-650c-4c3c-a287-2b1c79ac208d"
+                },
+                {
+                    "description": "配線 [/VBAT_LEFT] ( F.Cu 上、長さ: 7.2090 mm )",
+                    "pos": {
+                        "x": 151.1,
+                        "y": 6.9
+                    },
+                    "uuid": "fcefff4a-0b82-4492-9922-d85d575c0c5e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( F.Cu 上、長さ: 1.7204 mm )",
+                    "pos": {
+                        "x": 149.6185,
+                        "y": 7.744
+                    },
+                    "uuid": "f575a3ab-07f4-454e-867b-efbba2c02cc2"
+                },
+                {
+                    "description": "配線 [/VBAT_LEFT] ( F.Cu 上、長さ: 7.2090 mm )",
+                    "pos": {
+                        "x": 151.1,
+                        "y": 6.9
+                    },
+                    "uuid": "fcefff4a-0b82-4492-9922-d85d575c0c5e"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.1447 mm)",
+            "items": [
+                {
+                    "description": "ビア [/GND_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 155.9,
+                        "y": 8.2
+                    },
+                    "uuid": "4327a8c7-3c1c-4566-a5fc-263f58d7b1c6"
+                },
+                {
+                    "description": "パッド 12 [+3V3_LEFT] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 156.8675,
+                        "y": 9.0675
+                    },
+                    "uuid": "8af729bd-9d46-5fcb-a205-84f7eaa9fc9b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /GND_LEFT と /power/RGB_SHIFTED_LEFT)",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 7.5685 mm )",
+                    "pos": {
+                        "x": 139.7356,
+                        "y": 38.1185
+                    },
+                    "uuid": "20eee67a-b123-49eb-a6b0-65f128c24efc"
+                },
+                {
+                    "description": "ビア [/power/RGB_SHIFTED_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 140.1,
+                        "y": 35.1
+                    },
+                    "uuid": "2bd4ea13-2e5a-49ef-9a4b-074a347cbf0b"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /VBAT_LEFT と /GND_LEFT)",
+            "items": [
+                {
+                    "description": "ビア [/VBAT_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.8
+                    },
+                    "uuid": "58d0ef15-77d9-4644-9c92-42fcdf81cd5c"
+                },
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 1.2500 mm )",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.5
+                    },
+                    "uuid": "ca846ba0-5eca-437a-a2b7-2428305ff65f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/power/RGB_SHIFTED_LEFT] ( B.Cu 上、長さ: 5.5803 mm )",
+                    "pos": {
+                        "x": 144.6,
+                        "y": 31.8
+                    },
+                    "uuid": "57f875e6-c565-41f4-adac-6d649d261ece"
+                },
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 3.1861 mm )",
+                    "pos": {
+                        "x": 141.5,
+                        "y": 32.7321
+                    },
+                    "uuid": "ef46e8df-dfc2-47e2-9064-df29212aa044"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /VBAT_LEFT と /GND_LEFT)",
+            "items": [
+                {
+                    "description": "ビア [/VBAT_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.8
+                    },
+                    "uuid": "58d0ef15-77d9-4644-9c92-42fcdf81cd5c"
+                },
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 1.7875 mm )",
+                    "pos": {
+                        "x": 146.2875,
+                        "y": 9.5
+                    },
+                    "uuid": "f958861e-8c74-4114-ad4d-24c04d38c52c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/RGB_DATA_SHIFTED_LEFT] ( F.Cu 上、長さ: 6.0638 mm )",
+                    "pos": {
+                        "x": 143.8,
+                        "y": 11.6
+                    },
+                    "uuid": "730a1f4d-e40d-4083-bdcc-97daed963e99"
+                },
+                {
+                    "description": "配線 [/RGB_EN_LEFT] ( F.Cu 上、長さ: 5.0665 mm )",
+                    "pos": {
+                        "x": 145.0245,
+                        "y": 14.4432
+                    },
+                    "uuid": "73c15e6b-3be3-499b-9b08-9d46bf955355"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/RGB_EN_LEFT] ( F.Cu 上、長さ: 5.8063 mm )",
+                    "pos": {
+                        "x": 140.9188,
+                        "y": 10.3375
+                    },
+                    "uuid": "2db75e16-7f0d-4081-8773-919a64c30707"
+                },
+                {
+                    "description": "配線 [/RGB_DATA_SHIFTED_LEFT] ( F.Cu 上、長さ: 6.0638 mm )",
+                    "pos": {
+                        "x": 143.8,
+                        "y": 11.6
+                    },
+                    "uuid": "730a1f4d-e40d-4083-bdcc-97daed963e99"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /RGB_5V_LEFT と /RGB_DATA_SHIFTED_LEFT)",
+            "items": [
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( B.Cu 上、長さ: 2.2814 mm )",
+                    "pos": {
+                        "x": 136.0355,
+                        "y": 24.6997
+                    },
+                    "uuid": "1d9211ed-f1f6-4081-8820-51508003f6e1"
+                },
+                {
+                    "description": "ビア [/RGB_DATA_SHIFTED_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 136.4,
+                        "y": 25.2
+                    },
+                    "uuid": "a3650889-7b3b-465a-bae6-d80fa1927df0"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0690 mm)",
+            "items": [
+                {
+                    "description": "ビア [/RGB_DATA_SHIFTED_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 136.4,
+                        "y": 25.2
+                    },
+                    "uuid": "a3650889-7b3b-465a-bae6-d80fa1927df0"
+                },
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( B.Cu 上、長さ: 7.4242 mm )",
+                    "pos": {
+                        "x": 128.6113,
+                        "y": 24.6997
+                    },
+                    "uuid": "ccb1252a-cdb2-4b03-97fa-b8f7215bfa8a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.2447 mm)",
+            "items": [
+                {
+                    "description": "パッド 12 [+3V3_LEFT] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 156.8675,
+                        "y": 9.0675
+                    },
+                    "uuid": "8af729bd-9d46-5fcb-a205-84f7eaa9fc9b"
+                },
+                {
+                    "description": "ビア [/GND_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 155.9,
+                        "y": 8.2
+                    },
+                    "uuid": "4327a8c7-3c1c-4566-a5fc-263f58d7b1c6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 1.7875 mm )",
+                    "pos": {
+                        "x": 146.2875,
+                        "y": 9.5
+                    },
+                    "uuid": "f958861e-8c74-4114-ad4d-24c04d38c52c"
+                },
+                {
+                    "description": "パッド 1 [/VBAT_LEFT] - C_RGB_IN1 ( B.Cu 上)",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.75
+                    },
+                    "uuid": "b758f807-9353-5231-a199-37019cf35819"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 1.2500 mm )",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.5
+                    },
+                    "uuid": "ca846ba0-5eca-437a-a2b7-2428305ff65f"
+                },
+                {
+                    "description": "パッド 1 [/VBAT_LEFT] - C_RGB_IN1 ( B.Cu 上)",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.75
+                    },
+                    "uuid": "b758f807-9353-5231-a199-37019cf35819"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( F.Cu 上、長さ: 2.0391 mm )",
+                    "pos": {
+                        "x": 140.8507,
+                        "y": 34.5179
+                    },
+                    "uuid": "c691c4b1-020c-46e0-9db0-78c0c75700a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [/GND_LEFT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 146.8,
+                        "y": 13.0
+                    },
+                    "uuid": "915cc60d-0373-4375-a32f-0a3340a6d50d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 4.0000 mm )",
+                    "pos": {
+                        "x": 146.2875,
+                        "y": 9.5
+                    },
+                    "uuid": "c7bb9599-8d29-4d11-a4f9-53ac93082f9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 2.1190 mm )",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 11.6
+                    },
+                    "uuid": "cdb82491-b7d0-481c-858d-d0937a6e2ed0"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 4.2221 mm )",
+                    "pos": {
+                        "x": 156.3899,
+                        "y": 38.2743
+                    },
+                    "uuid": "ee0b1425-f11f-4212-93f2-9cfc02c1d6a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/VBAT_LEFT] ( F.Cu 上、長さ: 2.3872 mm )",
+                    "pos": {
+                        "x": 142.0839,
+                        "y": 35.488
+                    },
+                    "uuid": "67015bd9-fd17-4565-82c6-dfec5f383f18"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/VBAT_LEFT] ( B.Cu 上、長さ: 1.3000 mm )",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 5.2
+                    },
+                    "uuid": "f18c9ff2-530f-4858-9e8b-2285930a8a9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( F.Cu 上、長さ: 0.9382 mm )",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 37.75
+                    },
+                    "uuid": "2bfc004d-6538-4e8b-82d1-dfcde10f8a88"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/RGB_DATA_SHIFTED_LEFT] ( B.Cu 上、長さ: 5.1047 mm )",
+                    "pos": {
+                        "x": 132.0261,
+                        "y": 35.0317
+                    },
+                    "uuid": "49a26c89-e582-44fb-a329-467d2cefd70f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW41",
+                    "pos": {
+                        "x": 147.6375,
+                        "y": 66.675
+                    },
+                    "uuid": "037f3cac-2cc8-5bc8-ad7a-63ca77f0ac9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント U1",
+                    "pos": {
+                        "x": 148.6125,
+                        "y": 11.6075
+                    },
+                    "uuid": "0b2e93f4-1627-56be-aec6-6c427e660c1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW4",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 11.43
+                    },
+                    "uuid": "0c21a91b-560b-5157-a96e-c12559c5851b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW26",
+                    "pos": {
+                        "x": 147.6375,
+                        "y": 47.625
+                    },
+                    "uuid": "0cedf170-49fa-555e-a3b2-df2e6258b976"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW55",
+                    "pos": {
+                        "x": 40.4813,
+                        "y": 90.4875
+                    },
+                    "uuid": "0f16e4b4-c6f1-5844-aaac-25fab59e3b68"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW37",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 52.3875
+                    },
+                    "uuid": "0feba7d0-05dc-56dc-abe2-d496c936ba58"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW1",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 9.525
+                    },
+                    "uuid": "184dbfc6-bcba-5bda-a4a1-8538ed1d2c7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW33",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 51.435
+                    },
+                    "uuid": "1f7dbc23-ee0e-55bd-a64f-de4d490af8fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW23",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 33.3375
+                    },
+                    "uuid": "20fa9626-8e15-5d16-a8bd-5890624f5b4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW15",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 30.48
+                    },
+                    "uuid": "3330298f-64ac-5bf9-aea7-b719fab2c441"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW53",
+                    "pos": {
+                        "x": 97.6313,
+                        "y": 87.63
+                    },
+                    "uuid": "34c02b1d-5ac0-5eab-aec6-ddd3f349840b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW16",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 30.48
+                    },
+                    "uuid": "3ed2ed10-afcb-5cfe-a8aa-b306bcc3ce4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW54",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 89.535
+                    },
+                    "uuid": "47e1e55d-d74d-5c0d-aced-12f3c0273509"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント STAB1",
+                    "pos": {
+                        "x": 136.6773,
+                        "y": 115.5435
+                    },
+                    "uuid": "59b7d6ec-56b0-57da-aa37-f39abaf7f49a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW3",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 11.43
+                    },
+                    "uuid": "674a891c-1b6d-5558-a235-cd02b184cfbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント U_LS1",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 34.2
+                    },
+                    "uuid": "760d0b61-1fe6-54a7-a0e1-20378e2a2f57"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SWP1",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 30.4875
+                    },
+                    "uuid": "7e306cfc-c4a9-577c-a962-6ce247581588"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW40",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 66.675
+                    },
+                    "uuid": "7ec67cd5-3c62-54c1-acb5-4bc3d0e900fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW44",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 68.58
+                    },
+                    "uuid": "8393617c-a300-511a-a11b-bdb2633c2742"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW58",
+                    "pos": {
+                        "x": 120.7499,
+                        "y": 101.3819
+                    },
+                    "uuid": "8700e961-7f3c-51a9-a482-6c3f54bdf0cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント H1",
+                    "pos": {
+                        "x": 21.15,
+                        "y": 38.6075
+                    },
+                    "uuid": "87d83da4-55c5-543a-aa05-f44e9f44deca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント H2",
+                    "pos": {
+                        "x": 82.65,
+                        "y": 96.0075
+                    },
+                    "uuid": "89d840ca-53c5-5110-a805-f1209d44db98"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント H3",
+                    "pos": {
+                        "x": 148.25,
+                        "y": 26.3075
+                    },
+                    "uuid": "8ad8425d-54c5-52a5-a905-f2b79e44dd31"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW34",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 51.435
+                    },
+                    "uuid": "9abceeab-aca5-5e87-a6be-446d1da257fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW20",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 32.385
+                    },
+                    "uuid": "a495cefb-d6f9-5bbb-abd7-aefddde3f9af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW29",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 49.53
+                    },
+                    "uuid": "afd328d7-52da-5d81-a39b-7409121fcad1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW19",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 32.385
+                    },
+                    "uuid": "b7595aa0-3847-58a0-a3bf-1526a079c1cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント STAB2",
+                    "pos": {
+                        "x": 142.8569,
+                        "y": 92.481
+                    },
+                    "uuid": "b845d0f9-223f-57d5-a4d4-609be4251ee9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW59",
+                    "pos": {
+                        "x": 139.7671,
+                        "y": 104.0123
+                    },
+                    "uuid": "b9659438-e7f0-54d0-a2bc-bb06ed6c602c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW43",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 68.58
+                    },
+                    "uuid": "b9f37492-bcbd-5b76-a92d-3de4cd482032"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW51",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 71.4375
+                    },
+                    "uuid": "baac39fb-073b-5155-a4d0-c8153f2cc9e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW7",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 13.335
+                    },
+                    "uuid": "bc13db7e-f1aa-5a92-aa04-792023cae496"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW11",
+                    "pos": {
+                        "x": 33.3375,
+                        "y": 14.2875
+                    },
+                    "uuid": "bc17bb43-31fd-5f5d-a8e4-f5350633b485"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW13",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 28.575
+                    },
+                    "uuid": "bfc7900d-fd8f-527b-af2a-c9abe47e9d43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW48",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 70.485
+                    },
+                    "uuid": "cd6fc5a0-35a9-52ae-afb6-4f1ef7d47c06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW47",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 70.485
+                    },
+                    "uuid": "de5f2147-94d6-5991-a06f-6c791b582e21"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW25",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 47.625
+                    },
+                    "uuid": "eb3e5b4b-4c48-5505-a576-efe53881d795"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW8",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 13.335
+                    },
+                    "uuid": "f53dcba8-d68f-56d6-a653-243e4e17ada6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント SW30",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 49.53
+                    },
+                    "uuid": "fdc1424c-e0d7-520a-a74d-43c2456a1832"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 13.35
+                    },
+                    "uuid": "02192b71-f4c9-5027-acf1-9183b91c7887"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_EN_PD1",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 13.0
+                    },
+                    "uuid": "032e4f83-3ae7-5d21-a42c-4ce57801ac69"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D40",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 70.35
+                    },
+                    "uuid": "03898e7c-5c63-5f10-aa9a-aad60b8b9b0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED34",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 56.685
+                    },
+                    "uuid": "0d1b99fc-878a-58d8-a09b-c35e3dddd084"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED30",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 54.78
+                    },
+                    "uuid": "10781475-bf57-5451-af2a-d66ffbdeb315"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB4",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 16.68
+                    },
+                    "uuid": "10a83b69-a303-5eab-a436-7cc387312e33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB16",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 35.73
+                    },
+                    "uuid": "1252359c-b1ce-563e-a377-09a690ccdbee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB37",
+                    "pos": {
+                        "x": 24.4563,
+                        "y": 57.6375
+                    },
+                    "uuid": "1255acdc-f359-5344-afcf-d1d6314e8b08"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED33",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 56.685
+                    },
+                    "uuid": "22db5294-75ff-530a-ac76-9c3e4e14e7b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB1",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 14.775
+                    },
+                    "uuid": "2358da76-194d-5e0a-acc9-c43c05e7549e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED48",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 75.735
+                    },
+                    "uuid": "25a51549-8380-5e9d-a95b-3dbbc29ed5e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB44",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 73.83
+                    },
+                    "uuid": "25bafa50-af21-5c4a-a0a2-a3ca670c1442"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_OUT1_1",
+                    "pos": {
+                        "x": 153.0,
+                        "y": 11.5
+                    },
+                    "uuid": "28c3b93b-0c5f-507b-a778-919d3af393af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_OUT2_1",
+                    "pos": {
+                        "x": 156.0,
+                        "y": 9.0
+                    },
+                    "uuid": "29c3bace-095f-5bbc-a478-8cd837f38ee4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED29",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 54.78
+                    },
+                    "uuid": "2ae88a38-1656-5e36-ae78-f81a84d0d97e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED11",
+                    "pos": {
+                        "x": 33.3375,
+                        "y": 19.5375
+                    },
+                    "uuid": "2b22eb34-05eb-56ea-affb-7b26af1e7f2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB20",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 37.635
+                    },
+                    "uuid": "2d05d6c9-cb3d-5ebf-a5cb-d3ab759b4ba7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED8",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 18.585
+                    },
+                    "uuid": "2d8e9311-d9bf-57f5-a458-a5db1c3cb141"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント J1",
+                    "pos": {
+                        "x": 143.5,
+                        "y": 30.55
+                    },
+                    "uuid": "2f4c6adf-3f75-5b85-ab5e-a1cd350fb84d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB29",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 54.78
+                    },
+                    "uuid": "2fc72a1d-e07b-5c0d-a750-3fbf52da6ed9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED26",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 53.5
+                    },
+                    "uuid": "2ff568d9-481f-506d-adb5-a1cb6663cab1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D20",
+                    "pos": {
+                        "x": 137.0,
+                        "y": 39.5
+                    },
+                    "uuid": "33b29b36-d835-5c32-a61e-a7143bc8c54e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D25",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 50.35
+                    },
+                    "uuid": "34162286-5300-5924-abe9-25ec167e7404"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント L_RGB1",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 4.0
+                    },
+                    "uuid": "35a41fbd-a427-5dff-addf-a5df2f302377"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D44",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 71.85
+                    },
+                    "uuid": "36d263ab-2372-5de7-a922-ea118188362b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED41",
+                    "pos": {
+                        "x": 146.375,
+                        "y": 73.0
+                    },
+                    "uuid": "37292555-6927-563b-a31d-b457019a803b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D48",
+                    "pos": {
+                        "x": 137.0,
+                        "y": 77.35
+                    },
+                    "uuid": "387c0177-83f4-599b-a9fc-313551d89f8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED37",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 57.6375
+                    },
+                    "uuid": "3fd29ab9-5aca-57b7-a1a8-7fb3831bdf9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント U_RGB1",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 9.0
+                    },
+                    "uuid": "41012262-db25-5bba-aa75-f50cd2ff1926"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_IN1",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 9.0
+                    },
+                    "uuid": "42083fdb-0474-54f3-aae5-c5a52dc1c797"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB53",
+                    "pos": {
+                        "x": 91.1313,
+                        "y": 92.88
+                    },
+                    "uuid": "433a3a7f-be15-5bef-ae0e-88a5578019e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB59",
+                    "pos": {
+                        "x": 143.1559,
+                        "y": 111.6496
+                    },
+                    "uuid": "434f9894-be1d-5fa8-a621-c1a6aa940c3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED13",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 33.825
+                    },
+                    "uuid": "46868176-c858-5674-aab9-22eca295f7fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED51",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 76.6875
+                    },
+                    "uuid": "483e094c-887f-54d2-a4fe-1306697bc5ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D41",
+                    "pos": {
+                        "x": 155.5,
+                        "y": 73.5
+                    },
+                    "uuid": "48c8a0db-85fd-5bad-ae67-9139b8798435"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB41",
+                    "pos": {
+                        "x": 139.875,
+                        "y": 73.0
+                    },
+                    "uuid": "4a739920-6c8b-5de0-a86e-09f2b418eaac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB43",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 73.83
+                    },
+                    "uuid": "4d80df0a-aaff-5d76-a528-c4e0d4317b32"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED4",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 16.68
+                    },
+                    "uuid": "4e805fec-b16c-5808-a82e-525691380a64"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB7",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 18.585
+                    },
+                    "uuid": "5092dc3e-7f1e-5dc2-ae65-9554330e14b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB3",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 16.68
+                    },
+                    "uuid": "58331bf0-3201-5130-a311-16fa7dff8d8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_FB_TOP1",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 4.5
+                    },
+                    "uuid": "5d45784d-a87b-5eeb-a78f-4eb32ee7f19b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED23",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 38.5875
+                    },
+                    "uuid": "5db2e477-0d6d-58b5-a525-d47dba31c19d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB48",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 75.735
+                    },
+                    "uuid": "5e866b8c-6111-5aae-a348-64ae6bdc3a66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED16",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 35.73
+                    },
+                    "uuid": "67a7abf9-e266-574d-aa10-22e3e58b7079"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB13",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 33.825
+                    },
+                    "uuid": "6d68f34f-fe67-527f-a202-deed47349f9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB47",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 75.735
+                    },
+                    "uuid": "6e684c6d-7fae-5edd-a381-dacffa714ea9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB40",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 71.925
+                    },
+                    "uuid": "71da2667-00e9-584d-a5d2-3735157b95a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D47",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 73.85
+                    },
+                    "uuid": "75c93baa-5c8f-5c40-a644-2b789ce36e50"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED40",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 71.925
+                    },
+                    "uuid": "7940d1de-4782-55f6-a55a-52a447e8afb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D8",
+                    "pos": {
+                        "x": 137.0,
+                        "y": 20.35
+                    },
+                    "uuid": "79dca24f-ccde-5ba3-a203-90555f6fa2ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB26",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 53.5
+                    },
+                    "uuid": "7a567a7c-4c05-5b5e-ab75-fd9e576e42d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_DATA1",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 11.5
+                    },
+                    "uuid": "7a5fec17-21ce-517d-a7b1-7be980e59e8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D11",
+                    "pos": {
+                        "x": 39.5,
+                        "y": 22.35
+                    },
+                    "uuid": "7f5e8eee-f873-53fc-a960-19bc8ec46414"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D26",
+                    "pos": {
+                        "x": 155.5,
+                        "y": 54.5
+                    },
+                    "uuid": "821cdd47-c013-5b6b-a640-4d8520e29b9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D15",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 33.85
+                    },
+                    "uuid": "82b44902-6322-51a8-ae36-ba18f300e130"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB23",
+                    "pos": {
+                        "x": 24.4563,
+                        "y": 38.5875
+                    },
+                    "uuid": "86c75ad6-5223-5dd6-a3a7-7c6421f8e68a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB55",
+                    "pos": {
+                        "x": 33.9813,
+                        "y": 95.7375
+                    },
+                    "uuid": "947f95d8-0e63-502c-a96d-4242b7f11618"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB19",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 37.635
+                    },
+                    "uuid": "993bfa8c-866d-50f8-aa83-ac46f0a88f9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED43",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 73.83
+                    },
+                    "uuid": "9d93e703-70a4-58d5-a7b6-f3c1f5b27b15"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D29",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 51.85
+                    },
+                    "uuid": "9f8b6e7a-0393-5a50-a46d-a5c8d9b201a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB30",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 54.78
+                    },
+                    "uuid": "a0620f40-6d88-5f3a-a09c-a53ac276b332"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED19",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 37.635
+                    },
+                    "uuid": "a08fb449-bbb1-50a3-a91a-0503b912914b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_BULK1",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 11.5
+                    },
+                    "uuid": "a361460f-1537-5ebf-ad3b-2f9575cded93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D53",
+                    "pos": {
+                        "x": 106.5,
+                        "y": 94.0
+                    },
+                    "uuid": "a8417354-9bdf-5d42-a28e-57a695f12eca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED59",
+                    "pos": {
+                        "x": 144.8382,
+                        "y": 105.3711
+                    },
+                    "uuid": "a8b16721-8e09-5f73-ae7b-dae370e266eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB11",
+                    "pos": {
+                        "x": 26.8375,
+                        "y": 19.5375
+                    },
+                    "uuid": "aa3f8a01-7c1a-5bb9-a79d-11f3b557002d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED53",
+                    "pos": {
+                        "x": 97.6313,
+                        "y": 92.88
+                    },
+                    "uuid": "ab90fc46-bba2-5644-a052-6934e04579f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D55",
+                    "pos": {
+                        "x": 52.0,
+                        "y": 91.85
+                    },
+                    "uuid": "ad234c53-1ec3-5aa9-a7ed-f8a9f972e081"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D23",
+                    "pos": {
+                        "x": 40.5,
+                        "y": 39.85
+                    },
+                    "uuid": "ae2ee551-cd8e-5f63-af1a-616bba7f5e13"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D33",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 54.435
+                    },
+                    "uuid": "aedc964e-2984-561c-a5b4-3f248fe8530c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D4",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 20.0
+                    },
+                    "uuid": "b01ce1d6-aeaf-5f5e-a16c-292c80dd363a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D19",
+                    "pos": {
+                        "x": 61.0375,
+                        "y": 38.35
+                    },
+                    "uuid": "b07d3877-43c0-58a5-a473-f46d01a7f545"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB15",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 35.73
+                    },
+                    "uuid": "b2f29b65-c0d8-5c25-aa45-a96fb22c5a89"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D43",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 72.85
+                    },
+                    "uuid": "b55014d5-309f-5d83-a659-29e7d674b8bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED3",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 16.68
+                    },
+                    "uuid": "b6e7fb05-8964-51ab-adec-90af54f4ba1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D51",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 76.5
+                    },
+                    "uuid": "bbb16436-671c-5014-aed3-409cd4c7d9b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D30",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 53.35
+                    },
+                    "uuid": "bbfbe0fb-dca7-5bb7-a567-06615ad170bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D7",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 18.35
+                    },
+                    "uuid": "bc07d059-2ab8-577f-aea1-8e7b8b0f547f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D34",
+                    "pos": {
+                        "x": 137.0,
+                        "y": 58.35
+                    },
+                    "uuid": "c0e47566-90a5-5d2e-a627-95449253c55a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB58",
+                    "pos": {
+                        "x": 124.1387,
+                        "y": 109.0192
+                    },
+                    "uuid": "c1b131eb-173d-5555-a22d-c939297c2375"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED20",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 37.635
+                    },
+                    "uuid": "c328a84c-03e1-5634-a6dd-8caeeebde530"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED44",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 73.83
+                    },
+                    "uuid": "c44c56e5-7961-5501-aad0-725f4cefaec5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED58",
+                    "pos": {
+                        "x": 125.821,
+                        "y": 102.7407
+                    },
+                    "uuid": "c52ed6ba-64d3-546e-a0cd-4c402bfb02e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D54",
+                    "pos": {
+                        "x": 82.5,
+                        "y": 90.0
+                    },
+                    "uuid": "c5e72694-afbd-554c-a818-2fc66fac0c98"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB33",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 56.685
+                    },
+                    "uuid": "c8ca9d61-69d9-5559-abe1-cddb03c0cda5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D58",
+                    "pos": {
+                        "x": 126.9062,
+                        "y": 92.0729
+                    },
+                    "uuid": "ccdd8a00-8bb9-5478-add6-086a3ffc75fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED47",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 75.735
+                    },
+                    "uuid": "d02d4128-493c-59a6-aa1e-2e4adfd315ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB25",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 52.875
+                    },
+                    "uuid": "d066c1b9-0e27-58c1-a1c2-0b033a53557d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D37",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 57.85
+                    },
+                    "uuid": "d1f87e27-7d47-5061-a3fc-df5dcba8f951"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED1",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 14.775
+                    },
+                    "uuid": "d5657c97-3dda-5a41-a74b-17a5c45d6289"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED54",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 94.785
+                    },
+                    "uuid": "d5dee386-373e-5a7a-afbb-8954b64bdbc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D16",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 38.85
+                    },
+                    "uuid": "d6530f67-5d02-5d4b-afab-414db8a1f837"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED15",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 35.73
+                    },
+                    "uuid": "d816bef0-1483-569e-a1a4-05ea4726d88e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED55",
+                    "pos": {
+                        "x": 40.4813,
+                        "y": 95.7375
+                    },
+                    "uuid": "e0777e9d-78bc-5eef-ac79-7f07e739b6cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D59",
+                    "pos": {
+                        "x": 138.5938,
+                        "y": 83.427
+                    },
+                    "uuid": "e2eda29f-3bf8-53b5-a8da-794d47ab6ae5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED25",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 52.875
+                    },
+                    "uuid": "e3f1b31c-69a9-51e2-a96c-98160e79899a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D3",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 14.35
+                    },
+                    "uuid": "e6f6c2cb-ea8b-519d-a62e-02a1d3de0e15"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント D13",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 31.85
+                    },
+                    "uuid": "e9bf56c4-165f-5b72-adc3-244e980b94e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_FB_BOT1",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 9.0
+                    },
+                    "uuid": "ea1a5b13-e75c-5489-af0a-ca15f4d180f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB54",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 94.785
+                    },
+                    "uuid": "f1e5663f-c3fe-53a9-a044-294510b40d51"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB51",
+                    "pos": {
+                        "x": 24.4563,
+                        "y": 76.6875
+                    },
+                    "uuid": "f25047c9-4821-5711-ab89-b9d3f872c84d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_LS1",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 4.0
+                    },
+                    "uuid": "f7995025-2c79-5811-ad5c-e843008b5775"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB34",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 56.685
+                    },
+                    "uuid": "f9bc4419-3edc-549b-aedd-557bb4af85d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント LED7",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 18.585
+                    },
+                    "uuid": "fb5c924f-47ad-5d69-a70e-df8db391cc91"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリントライブラリ 'Keyboard' は現在の設定では有効化されていません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB8",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 18.585
+                    },
+                    "uuid": "fb8154a4-2198-5896-a790-eb4e758c3ec6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

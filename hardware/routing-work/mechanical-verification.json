@@ -1,0 +1,30 @@
+{
+  "left": {
+    "edges": {
+      "unchanged": true,
+      "count": 47
+    },
+    "holes": {
+      "unchanged": true,
+      "count": 166
+    },
+    "switches": {
+      "unchanged": true,
+      "count": 31
+    }
+  },
+  "right": {
+    "edges": {
+      "unchanged": true,
+      "count": 58
+    },
+    "holes": {
+      "unchanged": true,
+      "count": 157
+    },
+    "switches": {
+      "unchanged": true,
+      "count": 28
+    }
+  }
+}

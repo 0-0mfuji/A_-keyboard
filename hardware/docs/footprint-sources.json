@@ -1,0 +1,408 @@
+[
+  {
+    "authority": "KiCad official",
+    "id": "BatteryConnector_JST_PH2",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "296506c379958ec5f3f455ae66c169b9e0b5e3482713b4aa4366b677dea398e7",
+    "source": "https://github.com/KiCad/kicad-footprints/blob/master/Connector_JST.pretty/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.kicad_mod",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "KiCad official-compatible; datasheet reviewed",
+    "id": "C_0603",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Deterministic local snapshot with external 3D models removed",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "0e2cd1b101f6095c901440377c245e2ed83d355958bdaeff67f60912ca38ca83",
+    "source": "https://github.com/KiCad/kicad-footprints/tree/master/Capacitor_SMD.pretty",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "Community: Salicylic-acid3",
+    "id": "LED_SK6812MINI-E_BL",
+    "license": "salicylic-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "4f7b6d194ead96c0881830f41cdab206a1b919f5d6e95458ea03413169fe5869",
+    "source": "https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/9ade20b79abc7716e23f86f6b70f1b357333653c/kbd_Parts.pretty/LED_SK6812MINI-E_BL.kicad_mod",
+    "model3d": {
+      "authority": "KiCad official (kicad-packages3D, merged 2025-12-28)",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount.step",
+      "license": "kicad-license.md",
+      "note": "Not manufacturer-distributed; modeled by a KiCad contributor from the datasheet (no manufacturer STEP could be found -- see https://gitlab.com/kicad/libraries/kicad-footprints/-/merge_requests/4529). Copied into hardware/keyboard_v5/Keyboard.3dshapes/ because this project's bundled KiCad 10.0.5 3D library snapshot predates the merge; confirmed present on kicad-packages3D master as of this addition. Source: https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/LED_SMD.3dshapes/LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount.step . Pad layout matches the official LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount footprint (same 4-pad rectangle, offset/scale/rotate all default)."
+    }
+  },
+  {
+    "authority": "KiCad official-compatible; datasheet reviewed",
+    "id": "L_0603",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Deterministic local snapshot with external 3D models removed",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": null,
+    "source": "https://github.com/KiCad/kicad-footprints/tree/master/Inductor_SMD.pretty",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "KiCad official-compatible; datasheet reviewed",
+    "id": "L_1008",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Deterministic local snapshot with external 3D models removed",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "a29db41bd1c7ef031a45b1040ecf1fe8eddb79d690f7b884d1878cbba2d18ca9",
+    "source": "https://github.com/KiCad/kicad-footprints/tree/master/Inductor_SMD.pretty",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "Community: Salicylic-acid3",
+    "id": "MX_Hotswap_1.25u",
+    "license": "salicylic-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "4e76f38b65a38be80efe10e3c545541de5e3c6cafec702557e520c4e3500b984",
+    "source": "https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/9ade20b79abc7716e23f86f6b70f1b357333653c/kbd_SW.pretty/CherryMX_Hotswap_1.25u.kicad_mod",
+    "model3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Hotswap_Kailh_MX.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp). Same socket body used for all key-unit-width variants; mounting-hole positions verified identical to this project's footprints."
+    },
+    "switchModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Cherry_MX_PCB.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry MX 5-pin PCB-mount switch body (not electrically connected; placed for mechanical/visual reference at the same socket location). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp). Chosen over the plate-mount variant because this project's hotswap footprints include the 5.08mm support-peg holes characteristic of 5-pin PCB-mount switches. Keycaps are not included in this library and were not assigned."
+    }
+  },
+  {
+    "authority": "Community: Salicylic-acid3",
+    "id": "MX_Hotswap_1.5u",
+    "license": "salicylic-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "9938906eb939bb8aa0a4b1c3afdbd7fa5c8b4c8584dd3d613c284cf0cbf84d0f",
+    "source": "https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/9ade20b79abc7716e23f86f6b70f1b357333653c/kbd_SW.pretty/CherryMX_Hotswap_1.5u.kicad_mod",
+    "model3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Hotswap_Kailh_MX.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp). Same socket body used for all key-unit-width variants; mounting-hole positions verified identical to this project's footprints."
+    },
+    "switchModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Cherry_MX_PCB.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry MX 5-pin PCB-mount switch body (not electrically connected; placed for mechanical/visual reference at the same socket location). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp). Chosen over the plate-mount variant because this project's hotswap footprints include the 5.08mm support-peg holes characteristic of 5-pin PCB-mount switches. Keycaps are not included in this library and were not assigned."
+    }
+  },
+  {
+    "authority": "Community: Salicylic-acid3",
+    "id": "MX_Hotswap_1.75u",
+    "license": "salicylic-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "bab6daa82b46e58f17239b3c5e91a8aa85b517fc59733710dfc0ba829c802a87",
+    "source": "https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/9ade20b79abc7716e23f86f6b70f1b357333653c/kbd_SW.pretty/CherryMX_Hotswap_1.75u.kicad_mod",
+    "model3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Hotswap_Kailh_MX.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp). Same socket body used for all key-unit-width variants; mounting-hole positions verified identical to this project's footprints."
+    },
+    "switchModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Cherry_MX_PCB.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry MX 5-pin PCB-mount switch body (not electrically connected; placed for mechanical/visual reference at the same socket location). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp). Chosen over the plate-mount variant because this project's hotswap footprints include the 5.08mm support-peg holes characteristic of 5-pin PCB-mount switches. Keycaps are not included in this library and were not assigned."
+    }
+  },
+  {
+    "authority": "Community: Salicylic-acid3",
+    "id": "MX_Hotswap_1u",
+    "license": "salicylic-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "6447f9c5850f085501c2fd2ace5c2785fea6c24cf585be6f5998da02eecdc585",
+    "source": "https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/9ade20b79abc7716e23f86f6b70f1b357333653c/kbd_SW.pretty/CherryMX_Hotswap_1u.kicad_mod",
+    "model3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Hotswap_Kailh_MX.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp). Same socket body used for all key-unit-width variants; mounting-hole positions verified identical to this project's footprints."
+    },
+    "switchModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Cherry_MX_PCB.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry MX 5-pin PCB-mount switch body (not electrically connected; placed for mechanical/visual reference at the same socket location). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp). Chosen over the plate-mount variant because this project's hotswap footprints include the 5.08mm support-peg holes characteristic of 5-pin PCB-mount switches. Keycaps are not included in this library and were not assigned."
+    }
+  },
+  {
+    "authority": "Community: Salicylic-acid3",
+    "id": "MX_Hotswap_2.25u",
+    "license": "salicylic-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "196d9cf440293010fd7f0f92d286cc2e95094cc7f594ee6a7fa166596845077d",
+    "source": "https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/9ade20b79abc7716e23f86f6b70f1b357333653c/kbd_SW.pretty/CherryMX_Hotswap_2.25u.kicad_mod",
+    "model3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Hotswap_Kailh_MX.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp). Same socket body used for all key-unit-width variants; mounting-hole positions verified identical to this project's footprints."
+    },
+    "switchModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Cherry_MX_PCB.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry MX 5-pin PCB-mount switch body (not electrically connected; placed for mechanical/visual reference at the same socket location). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp). Chosen over the plate-mount variant because this project's hotswap footprints include the 5.08mm support-peg holes characteristic of 5-pin PCB-mount switches. Keycaps are not included in this library and were not assigned."
+    },
+    "stabilizerModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/Stabilizer_Cherry_MX_2.00u.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry-style PCB-mount stabilizer wire/housing (not electrically connected). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp). Only a 2.00u stabilizer size is published upstream; its 4 mounting-hole coordinates match both this project's 2u and 2.25u footprints (same physical stabilizer spacing for both key sizes)."
+    }
+  },
+  {
+    "authority": "Community: Salicylic-acid3",
+    "id": "MX_Hotswap_2u",
+    "license": "salicylic-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "ffa21699854a389c63d25bef25f896b1d4c345facdf8ccc26e95f9c4e45d6bdf",
+    "source": "https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/9ade20b79abc7716e23f86f6b70f1b357333653c/kbd_SW.pretty/CherryMX_Hotswap_2u.kicad_mod",
+    "model3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Hotswap_Kailh_MX.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp). Same socket body used for all key-unit-width variants; mounting-hole positions verified identical to this project's footprints."
+    },
+    "switchModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/SW_Cherry_MX_PCB.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry MX 5-pin PCB-mount switch body (not electrically connected; placed for mechanical/visual reference at the same socket location). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp). Chosen over the plate-mount variant because this project's hotswap footprints include the 5.08mm support-peg holes characteristic of 5-pin PCB-mount switches. Keycaps are not included in this library and were not assigned."
+    },
+    "stabilizerModel3d": {
+      "authority": "Community: perigoso/keyswitch-kicad-library v2.3",
+      "path": "${KIPRJMOD}/../Keyboard.3dshapes/Stabilizer_Cherry_MX_2.00u.step",
+      "license": [
+        "keyswitch-kicad-library-license.md",
+        "keyswitch-kicad-library-cc-by-sa-license.md"
+      ],
+      "note": "Cherry-style PCB-mount stabilizer wire/housing (not electrically connected). Copied into hardware/keyboard_v5/Keyboard.3dshapes/. Source: https://github.com/perigoso/keyswitch-kicad-library/releases/tag/v2.3 (file 3dmodels/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp). Only a 2.00u stabilizer size is published upstream; its 4 mounting-hole coordinates match both this project's 2u and 2.25u footprints (same physical stabilizer spacing for both key sizes)."
+    }
+  },
+  {
+    "authority": "KiCad official",
+    "id": "PowerSwitch_MSK12C02",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "a46f03946eca10ca55c6408de4282d41a8fc69ddfe6382a8ff56b18fd2bc1a28",
+    "source": "https://github.com/KiCad/kicad-footprints/blob/master/Button_Switch_SMD.pretty/SW_SPDT_Shouhan_MSK12C02.kicad_mod",
+    "model3d": {
+      "authority": null,
+      "path": null,
+      "note": "No STEP model assigned yet. Checked KiCad's official 3D library, the Salicylic-acid3/Seeed source repos, and web search: none provide a directly downloadable, correctly licensed STEP file for this exact footprint as of 2026-09-23."
+    }
+  },
+  {
+    "authority": "KiCad official-compatible; datasheet reviewed",
+    "id": "R_0603",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Deterministic local snapshot with external 3D models removed",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "00b4b299592a8abadf314a9520e37c69110983a7c67320ded71fdb07ae2e4398",
+    "source": "https://github.com/KiCad/kicad-footprints/tree/master/Resistor_SMD.pretty",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "KiCad official-compatible; datasheet reviewed",
+    "id": "SEIBOKU_JUMPER_HEADER",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Deterministic local snapshot with external 3D models removed",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "source": "https://github.com/KiCad/kicad-footprints/tree/master/Connector_PinHeader_2.54mm.pretty",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "KiCad official (KiCad 10 library snapshot)",
+    "id": "SN74AHCT1G125",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Removed external 3D model paths; package geometry and pad numbering retained",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+    "source": "https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/master/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "KiCad official",
+    "id": "SOD123",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "3ee0bc152d3460e3683968eea208534fa5e99b1d2d38a003a05b4b04ccd641af",
+    "source": "https://github.com/KiCad/kicad-footprints/blob/7ebfa6b23cc292a56f751b7b5f4a0e12eeef69dd/Diode_SMD.pretty/D_SOD-123.kicad_mod",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "KiCad official (KiCad 10 library snapshot)",
+    "id": "TPS61023",
+    "license": "kicad-license.md",
+    "modifications": [
+      "Removed external 3D model paths; package geometry and pad numbering retained",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "787def5a43a0ae8e456265448f63b3b2e1390516eb2fda17b955a431fa722047",
+    "source": "https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/master/Package_TO_SOT_SMD.pretty/SOT-563.kicad_mod",
+    "model3d": {
+      "authority": "KiCad official (bundled with KiCad 10 install)",
+      "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step",
+      "license": "kicad-license.md",
+      "note": "Resolved via the ${KICAD10_3DMODEL_DIR} environment variable that KiCad 10 sets automatically; no external download required."
+    }
+  },
+  {
+    "authority": "Manufacturer: Seeed Studio",
+    "id": "XIAO_NRF52840_PLUS",
+    "license": "seeed-license.md",
+    "modifications": [
+      "Normalized origin and orientation; KiCad 9 syntax; deterministic instance UUIDs",
+      "Removed external 3D paths; MX fixed 1U drawing replaced by layout outline",
+      "Module corner arcs moved from SilkS to Fab to clear castellated pad solder mask",
+      "Reference text adjusted; silk segments near pads moved to Fab; missing courtyards added"
+    ],
+    "sha256": "8f33096330333bc797e408f9097ba88aace2455f27228195304c76cf08331350",
+    "source": "https://raw.githubusercontent.com/Seeed-Studio/OPL_Kicad_Library/b0035c51eb0348bb3e165fdb2f2765fa3d1d17bd/Seeed%20Studio%20XIAO%20Series%20Library/XIAO-nRF52840-Plus-SMD.kicad_mod",
+    "model3d": {
+      "authority": null,
+      "path": null,
+      "note": "Removed at user request 2026-09-23. A Seeed-official XIAO nRF52840 (Sense) STEP was tried as a same-form-factor stand-in for the Plus variant, but the correct placement (offset/rotate) could not be pinned down reliably in this session despite several verification passes, and the user asked to drop it rather than continue. The .step file was removed from hardware/keyboard_v5/Keyboard.3dshapes/. XIAO_NRF52840_PLUS currently has no 3D model assigned."
+    }
+  }
+]

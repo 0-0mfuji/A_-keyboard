@@ -1,0 +1,2160 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T23:03:01",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "candidate1.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/COL3] - SW30 ( B.Cu 上)",
+                    "pos": {
+                        "x": 102.5375,
+                        "y": 46.95
+                    },
+                    "uuid": "eda85211-a6ed-5ed1-aacb-2f4b9149ecad"
+                },
+                {
+                    "description": "配線 [/COL3] ( F.Cu 上、長さ: 0.9143 mm )",
+                    "pos": {
+                        "x": 101.7,
+                        "y": 19.3965
+                    },
+                    "uuid": "f2e131a8-2179-4f7e-9be8-97cd32cef61d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0549 mm)",
+            "items": [
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 9.2041 mm )",
+                    "pos": {
+                        "x": 90.2103,
+                        "y": 55.7351
+                    },
+                    "uuid": "5dd0270b-5e15-44de-a1ad-d27432ad255e"
+                },
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 83.5375,
+                        "y": 61.8
+                    },
+                    "uuid": "c359cbfa-f3da-4be3-87e9-9715948ec86f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0415 mm)",
+            "items": [
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 73.0375,
+                        "y": 47.2
+                    },
+                    "uuid": "630f9b5c-000a-4983-9aa6-619edff01f15"
+                },
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 3.2981 mm )",
+                    "pos": {
+                        "x": 74.1184,
+                        "y": 47.6919
+                    },
+                    "uuid": "bebd067e-fc46-42aa-aec1-af9ce896c3e7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0684 mm)",
+            "items": [
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 83.5375,
+                        "y": 61.8
+                    },
+                    "uuid": "c359cbfa-f3da-4be3-87e9-9715948ec86f"
+                },
+                {
+                    "description": "配線 [/GND_LEFT] ( B.Cu 上、長さ: 2.3657 mm )",
+                    "pos": {
+                        "x": 83.702,
+                        "y": 62.2434
+                    },
+                    "uuid": "c94ff964-be69-4dcf-b7f1-4274fe9d2c70"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0165 mm)",
+            "items": [
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 73.0375,
+                        "y": 47.2
+                    },
+                    "uuid": "630f9b5c-000a-4983-9aa6-619edff01f15"
+                },
+                {
+                    "description": "配線 [/COL0] ( F.Cu 上、長さ: 10.8167 mm )",
+                    "pos": {
+                        "x": 83.2736,
+                        "y": 46.8085
+                    },
+                    "uuid": "f0d3b12b-7e4d-4ca0-9fb4-246ab92ad8f3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0344 mm)",
+            "items": [
+                {
+                    "description": "配線 [/ROW1] ( F.Cu 上、長さ: 19.2183 mm )",
+                    "pos": {
+                        "x": 54.8944,
+                        "y": 24.2359
+                    },
+                    "uuid": "78474f8a-5230-49ea-9e21-132a015253a8"
+                },
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 67.4375,
+                        "y": 36.2
+                    },
+                    "uuid": "fcac466b-43f9-4652-8f7b-0cf8e0c502d4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0441 mm)",
+            "items": [
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 69.3375,
+                        "y": 40.9
+                    },
+                    "uuid": "09e24dd0-8b8f-4933-9a16-42cd1abc442d"
+                },
+                {
+                    "description": "配線 [/ROW2] ( F.Cu 上、長さ: 29.7473 mm )",
+                    "pos": {
+                        "x": 90.6494,
+                        "y": 41.3191
+                    },
+                    "uuid": "495ec380-0a91-4266-8b6e-36333b8bf2a9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0304 mm)",
+            "items": [
+                {
+                    "description": "配線 [/COL2] ( B.Cu 上、長さ: 6.9035 mm )",
+                    "pos": {
+                        "x": 69.319,
+                        "y": 40.2918
+                    },
+                    "uuid": "669fb2b2-2917-470b-bd42-010e2970d020"
+                },
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 68.2375,
+                        "y": 40.8
+                    },
+                    "uuid": "b47ed15d-123f-4458-b209-48fce9415b2b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0334 mm)",
+            "items": [
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 83.7375,
+                        "y": 54.7
+                    },
+                    "uuid": "b62bcff6-f205-48c0-bd28-9e86c50c26af"
+                },
+                {
+                    "description": "配線 [/RGB_5V_LEFT] ( B.Cu 上、長さ: 4.2889 mm )",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 53.625
+                    },
+                    "uuid": "c22303b0-5969-42f7-8dbd-a5c8672b2fb9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0736 mm)",
+            "items": [
+                {
+                    "description": "配線 [/rgb/RGB_LED_left_14] ( F.Cu 上、長さ: 17.6001 mm )",
+                    "pos": {
+                        "x": 72.1479,
+                        "y": 61.3514
+                    },
+                    "uuid": "74f51900-54a1-4fc9-a55a-e7de07a65041"
+                },
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 83.5375,
+                        "y": 61.8
+                    },
+                    "uuid": "c359cbfa-f3da-4be3-87e9-9715948ec86f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0649 mm)",
+            "items": [
+                {
+                    "description": "配線 [/rgb/RGB_LED_left_10] ( F.Cu 上、長さ: 56.4614 mm )",
+                    "pos": {
+                        "x": 91.0403,
+                        "y": 40.3601
+                    },
+                    "uuid": "59333d6a-14e5-4adf-9d57-29a7a40eb9a2"
+                },
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 68.2375,
+                        "y": 40.8
+                    },
+                    "uuid": "b47ed15d-123f-4458-b209-48fce9415b2b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1500 mm; 現状 0.0583 mm)",
+            "items": [
+                {
+                    "description": "配線 [/rgb/RGB_LED_left_11] ( F.Cu 上、長さ: 15.5658 mm )",
+                    "pos": {
+                        "x": 77.5217,
+                        "y": 55.1333
+                    },
+                    "uuid": "80192e23-76f1-44bc-8b59-a066c2d79e3d"
+                },
+                {
+                    "description": "ビア [/rgb/RGB_LED_left_7] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 83.7375,
+                        "y": 54.7
+                    },
+                    "uuid": "b62bcff6-f205-48c0-bd28-9e86c50c26af"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/rgb/RGB_LED_left_7] ( F.Cu 上、長さ: 3.8471 mm )",
+                    "pos": {
+                        "x": 64.4375,
+                        "y": 27.9
+                    },
+                    "uuid": "a38e5957-05f8-400a-868a-3562757a4fab"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/rgb/RGB_LED_left_7] ( F.Cu 上、長さ: 2.3022 mm )",
+                    "pos": {
+                        "x": 83.5375,
+                        "y": 61.8
+                    },
+                    "uuid": "f878da3a-4bcd-49b2-bd73-cdf24a56fb5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "フットプリント 'R_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_EN_PD1",
+                    "pos": {
+                        "x": 139.8,
+                        "y": 40.0
+                    },
+                    "uuid": "032e4f83-3ae7-5d21-a42c-4ce57801ac69"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW41",
+                    "pos": {
+                        "x": 147.6375,
+                        "y": 66.675
+                    },
+                    "uuid": "037f3cac-2cc8-5bc8-ad7a-63ca77f0ac9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW4",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 11.43
+                    },
+                    "uuid": "0c21a91b-560b-5157-a96e-c12559c5851b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW26",
+                    "pos": {
+                        "x": 147.6375,
+                        "y": 47.625
+                    },
+                    "uuid": "0cedf170-49fa-555e-a3b2-df2e6258b976"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1.75u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW55",
+                    "pos": {
+                        "x": 40.4813,
+                        "y": 90.4875
+                    },
+                    "uuid": "0f16e4b4-c6f1-5844-aaac-25fab59e3b68"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1.25u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW37",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 52.3875
+                    },
+                    "uuid": "0feba7d0-05dc-56dc-abe2-d496c936ba58"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW1",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 9.525
+                    },
+                    "uuid": "184dbfc6-bcba-5bda-a4a1-8538ed1d2c7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW33",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 51.435
+                    },
+                    "uuid": "1f7dbc23-ee0e-55bd-a64f-de4d490af8fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1.25u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW23",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 33.3375
+                    },
+                    "uuid": "20fa9626-8e15-5d16-a8bd-5890624f5b4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_OUT1_1",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 37.0
+                    },
+                    "uuid": "28c3b93b-0c5f-507b-a778-919d3af393af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_OUT2_1",
+                    "pos": {
+                        "x": 151.5,
+                        "y": 37.0
+                    },
+                    "uuid": "29c3bace-095f-5bbc-a478-8cd837f38ee4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW15",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 30.48
+                    },
+                    "uuid": "3330298f-64ac-5bf9-aea7-b719fab2c441"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1.25u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW53",
+                    "pos": {
+                        "x": 97.6313,
+                        "y": 87.63
+                    },
+                    "uuid": "34c02b1d-5ac0-5eab-aec6-ddd3f349840b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'L_1008' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント L_RGB1",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 33.8
+                    },
+                    "uuid": "35a41fbd-a427-5dff-addf-a5df2f302377"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW16",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 30.48
+                    },
+                    "uuid": "3ed2ed10-afcb-5cfe-a8aa-b306bcc3ce4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'TPS61023' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント U_RGB1",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 37.0
+                    },
+                    "uuid": "41012262-db25-5bba-aa75-f50cd2ff1926"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_IN1",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 36.8
+                    },
+                    "uuid": "42083fdb-0474-54f3-aae5-c5a52dc1c797"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1.5u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW54",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 89.535
+                    },
+                    "uuid": "47e1e55d-d74d-5c0d-aced-12f3c0273509"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MXStabilizerHole' がライブラリ'Keyboard'に見つかりません",
+            "items": [
+                {
+                    "description": "フットプリント STAB1",
+                    "pos": {
+                        "x": 136.6773,
+                        "y": 115.5435
+                    },
+                    "uuid": "59b7d6ec-56b0-57da-aa37-f39abaf7f49a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリント 'R_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_FB_TOP1",
+                    "pos": {
+                        "x": 146.5,
+                        "y": 40.0
+                    },
+                    "uuid": "5d45784d-a87b-5eeb-a78f-4eb32ee7f19b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW3",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 11.43
+                    },
+                    "uuid": "674a891c-1b6d-5558-a235-cd02b184cfbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SN74AHCT1G125' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント U_LS1",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 34.2
+                    },
+                    "uuid": "760d0b61-1fe6-54a7-a0e1-20378e2a2f57"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_DATA1",
+                    "pos": {
+                        "x": 138.5,
+                        "y": 37.5
+                    },
+                    "uuid": "7a5fec17-21ce-517d-a7b1-7be980e59e8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW40",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 66.675
+                    },
+                    "uuid": "7ec67cd5-3c62-54c1-acb5-4bc3d0e900fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW44",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 68.58
+                    },
+                    "uuid": "8393617c-a300-511a-a11b-bdb2633c2742"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1.5u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW58",
+                    "pos": {
+                        "x": 120.7499,
+                        "y": 101.3819
+                    },
+                    "uuid": "8700e961-7f3c-51a9-a482-6c3f54bdf0cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MountingHole' がライブラリ'Keyboard'に見つかりません",
+            "items": [
+                {
+                    "description": "フットプリント H1",
+                    "pos": {
+                        "x": 21.15,
+                        "y": 38.6075
+                    },
+                    "uuid": "87d83da4-55c5-543a-aa05-f44e9f44deca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリント 'MountingHole' がライブラリ'Keyboard'に見つかりません",
+            "items": [
+                {
+                    "description": "フットプリント H2",
+                    "pos": {
+                        "x": 82.65,
+                        "y": 96.0075
+                    },
+                    "uuid": "89d840ca-53c5-5110-a805-f1209d44db98"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリント 'MountingHole' がライブラリ'Keyboard'に見つかりません",
+            "items": [
+                {
+                    "description": "フットプリント H3",
+                    "pos": {
+                        "x": 148.25,
+                        "y": 26.3075
+                    },
+                    "uuid": "8ad8425d-54c5-52a5-a905-f2b79e44dd31"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW34",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 51.435
+                    },
+                    "uuid": "9abceeab-aca5-5e87-a6be-446d1da257fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB_BULK1",
+                    "pos": {
+                        "x": 153.8,
+                        "y": 37.0
+                    },
+                    "uuid": "a361460f-1537-5ebf-ad3b-2f9575cded93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW20",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 32.385
+                    },
+                    "uuid": "a495cefb-d6f9-5bbb-abd7-aefddde3f9af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW29",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 49.53
+                    },
+                    "uuid": "afd328d7-52da-5d81-a39b-7409121fcad1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW19",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 32.385
+                    },
+                    "uuid": "b7595aa0-3847-58a0-a3bf-1526a079c1cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MXStabilizerHole' がライブラリ'Keyboard'に見つかりません",
+            "items": [
+                {
+                    "description": "フットプリント STAB2",
+                    "pos": {
+                        "x": 142.8569,
+                        "y": 92.481
+                    },
+                    "uuid": "b845d0f9-223f-57d5-a4d4-609be4251ee9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_2.25u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW59",
+                    "pos": {
+                        "x": 139.7671,
+                        "y": 104.0123
+                    },
+                    "uuid": "b9659438-e7f0-54d0-a2bc-bb06ed6c602c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW43",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 68.58
+                    },
+                    "uuid": "b9f37492-bcbd-5b76-a92d-3de4cd482032"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1.25u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW51",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 71.4375
+                    },
+                    "uuid": "baac39fb-073b-5155-a4d0-c8153f2cc9e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW7",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 13.335
+                    },
+                    "uuid": "bc13db7e-f1aa-5a92-aa04-792023cae496"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW11",
+                    "pos": {
+                        "x": 33.3375,
+                        "y": 14.2875
+                    },
+                    "uuid": "bc17bb43-31fd-5f5d-a8e4-f5350633b485"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW13",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 28.575
+                    },
+                    "uuid": "bfc7900d-fd8f-527b-af2a-c9abe47e9d43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW48",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 70.485
+                    },
+                    "uuid": "cd6fc5a0-35a9-52ae-afb6-4f1ef7d47c06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW47",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 70.485
+                    },
+                    "uuid": "de5f2147-94d6-5991-a06f-6c791b582e21"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント R_RGB_FB_BOT1",
+                    "pos": {
+                        "x": 143.2,
+                        "y": 40.0
+                    },
+                    "uuid": "ea1a5b13-e75c-5489-af0a-ca15f4d180f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW25",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 47.625
+                    },
+                    "uuid": "eb3e5b4b-4c48-5505-a576-efe53881d795"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW8",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 13.335
+                    },
+                    "uuid": "f53dcba8-d68f-56d6-a653-243e4e17ada6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_LS1",
+                    "pos": {
+                        "x": 138.5,
+                        "y": 31.1
+                    },
+                    "uuid": "f7995025-2c79-5811-ad5c-e843008b5775"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MX_Hotswap_1u' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント SW30",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 49.53
+                    },
+                    "uuid": "fdc1424c-e0d7-520a-a74d-43c2456a1832"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D40",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 70.35
+                    },
+                    "uuid": "03898e7c-5c63-5f10-aa9a-aad60b8b9b0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED34",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 56.685
+                    },
+                    "uuid": "0d1b99fc-878a-58d8-a09b-c35e3dddd084"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED30",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 54.78
+                    },
+                    "uuid": "10781475-bf57-5451-af2a-d66ffbdeb315"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB4",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 16.68
+                    },
+                    "uuid": "10a83b69-a303-5eab-a436-7cc387312e33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB16",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 35.73
+                    },
+                    "uuid": "1252359c-b1ce-563e-a377-09a690ccdbee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB37",
+                    "pos": {
+                        "x": 24.4563,
+                        "y": 57.6375
+                    },
+                    "uuid": "1255acdc-f359-5344-afcf-d1d6314e8b08"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED33",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 56.685
+                    },
+                    "uuid": "22db5294-75ff-530a-ac76-9c3e4e14e7b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB1",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 14.775
+                    },
+                    "uuid": "2358da76-194d-5e0a-acc9-c43c05e7549e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED48",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 75.735
+                    },
+                    "uuid": "25a51549-8380-5e9d-a95b-3dbbc29ed5e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB44",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 73.83
+                    },
+                    "uuid": "25bafa50-af21-5c4a-a0a2-a3ca670c1442"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED29",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 54.78
+                    },
+                    "uuid": "2ae88a38-1656-5e36-ae78-f81a84d0d97e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED11",
+                    "pos": {
+                        "x": 33.3375,
+                        "y": 19.5375
+                    },
+                    "uuid": "2b22eb34-05eb-56ea-affb-7b26af1e7f2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB20",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 37.635
+                    },
+                    "uuid": "2d05d6c9-cb3d-5ebf-a5cb-d3ab759b4ba7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED8",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 18.585
+                    },
+                    "uuid": "2d8e9311-d9bf-57f5-a458-a5db1c3cb141"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB29",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 54.78
+                    },
+                    "uuid": "2fc72a1d-e07b-5c0d-a750-3fbf52da6ed9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED26",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 53.5
+                    },
+                    "uuid": "2ff568d9-481f-506d-adb5-a1cb6663cab1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D25",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 50.35
+                    },
+                    "uuid": "34162286-5300-5924-abe9-25ec167e7404"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D44",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 71.85
+                    },
+                    "uuid": "36d263ab-2372-5de7-a922-ea118188362b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED41",
+                    "pos": {
+                        "x": 146.375,
+                        "y": 73.0
+                    },
+                    "uuid": "37292555-6927-563b-a31d-b457019a803b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED37",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 57.6375
+                    },
+                    "uuid": "3fd29ab9-5aca-57b7-a1a8-7fb3831bdf9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB53",
+                    "pos": {
+                        "x": 91.1313,
+                        "y": 92.88
+                    },
+                    "uuid": "433a3a7f-be15-5bef-ae0e-88a5578019e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB59",
+                    "pos": {
+                        "x": 143.1559,
+                        "y": 111.6496
+                    },
+                    "uuid": "434f9894-be1d-5fa8-a621-c1a6aa940c3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED13",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 33.825
+                    },
+                    "uuid": "46868176-c858-5674-aab9-22eca295f7fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED51",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 76.6875
+                    },
+                    "uuid": "483e094c-887f-54d2-a4fe-1306697bc5ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB41",
+                    "pos": {
+                        "x": 139.875,
+                        "y": 73.0
+                    },
+                    "uuid": "4a739920-6c8b-5de0-a86e-09f2b418eaac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB43",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 73.83
+                    },
+                    "uuid": "4d80df0a-aaff-5d76-a528-c4e0d4317b32"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED4",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 16.68
+                    },
+                    "uuid": "4e805fec-b16c-5808-a82e-525691380a64"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB7",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 18.585
+                    },
+                    "uuid": "5092dc3e-7f1e-5dc2-ae65-9554330e14b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB3",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 16.68
+                    },
+                    "uuid": "58331bf0-3201-5130-a311-16fa7dff8d8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED23",
+                    "pos": {
+                        "x": 30.9563,
+                        "y": 38.5875
+                    },
+                    "uuid": "5db2e477-0d6d-58b5-a525-d47dba31c19d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB48",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 75.735
+                    },
+                    "uuid": "5e866b8c-6111-5aae-a348-64ae6bdc3a66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED16",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 35.73
+                    },
+                    "uuid": "67a7abf9-e266-574d-aa10-22e3e58b7079"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB13",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 33.825
+                    },
+                    "uuid": "6d68f34f-fe67-527f-a202-deed47349f9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB47",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 75.735
+                    },
+                    "uuid": "6e684c6d-7fae-5edd-a381-dacffa714ea9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB40",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 71.925
+                    },
+                    "uuid": "71da2667-00e9-584d-a5d2-3735157b95a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D47",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 73.85
+                    },
+                    "uuid": "75c93baa-5c8f-5c40-a644-2b789ce36e50"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED40",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 71.925
+                    },
+                    "uuid": "7940d1de-4782-55f6-a55a-52a447e8afb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB26",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 53.5
+                    },
+                    "uuid": "7a567a7c-4c05-5b5e-ab75-fd9e576e42d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D15",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 33.85
+                    },
+                    "uuid": "82b44902-6322-51a8-ae36-ba18f300e130"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB23",
+                    "pos": {
+                        "x": 24.4563,
+                        "y": 38.5875
+                    },
+                    "uuid": "86c75ad6-5223-5dd6-a3a7-7c6421f8e68a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB55",
+                    "pos": {
+                        "x": 33.9813,
+                        "y": 95.7375
+                    },
+                    "uuid": "947f95d8-0e63-502c-a96d-4242b7f11618"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB19",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 37.635
+                    },
+                    "uuid": "993bfa8c-866d-50f8-aa83-ac46f0a88f9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED43",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 73.83
+                    },
+                    "uuid": "9d93e703-70a4-58d5-a7b6-f3c1f5b27b15"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D29",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 51.85
+                    },
+                    "uuid": "9f8b6e7a-0393-5a50-a46d-a5c8d9b201a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB30",
+                    "pos": {
+                        "x": 103.0375,
+                        "y": 54.78
+                    },
+                    "uuid": "a0620f40-6d88-5f3a-a09c-a53ac276b332"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED19",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 37.635
+                    },
+                    "uuid": "a08fb449-bbb1-50a3-a91a-0503b912914b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED59",
+                    "pos": {
+                        "x": 144.8382,
+                        "y": 105.3711
+                    },
+                    "uuid": "a8b16721-8e09-5f73-ae7b-dae370e266eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB11",
+                    "pos": {
+                        "x": 26.8375,
+                        "y": 19.5375
+                    },
+                    "uuid": "aa3f8a01-7c1a-5bb9-a79d-11f3b557002d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED53",
+                    "pos": {
+                        "x": 97.6313,
+                        "y": 92.88
+                    },
+                    "uuid": "ab90fc46-bba2-5644-a052-6934e04579f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D33",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 54.435
+                    },
+                    "uuid": "aedc964e-2984-561c-a5b4-3f248fe8530c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB15",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 35.73
+                    },
+                    "uuid": "b2f29b65-c0d8-5c25-aa45-a96fb22c5a89"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D43",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 72.85
+                    },
+                    "uuid": "b55014d5-309f-5d83-a659-29e7d674b8bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED3",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 16.68
+                    },
+                    "uuid": "b6e7fb05-8964-51ab-adec-90af54f4ba1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D30",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 53.35
+                    },
+                    "uuid": "bbfbe0fb-dca7-5bb7-a567-06615ad170bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB58",
+                    "pos": {
+                        "x": 124.1387,
+                        "y": 109.0192
+                    },
+                    "uuid": "c1b131eb-173d-5555-a22d-c939297c2375"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED20",
+                    "pos": {
+                        "x": 128.5875,
+                        "y": 37.635
+                    },
+                    "uuid": "c328a84c-03e1-5634-a6dd-8caeeebde530"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED44",
+                    "pos": {
+                        "x": 109.5375,
+                        "y": 73.83
+                    },
+                    "uuid": "c44c56e5-7961-5501-aad0-725f4cefaec5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED58",
+                    "pos": {
+                        "x": 125.821,
+                        "y": 102.7407
+                    },
+                    "uuid": "c52ed6ba-64d3-546e-a0cd-4c402bfb02e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB33",
+                    "pos": {
+                        "x": 45.8875,
+                        "y": 56.685
+                    },
+                    "uuid": "c8ca9d61-69d9-5559-abe1-cddb03c0cda5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED47",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 75.735
+                    },
+                    "uuid": "d02d4128-493c-59a6-aa1e-2e4adfd315ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB25",
+                    "pos": {
+                        "x": 83.9875,
+                        "y": 52.875
+                    },
+                    "uuid": "d066c1b9-0e27-58c1-a1c2-0b033a53557d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED1",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 14.775
+                    },
+                    "uuid": "d5657c97-3dda-5a41-a74b-17a5c45d6289"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED54",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 94.785
+                    },
+                    "uuid": "d5dee386-373e-5a7a-afbb-8954b64bdbc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED15",
+                    "pos": {
+                        "x": 71.4375,
+                        "y": 35.73
+                    },
+                    "uuid": "d816bef0-1483-569e-a1a4-05ea4726d88e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED55",
+                    "pos": {
+                        "x": 40.4813,
+                        "y": 95.7375
+                    },
+                    "uuid": "e0777e9d-78bc-5eef-ac79-7f07e739b6cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED25",
+                    "pos": {
+                        "x": 90.4875,
+                        "y": 52.875
+                    },
+                    "uuid": "e3f1b31c-69a9-51e2-a96c-98160e79899a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D3",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 14.35
+                    },
+                    "uuid": "e6f6c2cb-ea8b-519d-a62e-02a1d3de0e15"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SOD123' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D13",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 31.85
+                    },
+                    "uuid": "e9bf56c4-165f-5b72-adc3-244e980b94e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB54",
+                    "pos": {
+                        "x": 64.9375,
+                        "y": 94.785
+                    },
+                    "uuid": "f1e5663f-c3fe-53a9-a044-294510b40d51"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB51",
+                    "pos": {
+                        "x": 24.4563,
+                        "y": 76.6875
+                    },
+                    "uuid": "f25047c9-4821-5711-ab89-b9d3f872c84d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB34",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 56.685
+                    },
+                    "uuid": "f9bc4419-3edc-549b-aedd-557bb4af85d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_SK6812MINI-E_BL' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント LED7",
+                    "pos": {
+                        "x": 52.3875,
+                        "y": 18.585
+                    },
+                    "uuid": "fb5c924f-47ad-5d69-a70e-df8db391cc91"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_0603' が、ライブラリ 'Keyboard' のコピーと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C_RGB8",
+                    "pos": {
+                        "x": 122.0875,
+                        "y": 18.585
+                    },
+                    "uuid": "fb8154a4-2198-5896-a790-eb4e758c3ec6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}
