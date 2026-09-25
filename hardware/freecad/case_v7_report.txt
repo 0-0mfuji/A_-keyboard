@@ -30,3 +30,8 @@ right case:
 left: 156.9 x 147.4 mm, case height front 16.2 / back 25.8 mm, keycap envelope top 41.7 mm
 right: 155.1 x 144.3 mm, case height front 16.4 / back 25.7 mm, keycap envelope top 41.7 mm
 right: ball top 43.6 mm above desk, collar top 32.2 mm
+print mesh v7_case_left: closed solid, 239678 facets
+print mesh v7_case_right: closed solid, 278384 facets
+print mesh v7_ball_cover: closed solid, 66024 facets
+print plate plate1_case_left: v7_case_left 157.0x147.5x25.9
+print plate plate2_case_right_cover: v7_case_right 155.1x144.3x25.8, v7_ball_cover 49.6x49.6x14.1

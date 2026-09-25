@@ -20,6 +20,7 @@ import re
 
 import FreeCAD as App
 import Mesh
+import MeshPart
 import Part
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -28,6 +29,8 @@ KSTEP = os.path.join(ROOT, "hardware", "step-export", "kicad")
 EXPORT = os.path.join(ROOT, "hardware", "step-export")
 OUT = os.path.join(HERE, "case_v7.FCStd")
 REPORT = os.path.join(HERE, "case_v7_report.txt")
+PRINT_DIR = os.path.join(ROOT, "hardware", "print")
+BED = (270.0, 200.0)     # QIDI Tech X-Plus build plate
 
 V = App.Vector
 
@@ -52,7 +55,7 @@ BALL_XY = (248.0, -104.0)
 CUP_GAP = 1.0           # ball -> spherical pocket
 CUP_R = 22.5
 CERAMIC_D = 3.0         # ZrO2 support balls
-CERAMIC_PRESS = 0.05    # pocket = D - press (press fit)
+CERAMIC_PRESS = 0.0     # FDM holes print ~0.1 small: nominal 3.0 + epoxy (as cocot46plus)
 CERAMIC_ELEV = -40.0
 CERAMIC_AZ = (90.0, 210.0, 330.0)
 # PMW3610 + LM18-LSI stack (PixArt datasheet Fig.4, SEIBOKU README)
@@ -73,10 +76,12 @@ COVER_EQ_TOP = 1.2      # inner cylinder ends this far above the equator
 COVER_LIP_R = 16.75     # narrowest inner radius (opening 33.5 < 34; cocot: 33.6)
 COVER_LIP_Z = 3.9       # lip height above the equator (0.2 mm from the ball)
 COVER_TOP_Z = 4.4       # cover top above the equator -> ball shows 12.6 mm (cocot: ~12.7)
+COVER_SEAT_CLEAR = 0.3  # radial clearance cover -> seat (FDM)
 MAGNET_D = 6.0          # DAISO "超強力マグネットミニ" 6 x 3 mm
 MAGNET_T = 3.0
-MAGNET_FIT = 0.1        # pocket clearance (glue in)
+MAGNET_FIT = 0.25       # pocket clearance for FDM PLA (glue in)
 MAGNET_R = 21.1         # pitch radius of the magnet pairs
+MAGNET_BOSS_WALL = 0.8  # material around the case-side magnet pockets
 MAGNET_AZ = (210.0, 270.0, 330.0)   # south side, away from the keys
 
 MOUNT = {
@@ -118,6 +123,30 @@ def below_plane(offset=0.0):
 
 
 # --- 2D outline helpers ------------------------------------------------------------
+def simplified_pcb_face(face, tol=0.05):
+    """PCB Edge.Cuts contains 0.02 mm jogs; they become sliver faces after offsets and
+    break STL export. Douglas-Peucker the outline (arcs sampled at 0.01 mm) with `tol`."""
+    pts = face.OuterWire.discretize(Deflection=0.01)[:-1]
+
+    def dp(seq):
+        if len(seq) < 3:
+            return seq
+        a, b = seq[0], seq[-1]
+        ab = b - a
+        L = ab.Length
+        best, idx = -1.0, 0
+        for i in range(1, len(seq) - 1):
+            d = (seq[i] - a).cross(ab).Length / L if L > 1e-9 else (seq[i] - a).Length
+            if d > best:
+                best, idx = d, i
+        if best <= tol:
+            return [a, b]
+        return dp(seq[:idx + 1])[:-1] + dp(seq[idx:])
+    far = max(range(len(pts)), key=lambda i: (pts[i] - pts[0]).Length)
+    ring = dp(pts[:far + 1])[:-1] + dp(pts[far:] + [pts[0]])[:-1]
+    return Part.Face(Part.makePolygon(ring + ring[:1]))
+
+
 def outer_face(shape):
     shape = shape.removeSplitter()
     return Part.Face(max(shape.Faces, key=lambda f: f.Area).OuterWire)
@@ -292,7 +321,7 @@ def trackball_geometry(z_c):
         cup = cup.fuse(cylinder(2.3, bx + hx, by + hy, z_lens_side, z_cup_under + 0.01))
     for az in MAGNET_AZ:               # material around the case-side magnets
         a = math.radians(az)
-        cup = cup.fuse(cylinder(MAGNET_D / 2 + 0.8, bx + MAGNET_R * math.cos(a),
+        cup = cup.fuse(cylinder(MAGNET_D / 2 + MAGNET_BOSS_WALL, bx + MAGNET_R * math.cos(a),
                                 by + MAGNET_R * math.sin(a), z_cup_under, z_deck_bot + 0.01))
     pocket = Part.makeSphere(BALL_R + CUP_GAP, c)
     return c, z_lens_side, z_cup_under, cup, pocket
@@ -313,7 +342,7 @@ def trackball_cuts(z_c, z_lens_side, z_cup_under):
         seat = BALL_R + CERAMIC_D          # pocket floor: ceramic centre at R + d/2
         cuts.append(Part.makeCylinder((CERAMIC_D - CERAMIC_PRESS) / 2, seat - BALL_R + 0.5,
                                       c + d * (BALL_R - 0.5), d))
-    cuts.append(cylinder(COVER_BASE_R + 0.2, bx, by, Z_RIM - COVER_RECESS, Z_RIM + 1))   # cover seat
+    cuts.append(cylinder(COVER_BASE_R + COVER_SEAT_CLEAR, bx, by, Z_RIM - COVER_RECESS, Z_RIM + 1))   # cover seat
     for az in MAGNET_AZ:               # case-side magnet pockets under the seat
         a = math.radians(az)
         cuts.append(cylinder((MAGNET_D + MAGNET_FIT) / 2, bx + MAGNET_R * math.cos(a),
@@ -376,7 +405,10 @@ def build_case(side, face, z_c=None):
     body = rounded_body(outline)
     floor_cut = below_plane(FLOOR)
     hollow = prism(outline.makeOffset2D(-SHELL, join=0), -80.0, Z_RIM - DECK).cut(floor_cut)
-    cavity = prism(outer_face(face.makeOffset2D(PCB_CLEAR, join=0)), -80.0, Z_RIM + 5).cut(floor_cut)
+    # PCB clearance, closed by 0.5 mm so sub-mm notches in the outline do not leave
+    # slivers that break STL export
+    cavity_face = outer_face(outer_face(face.makeOffset2D(PCB_CLEAR + 0.5, join=0)).makeOffset2D(-0.5, join=0))
+    cavity = prism(cavity_face, -80.0, Z_RIM + 5).cut(floor_cut)
     case = body.cut(hollow).cut(cavity)
     assert case.isValid() and case.Volume < 0.5 * body.Volume, side + " shell boolean failed"
 
@@ -412,6 +444,67 @@ def build_case(side, face, z_c=None):
     return case, outline
 
 
+# --- print files (QIDI X-Plus, FDM) ---------------------------------------------------
+def fine_mesh(shape):
+    """Fine tessellation (no visible facets on curves); retries a few nearby settings
+    because OCC occasionally leaves a crack at a tiny face."""
+    for lin, ang in ((0.01, 3.0), (0.009, 3.0), (0.011, 3.0), (0.012, 2.8), (0.008, 3.2), (0.015, 3.0)):
+        m = MeshPart.meshFromShape(Shape=shape, LinearDeflection=lin,
+                                   AngularDeflection=math.radians(ang), Relative=False)
+        if m.isSolid() and not m.hasSelfIntersections() and not m.hasNonManifolds():
+            return m
+    return m
+
+
+def on_bed(shape, x0, y0):
+    # drop onto z=0 and place the bounding box corner at (x0, y0)
+    s = shape.copy()
+    bb = s.optimalBoundingBox()
+    s.translate(V(x0 - bb.XMin, y0 - bb.YMin, -bb.ZMin))
+    return s
+
+
+def export_print(parts, z_c):
+    os.makedirs(PRINT_DIR, exist_ok=True)
+    bx, by = BALL_XY
+    cover = collar(z_c)                       # PCB frame: base plane is horizontal
+    cover.translate(V(-bx, -by, -(Z_RIM - COVER_RECESS)))
+    items = {"v7_case_left": parts["case_left"], "v7_case_right": parts["case_right"],
+             "v7_ball_cover": cover}
+    for name, shp in items.items():
+        m = fine_mesh(on_bed(shp, 0, 0))
+        assert m.isSolid() and not m.hasSelfIntersections() and not m.hasNonManifolds(), \
+            name + " mesh is not a closed printable solid"
+        m.write(os.path.join(PRINT_DIR, name + ".stl"))
+        log("print mesh %s: closed solid, %d facets" % (name, m.CountFacets))
+    plates = {
+        "plate1_case_left": [("v7_case_left", None)],
+        "plate2_case_right_cover": [("v7_case_right", None), ("v7_ball_cover", "right")],
+    }
+    pdoc = App.newDocument("print_plates")
+    for plate, entries in plates.items():
+        objs = []
+        margin = 8.0
+        x = margin
+        placed = []
+        for name, _ in entries:
+            bb = items[name].optimalBoundingBox()
+            placed.append((name, bb))
+        total_w = sum(bb.XLength for _, bb in placed) + margin * (len(placed) - 1)
+        x = (BED[0] - total_w) / 2
+        for name, bb in placed:
+            y = (BED[1] - bb.YLength) / 2
+            assert x + bb.XLength <= BED[0] and bb.YLength <= BED[1], plate + " does not fit the bed"
+            m = pdoc.addObject("Mesh::Feature", name)
+            m.Mesh = fine_mesh(on_bed(items[name], x, y))
+            objs.append(m)
+            x += bb.XLength + margin
+        Mesh.export(objs, os.path.join(PRINT_DIR, plate + ".3mf"))
+        log("print plate %s: %s" % (plate, ", ".join("%s %.1fx%.1fx%.1f" % (
+            n, b.XLength, b.YLength, items[n].optimalBoundingBox().ZLength) for n, b in placed)))
+    App.closeDocument(pdoc.Name)
+
+
 # --- main ---------------------------------------------------------------------------
 def main():
     global Y_FRONT
@@ -424,6 +517,7 @@ def main():
                   key=lambda f: f.Area)
         face[s] = Part.Face(top.OuterWire)
         face[s].translate(V(0, 0, -face[s].BoundBox.ZMin))
+        face[s] = simplified_pcb_face(face[s])
     Y_FRONT = min(face[s].BoundBox.YMin for s in face)
 
     # ball height: PMW3610 body bottom sits SENSOR_BOTTOM_CLEAR above the tilted bottom
@@ -517,6 +611,7 @@ def main():
         m = parts[k].tessellate(0.05)
         Mesh.Mesh([[m[0][i] for i in t] for t in m[1]]).write(
             os.path.join(EXPORT, "case-v7-%s.stl" % k.replace("case_", "").replace("_", "-")))
+    export_print(parts, z_c)
     doc.recompute()
     if os.path.exists(OUT):
         os.remove(OUT)
